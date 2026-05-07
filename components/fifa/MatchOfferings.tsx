@@ -97,7 +97,6 @@ const MULTI = {
 };
 
 export default function MatchOfferings() {
-  const [featuredOffering, ...secondaryOfferings] = OFFERINGS;
 
   return (
     <section
@@ -171,25 +170,19 @@ export default function MatchOfferings() {
           </div>
           </Reveal>
 
-          {/* Asymmetric offering layout for clearer hierarchy */}
-          <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-stretch">
-            <Reveal y={22} duration={700} className="xl:col-span-7 h-full flex">
-              <FeaturedOfferingCard offering={featuredOffering} />
-            </Reveal>
-
-            <div className="xl:col-span-5 grid grid-cols-1 gap-5">
-              {secondaryOfferings.map((offering, index) => (
-                <Reveal
-                  key={offering.title}
-                  y={22}
-                  duration={700}
-                  delay={(index + 1) * 110}
-                  className="h-full flex"
-                >
-                  <CompactOfferingCard offering={offering} index={index + 2} />
-                </Reveal>
-              ))}
-            </div>
+          {/* Uniform offering cards grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 items-stretch">
+            {OFFERINGS.map((offering, index) => (
+              <Reveal
+                key={offering.title}
+                y={22}
+                duration={700}
+                delay={index * 110}
+                className="h-full flex"
+              >
+                <CompactOfferingCard offering={offering} index={index + 1} />
+              </Reveal>
+            ))}
           </div>
 
           <div className="mt-5">
@@ -205,96 +198,6 @@ export default function MatchOfferings() {
 
 /* ---------- Offering cards ---------- */
 
-function FeaturedOfferingCard({ offering }: { offering: Offering }) {
-  return (
-    <article className="group relative flex h-full w-full flex-col overflow-hidden rounded-3xl border border-foreground/10 bg-surface/30">
-      <div className="grid h-full grid-cols-1 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
-        <div className="relative min-h-[320px] overflow-hidden lg:min-h-full">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={offering.image}
-            alt=""
-            className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 bg-[linear-gradient(180deg,rgba(5,10,15,0.22)_0%,rgba(5,10,15,0.5)_48%,rgba(5,10,15,0.92)_100%)] lg:bg-[linear-gradient(90deg,rgba(5,10,15,0.18)_0%,rgba(5,10,15,0.22)_35%,rgba(5,10,15,0.86)_100%)]"
-          />
-          <CornerFlag
-            tone="accent"
-            className="bottom-4 right-4 opacity-0 transition duration-500 group-hover:opacity-80"
-          />
-
-          <div className="absolute top-5 left-5 right-5 flex items-start justify-between gap-3">
-            <span className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.3em] text-foreground/75">
-              01 / Signature
-            </span>
-            {offering.badge && (
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-accent/50 bg-accent/15 backdrop-blur-sm px-2.5 py-1 font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.25em] text-accent">
-                <Sparkles className="h-3 w-3" />
-                {offering.badge}
-              </span>
-            )}
-          </div>
-
-          <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6 lg:hidden">
-            <h3 className="font-[family-name:var(--font-display)] font-bold uppercase leading-[0.92] tracking-[-0.02em] text-foreground text-3xl sm:text-4xl">
-              {offering.title}
-            </h3>
-          </div>
-        </div>
-
-        <div className="flex flex-col border-t border-foreground/10 p-5 sm:p-6 lg:border-l lg:border-t-0 lg:p-8 xl:p-10">
-          <div className="hidden lg:block">
-            <span className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.3em] text-accent/80">
-              01 / Signature Offering
-            </span>
-            <h3 className="mt-4 font-[family-name:var(--font-display)] font-bold uppercase leading-[0.9] tracking-[-0.03em] text-foreground text-4xl xl:text-5xl">
-              {offering.title}
-            </h3>
-          </div>
-
-          <p className="mt-3 font-[family-name:var(--font-serif)] italic text-foreground/80 text-base sm:text-lg leading-snug">
-            {offering.copy}
-          </p>
-
-          {offering.note && (
-            <div className="mt-5 rounded-2xl border border-gold/20 bg-gold/8 px-4 py-3">
-              <p className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.25em] text-gold leading-relaxed">
-                {offering.note}
-              </p>
-            </div>
-          )}
-
-          <div className="mt-6 grid gap-3 sm:grid-cols-2 flex-1">
-            {offering.bullets.map((bullet, index) => (
-              <div
-                key={bullet}
-                className="rounded-2xl border border-foreground/10 bg-background/35 px-4 py-4"
-              >
-                <span className="font-[family-name:var(--font-mono)] text-[10px] tabular-nums uppercase tracking-[0.25em] text-accent">
-                  /{String(index + 1).padStart(2, "0")}
-                </span>
-                <p className="mt-2 text-[13px] leading-snug text-foreground/70">
-                  {bullet}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <a
-            href={offering.cta.href}
-            className="group/cta mt-6 inline-flex w-fit items-center justify-between gap-3 rounded-full border border-foreground/20 px-5 py-3 font-[family-name:var(--font-mono)] text-[11px] uppercase tracking-[0.3em] text-foreground transition hover:border-accent hover:bg-accent hover:text-background"
-          >
-            <span>{offering.cta.label}</span>
-            <ArrowUpRight className="h-4 w-4 transition group-hover/cta:rotate-45" />
-          </a>
-        </div>
-      </div>
-    </article>
-  );
-}
-
 function CompactOfferingCard({
   offering,
   index,
@@ -302,7 +205,7 @@ function CompactOfferingCard({
   offering: Offering;
   index: number;
 }) {
-  const tone = index === 2 ? "gold" : "pitch";
+  const tone = index === 1 ? "accent" : index === 2 ? "gold" : "pitch";
 
   return (
     <article className="group relative flex h-full w-full flex-col overflow-hidden rounded-3xl border border-foreground/10 bg-surface/30">
