@@ -1,0 +1,84 @@
+{
+  "siteName": "FIFA World Cup 2026",
+  "baseUrl": "https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026",
+  "mainSections": {
+    "navigation": [
+      {"name": "SCORES & FIXTURES", "path": "/scores-fixtures"},
+      {"name": "STANDINGS", "path": "/standings"},
+      {"name": "TEAMS", "path": "/teams"},
+      {"name": "QUALIFIERS", "path": "/qualifiers"},
+      {"name": "HOST CITIES", "path": "/host-cities"},
+      {"name": "TICKETS", "path": "/tickets"},
+      {"name": "HOSPITALITY", "path": "/hospitality"},
+      {"name": "FAN ZONE", "path": "/fan-zone"},
+      {"name": "ORGANISATION", "path": "/organisation"},
+      {"name": "WATCH ON FIFA+", "path": "/fifa-plus"}
+    ],
+    "topBar": [
+      "TICKETS & HOSPITALITY",
+      "FIFA STORE",
+      "FIFA REWARDS",
+      "FIFA+",
+      "INSIDE FIFA"
+    ]
+  },
+  "heroSection": {
+    "title": "Enjoy the Party!",
+    "subtitle": "Check out the FIFA Fan Festival locations for the FIFA World Cup 2026!",
+    "cta": "Discover More",
+    "countdown": {
+      "targetDate": "2026-06-11T14:00:00-05:00",
+      "label": "View Matches"
+    }
+  },
+  "contentBlocks": [
+    {
+      "type": "carousel",
+      "title": "Featured Stories",
+      "articles": [
+        "Wonderful Goals: Njanka goes solo in Toulouse",
+        "Young Talents: Pau Cubarsi",
+        "Chasing World Cup Records",
+        "38 Days to the World Cup: Unbeaten Teams",
+        "Young Talents: Desire Doue"
+      ]
+    },
+    {
+      "type": "carousel",
+      "title": "Explore More",
+      "categories": [
+        "Team Profiles",
+        "26 Superstars",
+        "Follow the Countdown",
+        "Wonderful World Cup Goals",
+        "Test Your Knowledge"
+      ]
+    },
+    {
+      "type": "teamCarousel",
+      "title": "Teams (48 Nations)",
+      "cardFields": ["flag", "name", "group", "worldRanking", "appearances"]
+    },
+    {
+      "type": "banner",
+      "title": "FIFA World Cup Hospitality",
+      "description": "Enjoy the ultimate FIFA World Cup 2026 experience with hospitality packages offering luxury comfort, first-class services and more."
+    },
+    {
+      "type": "video",
+      "title": "#WEARE26",
+      "controls": ["Mute", "Pause"]
+    },
+    {
+      "type": "footer",
+      "sections": ["Host Countries", "Official Documents", "Upcoming Tournaments & Events"],
+      "socialMedia": ["Twitter", "Facebook", "Instagram", "YouTube", "TikTok"],
+      "apps": ["Google Play Store", "Apple App Store"]
+    }
+  ],
+  "partners": {
+    "fifaPartners": ["adidas", "ADI", "Coca-Cola", "Aramco", "Hyundai/Kia", "Lenovo", "Qatar Airways", "Visa"],
+    "sponsors": ["Budweiser", "Bank of America", "Hisense", "Lays", "McDonalds", "Mengniu", "Unilever", "Verizon"],
+    "supporters": ["Valvoline", "Airbnb", "Diageo", "DoorDash", "Globant"]
+  }
+}

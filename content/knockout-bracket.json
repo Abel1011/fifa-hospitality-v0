@@ -1,0 +1,1346 @@
+{
+  "meta": {
+    "source": "Official FIFA Hospitality matches-all API",
+    "storefront": "US",
+    "retrievedAt": "2026-05-07T03:04:31.331Z",
+    "notes": [
+      "Bracket slots are taken from HostTeam.Code and OpposingTeam.Code in knockout matches.",
+      "reachableGroups and reachableBaseSeeds are recursively expanded from winner references like W79."
+    ]
+  },
+  "matches": [
+    {
+      "matchNumber": 73,
+      "performanceId": 10229203824821,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-06-28",
+      "dateTime": "2026-06-28T12:00:00-04:00",
+      "matchDateLabel": "June 28",
+      "kickoffLabel": "Sunday, 12pm PT",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "2A",
+      "awaySlot": "2B",
+      "winnerToken": "W73",
+      "nextMatchNumber": 90,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "A",
+        "B"
+      ],
+      "reachableBaseSeeds": [
+        "2A",
+        "2B"
+      ]
+    },
+    {
+      "matchNumber": 74,
+      "performanceId": 10229203824822,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-06-29",
+      "dateTime": "2026-06-29T16:30:00-04:00",
+      "matchDateLabel": "June 29",
+      "kickoffLabel": "Monday, 4pm ET",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1E",
+      "awaySlot": "3ABCDF",
+      "winnerToken": "W74",
+      "nextMatchNumber": 89,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "reachableBaseSeeds": [
+        "1E",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "3F"
+      ]
+    },
+    {
+      "matchNumber": 75,
+      "performanceId": 10229203836820,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-06-29",
+      "dateTime": "2026-06-29T19:00:00-04:00",
+      "matchDateLabel": "June 29",
+      "kickoffLabel": "Monday, 7pm CT",
+      "venue": {
+        "code": "NN_MTY",
+        "stadium": "Monterrey Stadium",
+        "city": "Guadalupe",
+        "countryCode": "MX",
+        "country": "Mexico"
+      },
+      "homeSlot": "1F",
+      "awaySlot": "2C",
+      "winnerToken": "W75",
+      "nextMatchNumber": 90,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "C",
+        "F"
+      ],
+      "reachableBaseSeeds": [
+        "1F",
+        "2C"
+      ]
+    },
+    {
+      "matchNumber": 76,
+      "performanceId": 10229203824823,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-06-29",
+      "dateTime": "2026-06-29T12:00:00-04:00",
+      "matchDateLabel": "June 29",
+      "kickoffLabel": "Monday, 12pm CT",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1C",
+      "awaySlot": "2F",
+      "winnerToken": "W76",
+      "nextMatchNumber": 91,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "C",
+        "F"
+      ],
+      "reachableBaseSeeds": [
+        "1C",
+        "2F"
+      ]
+    },
+    {
+      "matchNumber": 77,
+      "performanceId": 10229203824824,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-06-30",
+      "dateTime": "2026-06-30T17:00:00-04:00",
+      "matchDateLabel": "June 30",
+      "kickoffLabel": "Tuesday, 5pm ET",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1I",
+      "awaySlot": "3CDFGH",
+      "winnerToken": "W77",
+      "nextMatchNumber": 89,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "C",
+        "D",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "reachableBaseSeeds": [
+        "1I",
+        "3C",
+        "3D",
+        "3F",
+        "3G",
+        "3H"
+      ]
+    },
+    {
+      "matchNumber": 78,
+      "performanceId": 10229203824825,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-06-30",
+      "dateTime": "2026-06-30T12:00:00-04:00",
+      "matchDateLabel": "June 30",
+      "kickoffLabel": "Tuesday, 12pm CT",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "2E",
+      "awaySlot": "2I",
+      "winnerToken": "W78",
+      "nextMatchNumber": 91,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "E",
+        "I"
+      ],
+      "reachableBaseSeeds": [
+        "2E",
+        "2I"
+      ]
+    },
+    {
+      "matchNumber": 79,
+      "performanceId": 10229203836821,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-06-30",
+      "dateTime": "2026-06-30T19:00:00-04:00",
+      "matchDateLabel": "June 30",
+      "kickoffLabel": "Tuesday, 7pm CT",
+      "venue": {
+        "code": "NN_CDMX",
+        "stadium": "Mexico City Stadium",
+        "city": "Ciudad de México",
+        "countryCode": "MX",
+        "country": "Mexico"
+      },
+      "homeSlot": "1A",
+      "awaySlot": "3CEFHI",
+      "winnerToken": "W79",
+      "nextMatchNumber": 92,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "A",
+        "C",
+        "E",
+        "F",
+        "H",
+        "I"
+      ],
+      "reachableBaseSeeds": [
+        "1A",
+        "3C",
+        "3E",
+        "3F",
+        "3H",
+        "3I"
+      ]
+    },
+    {
+      "matchNumber": 80,
+      "performanceId": 10229203824826,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-01",
+      "dateTime": "2026-07-01T12:00:00-04:00",
+      "matchDateLabel": "July 1",
+      "kickoffLabel": "Wednesday, 12pm ET",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1L",
+      "awaySlot": "3EHIJK",
+      "winnerToken": "W80",
+      "nextMatchNumber": 92,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "E",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1L",
+        "3E",
+        "3H",
+        "3I",
+        "3J",
+        "3K"
+      ]
+    },
+    {
+      "matchNumber": 81,
+      "performanceId": 10229203824827,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-01",
+      "dateTime": "2026-07-01T17:00:00-04:00",
+      "matchDateLabel": "July 1",
+      "kickoffLabel": "Wednesday, 5pm PT",
+      "venue": {
+        "code": "NN_SFBA",
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "Santa Clara",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1D",
+      "awaySlot": "3BEFIJ",
+      "winnerToken": "W81",
+      "nextMatchNumber": 94,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "B",
+        "D",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "reachableBaseSeeds": [
+        "1D",
+        "3B",
+        "3E",
+        "3F",
+        "3I",
+        "3J"
+      ]
+    },
+    {
+      "matchNumber": 82,
+      "performanceId": 10229203824842,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-01",
+      "dateTime": "2026-07-01T13:00:00-04:00",
+      "matchDateLabel": "July 1",
+      "kickoffLabel": "Wednesday, 1pm PT",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1G",
+      "awaySlot": "3AEHIJ",
+      "winnerToken": "W82",
+      "nextMatchNumber": 94,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "A",
+        "E",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "reachableBaseSeeds": [
+        "1G",
+        "3A",
+        "3E",
+        "3H",
+        "3I",
+        "3J"
+      ]
+    },
+    {
+      "matchNumber": 83,
+      "performanceId": 10229203836216,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-02",
+      "dateTime": "2026-07-02T19:00:00-04:00",
+      "matchDateLabel": "July 2",
+      "kickoffLabel": "Thursday, 7pm ET",
+      "venue": {
+        "code": "NN_TOR",
+        "stadium": "Toronto Stadium",
+        "city": "Toronto",
+        "countryCode": "CA",
+        "country": "Canada"
+      },
+      "homeSlot": "2K",
+      "awaySlot": "2L",
+      "winnerToken": "W83",
+      "nextMatchNumber": 93,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "2K",
+        "2L"
+      ]
+    },
+    {
+      "matchNumber": 84,
+      "performanceId": 10229203824843,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-02",
+      "dateTime": "2026-07-02T12:00:00-04:00",
+      "matchDateLabel": "July 2",
+      "kickoffLabel": "Thursday, 12pm PT",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1H",
+      "awaySlot": "2J",
+      "winnerToken": "W84",
+      "nextMatchNumber": 93,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "H",
+        "J"
+      ],
+      "reachableBaseSeeds": [
+        "1H",
+        "2J"
+      ]
+    },
+    {
+      "matchNumber": 85,
+      "performanceId": 10229203836211,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-02",
+      "dateTime": "2026-07-02T20:00:00-04:00",
+      "matchDateLabel": "July 2",
+      "kickoffLabel": "Thursday, 8pm PT",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "countryCode": "CA",
+        "country": "Canada"
+      },
+      "homeSlot": "1B",
+      "awaySlot": "3EFGIJ",
+      "winnerToken": "W85",
+      "nextMatchNumber": 96,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "B",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J"
+      ],
+      "reachableBaseSeeds": [
+        "1B",
+        "3E",
+        "3F",
+        "3G",
+        "3I",
+        "3J"
+      ]
+    },
+    {
+      "matchNumber": 86,
+      "performanceId": 10229203824844,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-03",
+      "dateTime": "2026-07-03T18:00:00-04:00",
+      "matchDateLabel": "July 3",
+      "kickoffLabel": "Friday, 6pm ET",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1J",
+      "awaySlot": "2H",
+      "winnerToken": "W86",
+      "nextMatchNumber": 95,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "H",
+        "J"
+      ],
+      "reachableBaseSeeds": [
+        "1J",
+        "2H"
+      ]
+    },
+    {
+      "matchNumber": 87,
+      "performanceId": 10229203824845,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-03",
+      "dateTime": "2026-07-03T20:30:00-04:00",
+      "matchDateLabel": "July 3",
+      "kickoffLabel": "Friday, 8pm CT",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "1K",
+      "awaySlot": "3DEIJL",
+      "winnerToken": "W87",
+      "nextMatchNumber": 96,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "D",
+        "E",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1K",
+        "3D",
+        "3E",
+        "3I",
+        "3J",
+        "3L"
+      ]
+    },
+    {
+      "matchNumber": 88,
+      "performanceId": 10229203824846,
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "date": "2026-07-03",
+      "dateTime": "2026-07-03T13:00:00-04:00",
+      "matchDateLabel": "July 3",
+      "kickoffLabel": "Friday, 1pm CT",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "2D",
+      "awaySlot": "2G",
+      "winnerToken": "W88",
+      "nextMatchNumber": 95,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [
+        "D",
+        "G"
+      ],
+      "reachableBaseSeeds": [
+        "2D",
+        "2G"
+      ]
+    },
+    {
+      "matchNumber": 89,
+      "performanceId": 10229203824828,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-04",
+      "dateTime": "2026-07-04T17:00:00-04:00",
+      "matchDateLabel": "July 4",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "venue": {
+        "code": "NN_PHL",
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W74",
+      "awaySlot": "W77",
+      "winnerToken": "W89",
+      "nextMatchNumber": 97,
+      "sourceMatchNumbers": [
+        74,
+        77
+      ],
+      "reachableGroups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "reachableBaseSeeds": [
+        "1E",
+        "1I",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "3F",
+        "3G",
+        "3H"
+      ]
+    },
+    {
+      "matchNumber": 90,
+      "performanceId": 10229203824829,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-04",
+      "dateTime": "2026-07-04T12:00:00-04:00",
+      "matchDateLabel": "July 4",
+      "kickoffLabel": "Saturday, 12pm CT",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W73",
+      "awaySlot": "W75",
+      "winnerToken": "W90",
+      "nextMatchNumber": 97,
+      "sourceMatchNumbers": [
+        73,
+        75
+      ],
+      "reachableGroups": [
+        "A",
+        "B",
+        "C",
+        "F"
+      ],
+      "reachableBaseSeeds": [
+        "1F",
+        "2A",
+        "2B",
+        "2C"
+      ]
+    },
+    {
+      "matchNumber": 91,
+      "performanceId": 10229203824830,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-05",
+      "dateTime": "2026-07-05T16:00:00-04:00",
+      "matchDateLabel": "July 5",
+      "kickoffLabel": "Sunday, 4pm ET",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W76",
+      "awaySlot": "W78",
+      "winnerToken": "W91",
+      "nextMatchNumber": 99,
+      "sourceMatchNumbers": [
+        76,
+        78
+      ],
+      "reachableGroups": [
+        "C",
+        "E",
+        "F",
+        "I"
+      ],
+      "reachableBaseSeeds": [
+        "1C",
+        "2E",
+        "2F",
+        "2I"
+      ]
+    },
+    {
+      "matchNumber": 92,
+      "performanceId": 10229203836822,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-05",
+      "dateTime": "2026-07-05T18:00:00-04:00",
+      "matchDateLabel": "July 5",
+      "kickoffLabel": "Sunday, 6pm CT",
+      "venue": {
+        "code": "NN_CDMX",
+        "stadium": "Mexico City Stadium",
+        "city": "Ciudad de México",
+        "countryCode": "MX",
+        "country": "Mexico"
+      },
+      "homeSlot": "W79",
+      "awaySlot": "W80",
+      "winnerToken": "W92",
+      "nextMatchNumber": 99,
+      "sourceMatchNumbers": [
+        79,
+        80
+      ],
+      "reachableGroups": [
+        "A",
+        "C",
+        "E",
+        "F",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1A",
+        "1L",
+        "3C",
+        "3E",
+        "3F",
+        "3H",
+        "3I",
+        "3J",
+        "3K"
+      ]
+    },
+    {
+      "matchNumber": 93,
+      "performanceId": 10229203824831,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-06",
+      "dateTime": "2026-07-06T14:00:00-04:00",
+      "matchDateLabel": "July 6",
+      "kickoffLabel": "Monday, 2pm CT",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W83",
+      "awaySlot": "W84",
+      "winnerToken": "W93",
+      "nextMatchNumber": 98,
+      "sourceMatchNumbers": [
+        83,
+        84
+      ],
+      "reachableGroups": [
+        "H",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1H",
+        "2J",
+        "2K",
+        "2L"
+      ]
+    },
+    {
+      "matchNumber": 94,
+      "performanceId": 10229203824832,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-06",
+      "dateTime": "2026-07-06T17:00:00-04:00",
+      "matchDateLabel": "July 6",
+      "kickoffLabel": "Monday, 5pm PT",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W81",
+      "awaySlot": "W82",
+      "winnerToken": "W94",
+      "nextMatchNumber": 98,
+      "sourceMatchNumbers": [
+        81,
+        82
+      ],
+      "reachableGroups": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "reachableBaseSeeds": [
+        "1D",
+        "1G",
+        "3A",
+        "3B",
+        "3E",
+        "3F",
+        "3H",
+        "3I",
+        "3J"
+      ]
+    },
+    {
+      "matchNumber": 95,
+      "performanceId": 10229203824833,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-07",
+      "dateTime": "2026-07-07T12:00:00-04:00",
+      "matchDateLabel": "July 7",
+      "kickoffLabel": "Tuesday, 12pm ET",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W86",
+      "awaySlot": "W88",
+      "winnerToken": "W95",
+      "nextMatchNumber": 100,
+      "sourceMatchNumbers": [
+        86,
+        88
+      ],
+      "reachableGroups": [
+        "D",
+        "G",
+        "H",
+        "J"
+      ],
+      "reachableBaseSeeds": [
+        "1J",
+        "2D",
+        "2G",
+        "2H"
+      ]
+    },
+    {
+      "matchNumber": 96,
+      "performanceId": 10229203836212,
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "date": "2026-07-07",
+      "dateTime": "2026-07-07T13:00:00-04:00",
+      "matchDateLabel": "July 7",
+      "kickoffLabel": "Tuesday, 1pm PT",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "countryCode": "CA",
+        "country": "Canada"
+      },
+      "homeSlot": "W85",
+      "awaySlot": "W87",
+      "winnerToken": "W96",
+      "nextMatchNumber": 100,
+      "sourceMatchNumbers": [
+        85,
+        87
+      ],
+      "reachableGroups": [
+        "B",
+        "D",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1B",
+        "1K",
+        "3D",
+        "3E",
+        "3F",
+        "3G",
+        "3I",
+        "3J",
+        "3L"
+      ]
+    },
+    {
+      "matchNumber": 97,
+      "performanceId": 10229203824834,
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "date": "2026-07-09",
+      "dateTime": "2026-07-09T16:00:00-04:00",
+      "matchDateLabel": "July 9",
+      "kickoffLabel": "Thursday, 4pm ET",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W89",
+      "awaySlot": "W90",
+      "winnerToken": "W97",
+      "nextMatchNumber": 101,
+      "sourceMatchNumbers": [
+        73,
+        74,
+        75,
+        77,
+        89,
+        90
+      ],
+      "reachableGroups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "reachableBaseSeeds": [
+        "1E",
+        "1F",
+        "1I",
+        "2A",
+        "2B",
+        "2C",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "3F",
+        "3G",
+        "3H"
+      ]
+    },
+    {
+      "matchNumber": 98,
+      "performanceId": 10229203824835,
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "date": "2026-07-10",
+      "dateTime": "2026-07-10T12:00:00-04:00",
+      "matchDateLabel": "July 10",
+      "kickoffLabel": "Friday, 12pm PT",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W93",
+      "awaySlot": "W94",
+      "winnerToken": "W98",
+      "nextMatchNumber": 101,
+      "sourceMatchNumbers": [
+        81,
+        82,
+        83,
+        84,
+        93,
+        94
+      ],
+      "reachableGroups": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1D",
+        "1G",
+        "1H",
+        "2J",
+        "2K",
+        "2L",
+        "3A",
+        "3B",
+        "3E",
+        "3F",
+        "3H",
+        "3I",
+        "3J"
+      ]
+    },
+    {
+      "matchNumber": 99,
+      "performanceId": 10229203824836,
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "date": "2026-07-11",
+      "dateTime": "2026-07-11T17:00:00-04:00",
+      "matchDateLabel": "July 11",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W91",
+      "awaySlot": "W92",
+      "winnerToken": "W99",
+      "nextMatchNumber": 102,
+      "sourceMatchNumbers": [
+        76,
+        78,
+        79,
+        80,
+        91,
+        92
+      ],
+      "reachableGroups": [
+        "A",
+        "C",
+        "E",
+        "F",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1A",
+        "1C",
+        "1L",
+        "2E",
+        "2F",
+        "2I",
+        "3C",
+        "3E",
+        "3F",
+        "3H",
+        "3I",
+        "3J",
+        "3K"
+      ]
+    },
+    {
+      "matchNumber": 100,
+      "performanceId": 10229203824837,
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "date": "2026-07-11",
+      "dateTime": "2026-07-11T20:00:00-04:00",
+      "matchDateLabel": "July 11",
+      "kickoffLabel": "Saturday, 8pm CT",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W95",
+      "awaySlot": "W96",
+      "winnerToken": "W100",
+      "nextMatchNumber": 102,
+      "sourceMatchNumbers": [
+        85,
+        86,
+        87,
+        88,
+        95,
+        96
+      ],
+      "reachableGroups": [
+        "B",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1B",
+        "1J",
+        "1K",
+        "2D",
+        "2G",
+        "2H",
+        "3D",
+        "3E",
+        "3F",
+        "3G",
+        "3I",
+        "3J",
+        "3L"
+      ]
+    },
+    {
+      "matchNumber": 101,
+      "performanceId": 10229203824838,
+      "stageCode": "SMF",
+      "stage": "semifinal",
+      "stageLabel": "SEMI-FINALS",
+      "date": "2026-07-14",
+      "dateTime": "2026-07-14T14:00:00-04:00",
+      "matchDateLabel": "July 14",
+      "kickoffLabel": "Tuesday, 2pm CT",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W97",
+      "awaySlot": "W98",
+      "winnerToken": "W101",
+      "nextMatchNumber": null,
+      "sourceMatchNumbers": [
+        73,
+        74,
+        75,
+        77,
+        81,
+        82,
+        83,
+        84,
+        89,
+        90,
+        93,
+        94,
+        97,
+        98
+      ],
+      "reachableGroups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1D",
+        "1E",
+        "1F",
+        "1G",
+        "1H",
+        "1I",
+        "2A",
+        "2B",
+        "2C",
+        "2J",
+        "2K",
+        "2L",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "3E",
+        "3F",
+        "3G",
+        "3H",
+        "3I",
+        "3J"
+      ]
+    },
+    {
+      "matchNumber": 102,
+      "performanceId": 10229203824839,
+      "stageCode": "SMF",
+      "stage": "semifinal",
+      "stageLabel": "SEMI-FINALS",
+      "date": "2026-07-15",
+      "dateTime": "2026-07-15T15:00:00-04:00",
+      "matchDateLabel": "July 15",
+      "kickoffLabel": "Wednesday, 3pm ET",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "W99",
+      "awaySlot": "W100",
+      "winnerToken": "W102",
+      "nextMatchNumber": null,
+      "sourceMatchNumbers": [
+        76,
+        78,
+        79,
+        80,
+        85,
+        86,
+        87,
+        88,
+        91,
+        92,
+        95,
+        96,
+        99,
+        100
+      ],
+      "reachableGroups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "reachableBaseSeeds": [
+        "1A",
+        "1B",
+        "1C",
+        "1J",
+        "1K",
+        "1L",
+        "2D",
+        "2E",
+        "2F",
+        "2G",
+        "2H",
+        "2I",
+        "3C",
+        "3D",
+        "3E",
+        "3F",
+        "3G",
+        "3H",
+        "3I",
+        "3J",
+        "3K",
+        "3L"
+      ]
+    },
+    {
+      "matchNumber": 103,
+      "performanceId": 10229203824840,
+      "stageCode": "BRZ",
+      "stage": "third-place",
+      "stageLabel": "BRONZE FINAL",
+      "date": "2026-07-18",
+      "dateTime": "2026-07-18T17:00:00-04:00",
+      "matchDateLabel": "July 18",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "BRZ",
+      "awaySlot": "FIX",
+      "winnerToken": "W103",
+      "nextMatchNumber": null,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [],
+      "reachableBaseSeeds": []
+    },
+    {
+      "matchNumber": 104,
+      "performanceId": 10229203824841,
+      "stageCode": "FNL",
+      "stage": "final",
+      "stageLabel": "",
+      "date": "2026-07-19",
+      "dateTime": "2026-07-19T15:00:00-04:00",
+      "matchDateLabel": "July 19",
+      "kickoffLabel": "Sunday, 3pm ET",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford",
+        "countryCode": "US",
+        "country": "United States"
+      },
+      "homeSlot": "FNL",
+      "awaySlot": "FIX",
+      "winnerToken": "W104",
+      "nextMatchNumber": null,
+      "sourceMatchNumbers": [],
+      "reachableGroups": [],
+      "reachableBaseSeeds": []
+    }
+  ]
+}

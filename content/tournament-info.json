@@ -1,0 +1,65 @@
+{
+  "format": {
+    "totalTeams": 48,
+    "groups": 12,
+    "teamsPerGroup": 4,
+    "totalMatches": 104,
+    "duration": "June 11 - July 19, 2026 (39 days)",
+    "advancement": "Top 2 from each group + 8 best third-placed teams advance to Round of 32",
+    "rounds": ["Group Stage", "Round of 32", "Round of 16", "Quarterfinals", "Semifinals", "Third Place", "Final"],
+    "matchesPerTeamToFinal": 8
+  },
+  "schedule": {
+    "groupStage": {
+      "start": "2026-06-11",
+      "end": "2026-06-27",
+      "openingMatch": {
+        "teams": "Mexico vs South Africa",
+        "venue": "Estadio Ciudad de Mexico",
+        "date": "2026-06-11",
+        "time": "14:00 ET"
+      }
+    },
+    "roundOf32": {
+      "start": "2026-06-29",
+      "end": "2026-07-03"
+    },
+    "roundOf16": {
+      "start": "2026-07-04",
+      "end": "2026-07-07"
+    },
+    "quarterFinals": {
+      "start": "2026-07-09",
+      "end": "2026-07-12"
+    },
+    "semiFinals": {
+      "dates": ["2026-07-14", "2026-07-15"],
+      "venues": ["Dallas Stadium", "Atlanta Stadium"]
+    },
+    "thirdPlace": {
+      "date": "2026-07-18",
+      "venue": "Miami Stadium"
+    },
+    "final": {
+      "date": "2026-07-19",
+      "venue": "New York New Jersey Stadium (MetLife Stadium)",
+      "time": "14:00 ET"
+    }
+  },
+  "keyFacts": {
+    "defendingChampion": "Argentina (2022)",
+    "previousNorthAmericanEdition": "United States 1994",
+    "firstTimeExpanded": true,
+    "expandedFrom": "32 to 48 teams",
+    "firstTime3Countries": true,
+    "officialBall": "adidas TRIONDA",
+    "motto": "#WEARE26",
+    "debutants": ["Curacao", "Cape Verde Islands", "Jordan", "DR Congo", "Uzbekistan"],
+    "topRankedTeams": ["France (1)", "Spain (2)", "Argentina (3)", "England (4)", "Portugal (5)"],
+    "hostCountries": [
+      {"name": "Canada", "cities": 2},
+      {"name": "Mexico", "cities": 3},
+      {"name": "United States", "cities": 11}
+    ]
+  }
+}

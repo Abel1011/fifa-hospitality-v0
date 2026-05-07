@@ -1,0 +1,267 @@
+{
+  "tournament": {
+    "name": "FIFA World Cup 2026",
+    "format": "48 teams, 12 groups of 4, 104 matches",
+    "dates": "June 11 - July 19, 2026",
+    "countries": ["Canada", "Mexico", "United States"],
+    "totalCities": 16,
+    "finalVenue": "MetLife Stadium, New York/New Jersey"
+  },
+  "venues": [
+    {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "stadium": "Mexico City Stadium",
+      "realName": "Estadio Azteca",
+      "description": "Mexico City, North Americas most vibrant metropolis, will make history during the FIFA World Cup 2026 when the legendary Mexico City Stadium becomes the first venue to host three opening matches. The city offers an unmatched fusion of culture, from Chapultepec Forest to its prestigious culinary scene. A fun fact: the city has over 150 museums (the second highest concentration in the world).",
+      "matches": [
+        {"date": "2026-06-11", "time": "14:00", "teams": "Mexico vs South Africa", "stage": "Group A"},
+        {"date": "2026-06-17", "time": "21:00", "teams": "Uzbekistan vs Colombia", "stage": "Group K"},
+        {"date": "2026-06-24", "time": "20:00", "teams": "Czechia vs Mexico", "stage": "Group A"},
+        {"date": "2026-06-30", "time": "20:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-05", "time": "19:00", "teams": "TBD", "stage": "Round of 16"}
+      ]
+    },
+    {
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "stadium": "Guadalajara Stadium",
+      "realName": "Estadio Akron",
+      "description": "",
+      "matches": [
+        {"date": "2026-06-11", "time": "22:00", "teams": "Korea Republic vs Czechia", "stage": "Group A"},
+        {"date": "2026-06-18", "time": "18:00", "teams": "Curacao vs Ecuador", "stage": "Group E"},
+        {"date": "2026-06-20", "time": "21:00", "teams": "United States vs Australia", "stage": "Group D"},
+        {"date": "2026-06-23", "time": "21:00", "teams": "Korea Republic vs South Africa", "stage": "Group A"},
+        {"date": "2026-06-25", "time": "21:00", "teams": "Australia vs Paraguay", "stage": "Group D"},
+        {"date": "2026-06-29", "time": "15:00", "teams": "TBD", "stage": "Round of 32"}
+      ]
+    },
+    {
+      "city": "Monterrey",
+      "country": "Mexico",
+      "stadium": "Monterrey Stadium",
+      "realName": "Estadio BBVA",
+      "description": "",
+      "matches": [
+        {"date": "2026-06-14", "time": "22:00", "teams": "Sweden vs Tunisia", "stage": "Group F"},
+        {"date": "2026-06-18", "time": "21:00", "teams": "Japan vs Tunisia", "stage": "Group F"},
+        {"date": "2026-06-19", "time": "21:00", "teams": "Turkey vs Paraguay", "stage": "Group D"},
+        {"date": "2026-06-22", "time": "18:00", "teams": "United States vs Turkey", "stage": "Group D"},
+        {"date": "2026-06-25", "time": "12:00", "teams": "Tunisia vs Netherlands", "stage": "Group F"},
+        {"date": "2026-06-29", "time": "18:00", "teams": "TBD", "stage": "Round of 32"}
+      ]
+    },
+    {
+      "city": "Toronto",
+      "country": "Canada",
+      "stadium": "Toronto Stadium",
+      "realName": "BMO Field",
+      "description": "Toronto, Canadas largest city, is a world-renowned destination for its cuisine, nightlife, green spaces, music festivals, and major sporting events. Over 150 neighbourhoods contribute to the citys vitality and diversity. BMO Field is Canadas first soccer-specific stadium.",
+      "matches": [
+        {"date": "2026-06-12", "time": "14:00", "teams": "Canada vs Bosnia and Herzegovina", "stage": "Group B"},
+        {"date": "2026-06-17", "time": "18:00", "teams": "Ghana vs Panama", "stage": "Group L"},
+        {"date": "2026-06-20", "time": "15:00", "teams": "Germany vs Cote dIvoire", "stage": "Group E"},
+        {"date": "2026-06-23", "time": "18:00", "teams": "Panama vs Croatia", "stage": "Group L"},
+        {"date": "2026-06-26", "time": "14:00", "teams": "Senegal vs Iraq", "stage": "Group I"},
+        {"date": "2026-07-02", "time": "18:00", "teams": "TBD", "stage": "Round of 32"}
+      ]
+    },
+    {
+      "city": "Vancouver",
+      "country": "Canada",
+      "stadium": "BC Place Vancouver",
+      "realName": "BC Place",
+      "description": "",
+      "matches": [
+        {"date": "2026-06-13", "time": "00:00", "teams": "Australia vs Turkey", "stage": "Group D"},
+        {"date": "2026-06-16", "time": "00:00", "teams": "Austria vs Jordan", "stage": "Group J"},
+        {"date": "2026-06-19", "time": "15:00", "teams": "Canada vs Qatar", "stage": "Group B"},
+        {"date": "2026-06-21", "time": "00:00", "teams": "Algeria vs Jordan", "stage": "Group J"},
+        {"date": "2026-06-24", "time": "00:00", "teams": "Switzerland vs Bosnia and Herzegovina", "stage": "Group B"},
+        {"date": "2026-07-01", "time": "15:00", "teams": "TBD", "stage": "Round of 32"}
+      ]
+    },
+    {
+      "city": "Atlanta",
+      "country": "United States",
+      "stadium": "Atlanta Stadium",
+      "realName": "Mercedes-Benz Stadium",
+      "description": "Atlanta blends lush green neighbourhoods with an ever-growing skyline. The Atlanta Stadium will host eight matches including a semifinal. Beyond matches, visitors can explore the Atlanta BeltLine, vibrant food halls, and landmarks of the civil rights movement.",
+      "matches": [
+        {"date": "2026-06-15", "time": "11:00", "teams": "Spain vs Cape Verde Islands", "stage": "Group H"},
+        {"date": "2026-06-18", "time": "11:00", "teams": "Czechia vs South Africa", "stage": "Group A"},
+        {"date": "2026-06-21", "time": "11:00", "teams": "Spain vs Saudi Arabia", "stage": "Group H"},
+        {"date": "2026-06-24", "time": "17:00", "teams": "Morocco vs Haiti", "stage": "Group C"},
+        {"date": "2026-06-27", "time": "18:00", "teams": "DR Congo vs Uzbekistan", "stage": "Group K"},
+        {"date": "2026-07-01", "time": "11:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-07", "time": "11:00", "teams": "TBD", "stage": "Round of 16"},
+        {"date": "2026-07-15", "time": "14:00", "teams": "TBD", "stage": "Semifinal"}
+      ]
+    },
+    {
+      "city": "Boston",
+      "country": "United States",
+      "stadium": "Boston Stadium",
+      "realName": "Gillette Stadium",
+      "description": "Bostons football tradition began with the Oneida Football Club in the late 19th century. The city has hosted three FIFA championships: the 1994 World Cup and the 1999 and 2003 FIFA Womens World Cups.",
+      "matches": [
+        {"date": "2026-06-13", "time": "21:00", "teams": "Haiti vs Scotland", "stage": "Group C"},
+        {"date": "2026-06-16", "time": "18:00", "teams": "Iraq vs Norway", "stage": "Group I"},
+        {"date": "2026-06-19", "time": "18:00", "teams": "Egypt vs New Zealand", "stage": "Group G"},
+        {"date": "2026-06-22", "time": "15:00", "teams": "Haiti vs Morocco", "stage": "Group C"},
+        {"date": "2026-06-26", "time": "18:00", "teams": "Norway vs France", "stage": "Group I"},
+        {"date": "2026-07-02", "time": "14:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-06", "time": "18:00", "teams": "TBD", "stage": "Round of 16"}
+      ]
+    },
+    {
+      "city": "Dallas",
+      "country": "United States",
+      "stadium": "Dallas Stadium",
+      "realName": "AT&T Stadium",
+      "description": "Dallas will host nine matches including a semifinal. The city will also host the International Broadcast Centre and a 34-day FIFA Fan Festival at Fair Park with cultural showcases, concerts, youth activities and local cuisine.",
+      "matches": [
+        {"date": "2026-06-14", "time": "15:00", "teams": "Netherlands vs Japan", "stage": "Group F"},
+        {"date": "2026-06-17", "time": "15:00", "teams": "England vs Croatia", "stage": "Group L"},
+        {"date": "2026-06-22", "time": "12:00", "teams": "Argentina vs Austria", "stage": "Group J"},
+        {"date": "2026-06-25", "time": "18:00", "teams": "Japan vs Sweden", "stage": "Group F"},
+        {"date": "2026-06-27", "time": "21:00", "teams": "Jordan vs Argentina", "stage": "Group J"},
+        {"date": "2026-06-30", "time": "12:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-03", "time": "13:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-06", "time": "14:00", "teams": "TBD", "stage": "Round of 16"},
+        {"date": "2026-07-14", "time": "14:00", "teams": "TBD", "stage": "Semifinal"}
+      ]
+    },
+    {
+      "city": "Houston",
+      "country": "United States",
+      "stadium": "Houston Stadium",
+      "realName": "NRG Stadium",
+      "description": "Houston supports many youth recreational programs with over 100,000 members in STYSA. Houston Dynamo won back-to-back MLS Cups in 2006 and 2007.",
+      "matches": [
+        {"date": "2026-06-14", "time": "12:00", "teams": "Germany vs Curacao", "stage": "Group E"},
+        {"date": "2026-06-17", "time": "12:00", "teams": "Portugal vs DR Congo", "stage": "Group K"},
+        {"date": "2026-06-20", "time": "12:00", "teams": "Netherlands vs Sweden", "stage": "Group F"},
+        {"date": "2026-06-23", "time": "12:00", "teams": "Portugal vs Uzbekistan", "stage": "Group K"},
+        {"date": "2026-06-26", "time": "19:00", "teams": "Cape Verde Islands vs Saudi Arabia", "stage": "Group H"},
+        {"date": "2026-06-29", "time": "12:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-04", "time": "12:00", "teams": "TBD", "stage": "Round of 16"}
+      ]
+    },
+    {
+      "city": "Kansas City",
+      "country": "United States",
+      "stadium": "Kansas City Stadium",
+      "realName": "Arrowhead Stadium",
+      "description": "",
+      "matches": [
+        {"date": "2026-06-16", "time": "21:00", "teams": "Argentina vs Algeria", "stage": "Group J"},
+        {"date": "2026-06-19", "time": "12:00", "teams": "Sweden vs Netherlands", "stage": "Group F"},
+        {"date": "2026-06-21", "time": "14:00", "teams": "Scotland vs Brazil", "stage": "Group C"},
+        {"date": "2026-06-24", "time": "14:00", "teams": "Canada vs Switzerland", "stage": "Group B"},
+        {"date": "2026-06-26", "time": "21:00", "teams": "Argentina vs Austria", "stage": "Group J"},
+        {"date": "2026-07-01", "time": "18:00", "teams": "TBD", "stage": "Round of 32"}
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "country": "United States",
+      "stadium": "Los Angeles Stadium",
+      "realName": "SoFi Stadium",
+      "description": "Los Angeles proudly hosts eight matches including the US teams opening match. From the Pacific coast to Hollywood and downtown, visitors will discover iconic venues and vibrant neighbourhoods. The city hosted the 1994 World Cup final.",
+      "matches": [
+        {"date": "2026-06-12", "time": "21:00", "teams": "United States vs Paraguay", "stage": "Group D"},
+        {"date": "2026-06-15", "time": "21:00", "teams": "IR Iran vs New Zealand", "stage": "Group G"},
+        {"date": "2026-06-19", "time": "00:00", "teams": "Belgium vs IR Iran", "stage": "Group G"},
+        {"date": "2026-06-21", "time": "21:00", "teams": "Egypt vs Belgium", "stage": "Group G"},
+        {"date": "2026-06-24", "time": "21:00", "teams": "New Zealand vs IR Iran", "stage": "Group G"},
+        {"date": "2026-06-30", "time": "19:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-04", "time": "15:00", "teams": "TBD", "stage": "Round of 16"},
+        {"date": "2026-07-09", "time": "14:00", "teams": "TBD", "stage": "Quarterfinal"}
+      ]
+    },
+    {
+      "city": "Miami",
+      "country": "United States",
+      "stadium": "Miami Stadium",
+      "realName": "Hard Rock Stadium",
+      "description": "Miami is one of the worlds most international cities, where cultures from Latin America, the Caribbean, Europe and beyond converge. Neighbourhoods like Little Havana, Wynwood, Coconut Grove and Brickell reflect its unique character and passion for sport.",
+      "matches": [
+        {"date": "2026-06-15", "time": "17:00", "teams": "Saudi Arabia vs Uruguay", "stage": "Group H"},
+        {"date": "2026-06-21", "time": "17:00", "teams": "Uruguay vs Cape Verde Islands", "stage": "Group H"},
+        {"date": "2026-06-24", "time": "17:00", "teams": "Scotland vs Brazil", "stage": "Group C"},
+        {"date": "2026-06-27", "time": "18:30", "teams": "Colombia vs Portugal", "stage": "Group K"},
+        {"date": "2026-07-03", "time": "17:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-11", "time": "16:00", "teams": "TBD", "stage": "Quarterfinal"},
+        {"date": "2026-07-18", "time": "16:00", "teams": "TBD", "stage": "Third Place"}
+      ]
+    },
+    {
+      "city": "New York / New Jersey",
+      "country": "United States",
+      "stadium": "New York New Jersey Stadium",
+      "realName": "MetLife Stadium",
+      "description": "New York-New Jersey has three professional football teams. The region hosted seven matches in the 1994 World Cup and set an attendance record of 82,026 at the 2016 Copa America Centenario final.",
+      "matches": [
+        {"date": "2026-06-13", "time": "17:00", "teams": "Brazil vs Morocco", "stage": "Group C"},
+        {"date": "2026-06-16", "time": "14:00", "teams": "France vs Senegal", "stage": "Group I"},
+        {"date": "2026-06-22", "time": "19:00", "teams": "Norway vs Senegal", "stage": "Group I"},
+        {"date": "2026-06-25", "time": "15:00", "teams": "Ecuador vs Germany", "stage": "Group E"},
+        {"date": "2026-06-27", "time": "16:00", "teams": "Panama vs England", "stage": "Group L"},
+        {"date": "2026-06-30", "time": "16:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-05", "time": "15:00", "teams": "TBD", "stage": "Round of 16"},
+        {"date": "2026-07-19", "time": "14:00", "teams": "TBD", "stage": "FINAL"}
+      ]
+    },
+    {
+      "city": "Philadelphia",
+      "country": "United States",
+      "stadium": "Philadelphia Stadium",
+      "realName": "Lincoln Financial Field",
+      "description": "",
+      "matches": [
+        {"date": "2026-06-14", "time": "19:00", "teams": "Cote dIvoire vs Ecuador", "stage": "Group E"},
+        {"date": "2026-06-18", "time": "15:00", "teams": "Colombia vs DR Congo", "stage": "Group K"},
+        {"date": "2026-06-20", "time": "18:00", "teams": "Croatia vs Ghana", "stage": "Group L"},
+        {"date": "2026-06-23", "time": "15:00", "teams": "Ecuador vs Curacao", "stage": "Group E"},
+        {"date": "2026-06-26", "time": "15:00", "teams": "England vs Ghana", "stage": "Group L"},
+        {"date": "2026-07-01", "time": "14:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-05", "time": "12:00", "teams": "TBD", "stage": "Round of 16"},
+        {"date": "2026-07-10", "time": "14:00", "teams": "TBD", "stage": "Quarterfinal"}
+      ]
+    },
+    {
+      "city": "San Francisco Bay Area",
+      "country": "United States",
+      "stadium": "San Francisco Bay Area Stadium",
+      "realName": "Levis Stadium",
+      "description": "",
+      "matches": [
+        {"date": "2026-06-13", "time": "15:00", "teams": "Qatar vs Switzerland", "stage": "Group B"},
+        {"date": "2026-06-16", "time": "00:00", "teams": "Austria vs Jordan", "stage": "Group J"},
+        {"date": "2026-06-19", "time": "15:00", "teams": "Senegal vs Iraq", "stage": "Group I"},
+        {"date": "2026-06-22", "time": "21:00", "teams": "Qatar vs Bosnia and Herzegovina", "stage": "Group B"},
+        {"date": "2026-06-25", "time": "00:00", "teams": "Algeria vs Austria", "stage": "Group J"},
+        {"date": "2026-07-02", "time": "11:00", "teams": "TBD", "stage": "Round of 32"}
+      ]
+    },
+    {
+      "city": "Seattle",
+      "country": "United States",
+      "stadium": "Seattle Stadium",
+      "realName": "Lumen Field",
+      "description": "Between the Salish Sea, the Cascade peaks and the legacy of the Coast Salish peoples, Seattle blends natural beauty with technological innovation. Beyond the iconic Space Needle and Pike Place Market, the Emerald City is known for its coffee, music scene and passion for football.",
+      "matches": [
+        {"date": "2026-06-15", "time": "15:00", "teams": "Belgium vs Egypt", "stage": "Group G"},
+        {"date": "2026-06-18", "time": "00:00", "teams": "Paraguay vs USA", "stage": "Group D"},
+        {"date": "2026-06-20", "time": "00:00", "teams": "France vs Iraq", "stage": "Group I"},
+        {"date": "2026-06-23", "time": "00:00", "teams": "Algeria vs Argentina", "stage": "Group J"},
+        {"date": "2026-06-26", "time": "00:00", "teams": "DR Congo vs Colombia", "stage": "Group K"},
+        {"date": "2026-07-02", "time": "21:00", "teams": "TBD", "stage": "Round of 32"},
+        {"date": "2026-07-07", "time": "14:00", "teams": "TBD", "stage": "Round of 16"},
+        {"date": "2026-07-12", "time": "14:00", "teams": "TBD", "stage": "Quarterfinal"}
+      ]
+    }
+  ]
+}

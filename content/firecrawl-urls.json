@@ -1,0 +1,41 @@
+{
+  "_meta": "Seed FIFA article URLs for Firecrawl scraping. Add or replace entries as needed.",
+  "urls": [
+    {
+      "slug": "what-happened-to-world-cup-favourites",
+      "url": "https://www.fifa.com/en/articles/what-happened-favourites"
+    },
+    {
+      "slug": "moises-caicedo-stats-quotes-records",
+      "url": "https://www.fifa.com/en/articles/moises-caicedo-stats-quotes-records"
+    },
+    {
+      "slug": "pierre-njanka-goal-cameroon-austria-1998",
+      "url": "https://www.fifa.com/en/articles/pierre-njanka-goal-cameroon-austria-1998"
+    },
+    {
+      "slug": "wonderkids-pau-cubarsi",
+      "url": "https://www.fifa.com/en/articles/wonderkids-pau-cubarsi"
+    },
+    {
+      "slug": "australia-name-train-on-squad",
+      "url": "https://www.fifa.com/en/articles/australia-name-train-on-squad"
+    },
+    {
+      "slug": "asmir-begovic-interview",
+      "url": "https://www.fifa.com/en/articles/asmir-begovic-interview"
+    },
+    {
+      "slug": "cavan-sullivan-philadelphia-union-manchester-city-interview",
+      "url": "https://www.fifa.com/en/articles/cavan-sullivan-philadelphia-union-manchester-city-interview"
+    },
+    {
+      "slug": "nico-williams-spain-interview",
+      "url": "https://www.fifa.com/en/articles/nico-williams-spain-interview"
+    },
+    {
+      "slug": "hwang-inbeom-feyenoord-korea-republic",
+      "url": "https://www.fifa.com/en/articles/hwang-inbeom-feyenoord-korea-republic"
+    }
+  ]
+}

@@ -1,0 +1,6847 @@
+{
+  "meta": {
+    "source": "Official FIFA Hospitality storefront APIs",
+    "storefront": "US",
+    "matchesEndpoint": "https://fifaworldcup26.hospitality.fifa.com/next-api/matches-all?productCode=26FWC&productType=5",
+    "venueSeriesPage": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&quantity=1",
+    "venueSeriesCodes": [
+      "ATL_VS",
+      "BOS_VS",
+      "DAL_VS",
+      "HOU_VS",
+      "KC_VS",
+      "LA_VS",
+      "MIA_VS",
+      "NYNJ_VS",
+      "PHL_VS",
+      "SEA_VS",
+      "SFBA_VS",
+      "CDMX_VS",
+      "GDL_VS",
+      "MTY_VS",
+      "TOR_VS",
+      "VAN_VS"
+    ],
+    "venueSeriesEndpointTemplate": "https://fifaworldcup26.hospitality.fifa.com/next-api/lounges?productCode=<VENUE_CODE>_VS&productTypeCode=VS",
+    "retrievedAt": "2026-05-07T03:04:31.328Z",
+    "usdExchangeRates": {
+      "base": "USD",
+      "date": "2026-05-06",
+      "rates": {
+        "USD": 1,
+        "CAD": 1.3602,
+        "MXN": 17.2607
+      }
+    },
+    "notes": [
+      "Single Match prices come from the official matches-all payload (productType=5).",
+      "Venue Series prices come from the official lounges endpoint with productTypeCode=VS.",
+      "US matches are already in USD. Canada and Mexico amounts are converted to USD using the stored FX snapshot.",
+      "Follow My Team and Multi-Match Series do not expose one fixed public starting price in the observed flow; they begin from team or match selection.",
+      "Venue Series is only exposed for the official venue codes listed in venueSeriesCodes."
+    ]
+  },
+  "singleMatch": [
+    {
+      "matchNumber": 2,
+      "performanceId": 10229203836811,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_GDL",
+        "stadium": "Guadalajara Stadium",
+        "city": "Zapopan"
+      },
+      "date": "2026-06-11",
+      "dateTime": "2026-06-11T20:00:00-04:00",
+      "matchDateLabel": "June 11",
+      "kickoffLabel": "Thursday, 8pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "KOR",
+        "name": "Korea Republic"
+      },
+      "awayTeam": {
+        "code": "CZE",
+        "name": "Czechia"
+      },
+      "localStartingPrice": 34200,
+      "usdStartingPrice": 1981.38,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 103000,
+          "usdStartingPrice": 5967.31
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 67000,
+          "usdStartingPrice": 3881.65
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 55350,
+          "usdStartingPrice": 3206.71
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 34200,
+          "usdStartingPrice": 1981.38
+        }
+      ]
+    },
+    {
+      "matchNumber": 1,
+      "performanceId": 10229203836809,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_CDMX",
+        "stadium": "Mexico City Stadium",
+        "city": "Ciudad de México"
+      },
+      "date": "2026-06-11",
+      "dateTime": "2026-06-11T13:00:00-04:00",
+      "matchDateLabel": "June 11",
+      "kickoffLabel": "Thursday, 1pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "MEX",
+        "name": "Mexico"
+      },
+      "awayTeam": {
+        "code": "RSA",
+        "name": "South Africa"
+      },
+      "localStartingPrice": 119700,
+      "usdStartingPrice": 6934.83,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 343000,
+          "usdStartingPrice": 19871.73
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 242450,
+          "usdStartingPrice": 14046.36
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 153900,
+          "usdStartingPrice": 8916.21
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 119700,
+          "usdStartingPrice": 6934.83
+        }
+      ]
+    },
+    {
+      "matchNumber": 28,
+      "performanceId": 10229203836814,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_GDL",
+        "stadium": "Guadalajara Stadium",
+        "city": "Zapopan"
+      },
+      "date": "2026-06-18",
+      "dateTime": "2026-06-18T19:00:00-04:00",
+      "matchDateLabel": "June 18",
+      "kickoffLabel": "Thursday, 7pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "MEX",
+        "name": "Mexico"
+      },
+      "awayTeam": {
+        "code": "KOR",
+        "name": "Korea Republic"
+      },
+      "localStartingPrice": 68040,
+      "usdStartingPrice": 3941.9,
+      "offerings": [
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 68040,
+          "usdStartingPrice": 3941.9
+        }
+      ]
+    },
+    {
+      "matchNumber": 36,
+      "performanceId": 10229203836815,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_MTY",
+        "stadium": "Monterrey Stadium",
+        "city": "Guadalupe"
+      },
+      "date": "2026-06-20",
+      "dateTime": "2026-06-20T22:00:00-04:00",
+      "matchDateLabel": "June 20",
+      "kickoffLabel": "Saturday, 10pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "TUN",
+        "name": "Tunisia"
+      },
+      "awayTeam": {
+        "code": "JPN",
+        "name": "Japan"
+      },
+      "localStartingPrice": 57200,
+      "usdStartingPrice": 3313.89,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 91000,
+          "usdStartingPrice": 5272.09
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 81450,
+          "usdStartingPrice": 4718.81
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 57200,
+          "usdStartingPrice": 3313.89
+        }
+      ]
+    },
+    {
+      "matchNumber": 12,
+      "performanceId": 10229203836812,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_MTY",
+        "stadium": "Monterrey Stadium",
+        "city": "Guadalupe"
+      },
+      "date": "2026-06-14",
+      "dateTime": "2026-06-14T20:00:00-04:00",
+      "matchDateLabel": "June 14",
+      "kickoffLabel": "Sunday, 8pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "SWE",
+        "name": "Sweden"
+      },
+      "awayTeam": {
+        "code": "TUN",
+        "name": "Tunisia"
+      },
+      "localStartingPrice": 37850,
+      "usdStartingPrice": 2192.84,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 87500,
+          "usdStartingPrice": 5069.32
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 82950,
+          "usdStartingPrice": 4805.71
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 37850,
+          "usdStartingPrice": 2192.84
+        }
+      ]
+    },
+    {
+      "matchNumber": 24,
+      "performanceId": 10229203836813,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_CDMX",
+        "stadium": "Mexico City Stadium",
+        "city": "Ciudad de México"
+      },
+      "date": "2026-06-17",
+      "dateTime": "2026-06-17T21:00:00-04:00",
+      "matchDateLabel": "June 17",
+      "kickoffLabel": "Wednesday, 9pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "UZB",
+        "name": "Uzbekistan"
+      },
+      "awayTeam": {
+        "code": "COL",
+        "name": "Colombia"
+      },
+      "localStartingPrice": 53850,
+      "usdStartingPrice": 3119.8,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 110000,
+          "usdStartingPrice": 6372.86
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 85000,
+          "usdStartingPrice": 4924.48
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 75000,
+          "usdStartingPrice": 4345.13
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 55650,
+          "usdStartingPrice": 3224.09
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 53850,
+          "usdStartingPrice": 3119.8
+        }
+      ]
+    },
+    {
+      "matchNumber": 54,
+      "performanceId": 10229203836818,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_MTY",
+        "stadium": "Monterrey Stadium",
+        "city": "Guadalupe"
+      },
+      "date": "2026-06-24",
+      "dateTime": "2026-06-24T19:00:00-04:00",
+      "matchDateLabel": "June 24",
+      "kickoffLabel": "Wednesday, 7pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "RSA",
+        "name": "South Africa"
+      },
+      "awayTeam": {
+        "code": "KOR",
+        "name": "Korea Republic"
+      },
+      "localStartingPrice": 37300,
+      "usdStartingPrice": 2160.98,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 87705,
+          "usdStartingPrice": 5081.2
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 73450,
+          "usdStartingPrice": 4255.33
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 37300,
+          "usdStartingPrice": 2160.98
+        }
+      ]
+    },
+    {
+      "matchNumber": 66,
+      "performanceId": 10229203836819,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_GDL",
+        "stadium": "Guadalajara Stadium",
+        "city": "Zapopan"
+      },
+      "date": "2026-06-26",
+      "dateTime": "2026-06-26T18:00:00-04:00",
+      "matchDateLabel": "June 26",
+      "kickoffLabel": "Friday, 6pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "URU",
+        "name": "Uruguay"
+      },
+      "awayTeam": {
+        "code": "ESP",
+        "name": "Spain"
+      },
+      "localStartingPrice": 54060,
+      "usdStartingPrice": 3131.97,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 139000,
+          "usdStartingPrice": 8052.98
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 115000,
+          "usdStartingPrice": 6662.53
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 77440,
+          "usdStartingPrice": 4486.49
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 54060,
+          "usdStartingPrice": 3131.97
+        }
+      ]
+    },
+    {
+      "matchNumber": 48,
+      "performanceId": 10229203836816,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_GDL",
+        "stadium": "Guadalajara Stadium",
+        "city": "Zapopan"
+      },
+      "date": "2026-06-23",
+      "dateTime": "2026-06-23T20:00:00-04:00",
+      "matchDateLabel": "June 23",
+      "kickoffLabel": "Tuesday, 8pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "COL",
+        "name": "Colombia"
+      },
+      "awayTeam": {
+        "code": "COD",
+        "name": "Congo DR"
+      },
+      "localStartingPrice": 36770,
+      "usdStartingPrice": 2130.27,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 96000,
+          "usdStartingPrice": 5561.77
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 70840,
+          "usdStartingPrice": 4104.12
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 61990,
+          "usdStartingPrice": 3591.4
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 59730,
+          "usdStartingPrice": 3460.46
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 36770,
+          "usdStartingPrice": 2130.27
+        }
+      ]
+    },
+    {
+      "matchNumber": 53,
+      "performanceId": 10229203836817,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_CDMX",
+        "stadium": "Mexico City Stadium",
+        "city": "Ciudad de México"
+      },
+      "date": "2026-06-24",
+      "dateTime": "2026-06-24T19:00:00-04:00",
+      "matchDateLabel": "June 24",
+      "kickoffLabel": "Wednesday, 7pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CZE",
+        "name": "Czechia"
+      },
+      "awayTeam": {
+        "code": "MEX",
+        "name": "Mexico"
+      },
+      "localStartingPrice": 88500,
+      "usdStartingPrice": 5127.25,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 204600,
+          "usdStartingPrice": 11853.52
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 168000,
+          "usdStartingPrice": 9733.09
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 157950,
+          "usdStartingPrice": 9150.85
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 97700,
+          "usdStartingPrice": 5660.26
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 88500,
+          "usdStartingPrice": 5127.25
+        }
+      ]
+    },
+    {
+      "matchNumber": 92,
+      "performanceId": 10229203836822,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_CDMX",
+        "stadium": "Mexico City Stadium",
+        "city": "Ciudad de México"
+      },
+      "date": "2026-07-05",
+      "dateTime": "2026-07-05T18:00:00-04:00",
+      "matchDateLabel": "July 5",
+      "kickoffLabel": "Sunday, 6pm CT",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W79",
+        "name": "W79"
+      },
+      "awayTeam": {
+        "code": "W80",
+        "name": "W80"
+      },
+      "localStartingPrice": 83000,
+      "usdStartingPrice": 4808.61,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 195000,
+          "usdStartingPrice": 11297.34
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 170000,
+          "usdStartingPrice": 9848.96
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 156000,
+          "usdStartingPrice": 9037.87
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 98600,
+          "usdStartingPrice": 5712.4
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 83000,
+          "usdStartingPrice": 4808.61
+        }
+      ]
+    },
+    {
+      "matchNumber": 75,
+      "performanceId": 10229203836820,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_MTY",
+        "stadium": "Monterrey Stadium",
+        "city": "Guadalupe"
+      },
+      "date": "2026-06-29",
+      "dateTime": "2026-06-29T19:00:00-04:00",
+      "matchDateLabel": "June 29",
+      "kickoffLabel": "Monday, 7pm CT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1F",
+        "name": "1F"
+      },
+      "awayTeam": {
+        "code": "2C",
+        "name": "2C"
+      },
+      "localStartingPrice": 59450,
+      "usdStartingPrice": 3444.24,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 100100,
+          "usdStartingPrice": 5799.3
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 94550,
+          "usdStartingPrice": 5477.76
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 59450,
+          "usdStartingPrice": 3444.24
+        }
+      ]
+    },
+    {
+      "matchNumber": 79,
+      "performanceId": 10229203836821,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "code": "NN_CDMX",
+        "stadium": "Mexico City Stadium",
+        "city": "Ciudad de México"
+      },
+      "date": "2026-06-30",
+      "dateTime": "2026-06-30T19:00:00-04:00",
+      "matchDateLabel": "June 30",
+      "kickoffLabel": "Tuesday, 7pm CT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1A",
+        "name": "1A"
+      },
+      "awayTeam": {
+        "code": "3CEFHI",
+        "name": "3CEFHI"
+      },
+      "localStartingPrice": 60700,
+      "usdStartingPrice": 3516.66,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 160000,
+          "usdStartingPrice": 9269.61
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 129800,
+          "usdStartingPrice": 7519.97
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 112500,
+          "usdStartingPrice": 6517.7
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 64000,
+          "usdStartingPrice": 3707.84
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 60700,
+          "usdStartingPrice": 3516.66
+        }
+      ]
+    },
+    {
+      "matchNumber": 97,
+      "performanceId": 10229203824834,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough"
+      },
+      "date": "2026-07-09",
+      "dateTime": "2026-07-09T16:00:00-04:00",
+      "matchDateLabel": "July 9",
+      "kickoffLabel": "Thursday, 4pm ET",
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "homeTeam": {
+        "code": "W89",
+        "name": "W89"
+      },
+      "awayTeam": {
+        "code": "W90",
+        "name": "W90"
+      },
+      "localStartingPrice": 3400,
+      "usdStartingPrice": 3400,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 6150,
+          "usdStartingPrice": 6150
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 5250,
+          "usdStartingPrice": 5250
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3400,
+          "usdStartingPrice": 3400
+        }
+      ]
+    },
+    {
+      "matchNumber": 98,
+      "performanceId": 10229203824835,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-07-10",
+      "dateTime": "2026-07-10T12:00:00-04:00",
+      "matchDateLabel": "July 10",
+      "kickoffLabel": "Friday, 12pm PT",
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "homeTeam": {
+        "code": "W93",
+        "name": "W93"
+      },
+      "awayTeam": {
+        "code": "W94",
+        "name": "W94"
+      },
+      "localStartingPrice": 4500,
+      "usdStartingPrice": 4500,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 7050,
+          "usdStartingPrice": 7050
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4800,
+          "usdStartingPrice": 4800
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 4500,
+          "usdStartingPrice": 4500
+        }
+      ]
+    },
+    {
+      "matchNumber": 94,
+      "performanceId": 10229203824832,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle"
+      },
+      "date": "2026-07-06",
+      "dateTime": "2026-07-06T17:00:00-04:00",
+      "matchDateLabel": "July 6",
+      "kickoffLabel": "Monday, 5pm PT",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W81",
+        "name": "W81"
+      },
+      "awayTeam": {
+        "code": "W82",
+        "name": "W82"
+      },
+      "localStartingPrice": 2000,
+      "usdStartingPrice": 2000,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4950,
+          "usdStartingPrice": 4950
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3975,
+          "usdStartingPrice": 3975
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2000,
+          "usdStartingPrice": 2000
+        }
+      ]
+    },
+    {
+      "matchNumber": 95,
+      "performanceId": 10229203824833,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-07-07",
+      "dateTime": "2026-07-07T12:00:00-04:00",
+      "matchDateLabel": "July 7",
+      "kickoffLabel": "Tuesday, 12pm ET",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W86",
+        "name": "W86"
+      },
+      "awayTeam": {
+        "code": "W88",
+        "name": "W88"
+      },
+      "localStartingPrice": 3150,
+      "usdStartingPrice": 3150,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 5350,
+          "usdStartingPrice": 5350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4250,
+          "usdStartingPrice": 4250
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3850,
+          "usdStartingPrice": 3850
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3150,
+          "usdStartingPrice": 3150
+        }
+      ]
+    },
+    {
+      "matchNumber": 101,
+      "performanceId": 10229203824838,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-07-14",
+      "dateTime": "2026-07-14T14:00:00-04:00",
+      "matchDateLabel": "July 14",
+      "kickoffLabel": "Tuesday, 2pm CT",
+      "stageCode": "SMF",
+      "stage": "semifinal",
+      "stageLabel": "SEMI-FINALS",
+      "homeTeam": {
+        "code": "W97",
+        "name": "W97"
+      },
+      "awayTeam": {
+        "code": "W98",
+        "name": "W98"
+      },
+      "localStartingPrice": 7400,
+      "usdStartingPrice": 7400,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 12700,
+          "usdStartingPrice": 12700
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 10925,
+          "usdStartingPrice": 10925
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 8200,
+          "usdStartingPrice": 8200
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 7400,
+          "usdStartingPrice": 7400
+        }
+      ]
+    },
+    {
+      "matchNumber": 22,
+      "performanceId": 10229203825094,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-06-17",
+      "dateTime": "2026-06-17T15:00:00-04:00",
+      "matchDateLabel": "June 17",
+      "kickoffLabel": "Wednesday, 3pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ENG",
+        "name": "England"
+      },
+      "awayTeam": {
+        "code": "CRO",
+        "name": "Croatia"
+      },
+      "localStartingPrice": 2430,
+      "usdStartingPrice": 2430,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3450,
+          "usdStartingPrice": 3450
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2430,
+          "usdStartingPrice": 2430
+        }
+      ]
+    },
+    {
+      "matchNumber": 102,
+      "performanceId": 10229203824839,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-07-15",
+      "dateTime": "2026-07-15T15:00:00-04:00",
+      "matchDateLabel": "July 15",
+      "kickoffLabel": "Wednesday, 3pm ET",
+      "stageCode": "SMF",
+      "stage": "semifinal",
+      "stageLabel": "SEMI-FINALS",
+      "homeTeam": {
+        "code": "W99",
+        "name": "W99"
+      },
+      "awayTeam": {
+        "code": "W100",
+        "name": "W100"
+      },
+      "localStartingPrice": 8750,
+      "usdStartingPrice": 8750,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 12100,
+          "usdStartingPrice": 12100
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 9950,
+          "usdStartingPrice": 9950
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 8750,
+          "usdStartingPrice": 8750
+        }
+      ]
+    },
+    {
+      "matchNumber": 20,
+      "performanceId": 10229203825095,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SFBA",
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "Santa Clara"
+      },
+      "date": "2026-06-16",
+      "dateTime": "2026-06-16T21:00:00-04:00",
+      "matchDateLabel": "June 16",
+      "kickoffLabel": "Tuesday, 9pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "AUT",
+        "name": "Austria"
+      },
+      "awayTeam": {
+        "code": "JOR",
+        "name": "Jordan"
+      },
+      "localStartingPrice": 2100,
+      "usdStartingPrice": 2100,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2100,
+          "usdStartingPrice": 2100
+        }
+      ]
+    },
+    {
+      "matchNumber": 99,
+      "performanceId": 10229203824836,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens"
+      },
+      "date": "2026-07-11",
+      "dateTime": "2026-07-11T17:00:00-04:00",
+      "matchDateLabel": "July 11",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "homeTeam": {
+        "code": "W91",
+        "name": "W91"
+      },
+      "awayTeam": {
+        "code": "W92",
+        "name": "W92"
+      },
+      "localStartingPrice": 3600,
+      "usdStartingPrice": 3600,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 9300,
+          "usdStartingPrice": 9300
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 6200,
+          "usdStartingPrice": 6200
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 6000,
+          "usdStartingPrice": 6000
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 4800,
+          "usdStartingPrice": 4800
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3600,
+          "usdStartingPrice": 3600
+        }
+      ]
+    },
+    {
+      "matchNumber": 100,
+      "performanceId": 10229203824837,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City"
+      },
+      "date": "2026-07-11",
+      "dateTime": "2026-07-11T20:00:00-04:00",
+      "matchDateLabel": "July 11",
+      "kickoffLabel": "Saturday, 8pm CT",
+      "stageCode": "QTR",
+      "stage": "quarterfinal",
+      "stageLabel": "QUARTER-FINALS",
+      "homeTeam": {
+        "code": "W95",
+        "name": "W95"
+      },
+      "awayTeam": {
+        "code": "W96",
+        "name": "W96"
+      },
+      "localStartingPrice": 2900,
+      "usdStartingPrice": 2900,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 6450,
+          "usdStartingPrice": 6450
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 5950,
+          "usdStartingPrice": 5950
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 5050,
+          "usdStartingPrice": 5050
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 4400,
+          "usdStartingPrice": 4400
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        }
+      ]
+    },
+    {
+      "matchNumber": 18,
+      "performanceId": 10229203825093,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough"
+      },
+      "date": "2026-06-16",
+      "dateTime": "2026-06-16T18:00:00-04:00",
+      "matchDateLabel": "June 16",
+      "kickoffLabel": "Tuesday, 6pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "IRQ",
+        "name": "Iraq"
+      },
+      "awayTeam": {
+        "code": "NOR",
+        "name": "Norway"
+      },
+      "localStartingPrice": 1875,
+      "usdStartingPrice": 1875,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3150,
+          "usdStartingPrice": 3150
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1875,
+          "usdStartingPrice": 1875
+        }
+      ]
+    },
+    {
+      "matchNumber": 82,
+      "performanceId": 10229203824842,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle"
+      },
+      "date": "2026-07-01",
+      "dateTime": "2026-07-01T13:00:00-04:00",
+      "matchDateLabel": "July 1",
+      "kickoffLabel": "Wednesday, 1pm PT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1G",
+        "name": "1G"
+      },
+      "awayTeam": {
+        "code": "3AEHIJ",
+        "name": "3AEHIJ"
+      },
+      "localStartingPrice": 2125,
+      "usdStartingPrice": 2125,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3850,
+          "usdStartingPrice": 3850
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2125,
+          "usdStartingPrice": 2125
+        }
+      ]
+    },
+    {
+      "matchNumber": 26,
+      "performanceId": 10229203825098,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-06-18",
+      "dateTime": "2026-06-18T12:00:00-04:00",
+      "matchDateLabel": "June 18",
+      "kickoffLabel": "Thursday, 12pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "SUI",
+        "name": "Switzerland"
+      },
+      "awayTeam": {
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina"
+      },
+      "localStartingPrice": 2200,
+      "usdStartingPrice": 2200,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3400,
+          "usdStartingPrice": 3400
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2200,
+          "usdStartingPrice": 2200
+        }
+      ]
+    },
+    {
+      "matchNumber": 84,
+      "performanceId": 10229203824843,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-07-02",
+      "dateTime": "2026-07-02T12:00:00-04:00",
+      "matchDateLabel": "July 2",
+      "kickoffLabel": "Thursday, 12pm PT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1H",
+        "name": "1H"
+      },
+      "awayTeam": {
+        "code": "2J",
+        "name": "2J"
+      },
+      "localStartingPrice": null,
+      "usdStartingPrice": null,
+      "offerings": []
+    },
+    {
+      "matchNumber": 29,
+      "performanceId": 10229203825099,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_PHL",
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia"
+      },
+      "date": "2026-06-19",
+      "dateTime": "2026-06-19T20:30:00-04:00",
+      "matchDateLabel": "June 19",
+      "kickoffLabel": "Friday, 8pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "BRA",
+        "name": "Brazil"
+      },
+      "awayTeam": {
+        "code": "HAI",
+        "name": "Haiti"
+      },
+      "localStartingPrice": 2800,
+      "usdStartingPrice": 2800,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3100,
+          "usdStartingPrice": 3100
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        }
+      ]
+    },
+    {
+      "matchNumber": 103,
+      "performanceId": 10229203824840,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens"
+      },
+      "date": "2026-07-18",
+      "dateTime": "2026-07-18T17:00:00-04:00",
+      "matchDateLabel": "July 18",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "stageCode": "BRZ",
+      "stage": "third-place",
+      "stageLabel": "BRONZE FINAL",
+      "homeTeam": {
+        "code": "BRZ",
+        "name": "BRONZE"
+      },
+      "awayTeam": {
+        "code": "FIX",
+        "name": "FIXTURE"
+      },
+      "localStartingPrice": 2100,
+      "usdStartingPrice": 2100,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4600,
+          "usdStartingPrice": 4600
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3600,
+          "usdStartingPrice": 3600
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3150,
+          "usdStartingPrice": 3150
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2100,
+          "usdStartingPrice": 2100
+        }
+      ]
+    },
+    {
+      "matchNumber": 23,
+      "performanceId": 10229203825096,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston"
+      },
+      "date": "2026-06-17",
+      "dateTime": "2026-06-17T12:00:00-04:00",
+      "matchDateLabel": "June 17",
+      "kickoffLabel": "Wednesday, 12pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "POR",
+        "name": "Portugal"
+      },
+      "awayTeam": {
+        "code": "COD",
+        "name": "Congo DR"
+      },
+      "localStartingPrice": 2250,
+      "usdStartingPrice": 2250,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        }
+      ]
+    },
+    {
+      "matchNumber": 104,
+      "performanceId": 10229203824841,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-07-19",
+      "dateTime": "2026-07-19T15:00:00-04:00",
+      "matchDateLabel": "July 19",
+      "kickoffLabel": "Sunday, 3pm ET",
+      "stageCode": "FNL",
+      "stage": "final",
+      "stageLabel": "",
+      "homeTeam": {
+        "code": "FNL",
+        "name": "FINAL"
+      },
+      "awayTeam": {
+        "code": "FIX",
+        "name": "FIXTURE"
+      },
+      "localStartingPrice": 16475,
+      "usdStartingPrice": 16475,
+      "offerings": [
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 35000,
+          "usdStartingPrice": 35000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 16475,
+          "usdStartingPrice": 16475
+        }
+      ]
+    },
+    {
+      "matchNumber": 25,
+      "performanceId": 10229203825097,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-06-18",
+      "dateTime": "2026-06-18T12:00:00-04:00",
+      "matchDateLabel": "June 18",
+      "kickoffLabel": "Thursday, 12pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CZE",
+        "name": "Czechia"
+      },
+      "awayTeam": {
+        "code": "RSA",
+        "name": "South Africa"
+      },
+      "localStartingPrice": 600,
+      "usdStartingPrice": 600,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2300,
+          "usdStartingPrice": 2300
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2200,
+          "usdStartingPrice": 2200
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 600,
+          "usdStartingPrice": 600
+        }
+      ]
+    },
+    {
+      "matchNumber": 88,
+      "performanceId": 10229203824846,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-07-03",
+      "dateTime": "2026-07-03T13:00:00-04:00",
+      "matchDateLabel": "July 3",
+      "kickoffLabel": "Friday, 1pm CT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "2D",
+        "name": "2D"
+      },
+      "awayTeam": {
+        "code": "2G",
+        "name": "2G"
+      },
+      "localStartingPrice": 775,
+      "usdStartingPrice": 775,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4250,
+          "usdStartingPrice": 4250
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3700,
+          "usdStartingPrice": 3700
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3150,
+          "usdStartingPrice": 3150
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2180,
+          "usdStartingPrice": 2180
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 775,
+          "usdStartingPrice": 775
+        }
+      ]
+    },
+    {
+      "matchNumber": 32,
+      "performanceId": 10229203825102,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle"
+      },
+      "date": "2026-06-19",
+      "dateTime": "2026-06-19T12:00:00-04:00",
+      "matchDateLabel": "June 19",
+      "kickoffLabel": "Friday, 12pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "USA",
+        "name": "USA"
+      },
+      "awayTeam": {
+        "code": "AUS",
+        "name": "Australia"
+      },
+      "localStartingPrice": 2650,
+      "usdStartingPrice": 2650,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4700,
+          "usdStartingPrice": 4700
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4100,
+          "usdStartingPrice": 4100
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2650,
+          "usdStartingPrice": 2650
+        }
+      ]
+    },
+    {
+      "matchNumber": 34,
+      "performanceId": 10229203825103,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City"
+      },
+      "date": "2026-06-20",
+      "dateTime": "2026-06-20T19:00:00-04:00",
+      "matchDateLabel": "June 20",
+      "kickoffLabel": "Saturday, 7pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ECU",
+        "name": "Ecuador"
+      },
+      "awayTeam": {
+        "code": "CUW",
+        "name": "Curaçao"
+      },
+      "localStartingPrice": 650,
+      "usdStartingPrice": 650,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2850,
+          "usdStartingPrice": 2850
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2575,
+          "usdStartingPrice": 2575
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1475,
+          "usdStartingPrice": 1475
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 650,
+          "usdStartingPrice": 650
+        }
+      ]
+    },
+    {
+      "matchNumber": 86,
+      "performanceId": 10229203824844,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens"
+      },
+      "date": "2026-07-03",
+      "dateTime": "2026-07-03T18:00:00-04:00",
+      "matchDateLabel": "July 3",
+      "kickoffLabel": "Friday, 6pm ET",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1J",
+        "name": "1J"
+      },
+      "awayTeam": {
+        "code": "2H",
+        "name": "2H"
+      },
+      "localStartingPrice": 3170,
+      "usdStartingPrice": 3170,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 5870,
+          "usdStartingPrice": 5870
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4300,
+          "usdStartingPrice": 4300
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4060,
+          "usdStartingPrice": 4060
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3750,
+          "usdStartingPrice": 3750
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3170,
+          "usdStartingPrice": 3170
+        }
+      ]
+    },
+    {
+      "matchNumber": 30,
+      "performanceId": 10229203825100,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough"
+      },
+      "date": "2026-06-19",
+      "dateTime": "2026-06-19T18:00:00-04:00",
+      "matchDateLabel": "June 19",
+      "kickoffLabel": "Friday, 6pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "SCO",
+        "name": "Scotland"
+      },
+      "awayTeam": {
+        "code": "MAR",
+        "name": "Morocco"
+      },
+      "localStartingPrice": 1950,
+      "usdStartingPrice": 1950,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2850,
+          "usdStartingPrice": 2850
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1950,
+          "usdStartingPrice": 1950
+        }
+      ]
+    },
+    {
+      "matchNumber": 87,
+      "performanceId": 10229203824845,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City"
+      },
+      "date": "2026-07-03",
+      "dateTime": "2026-07-03T20:30:00-04:00",
+      "matchDateLabel": "July 3",
+      "kickoffLabel": "Friday, 8pm CT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1K",
+        "name": "1K"
+      },
+      "awayTeam": {
+        "code": "3DEIJL",
+        "name": "3DEIJL"
+      },
+      "localStartingPrice": 775,
+      "usdStartingPrice": 775,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3950,
+          "usdStartingPrice": 3950
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3025,
+          "usdStartingPrice": 3025
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2050,
+          "usdStartingPrice": 2050
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 775,
+          "usdStartingPrice": 775
+        }
+      ]
+    },
+    {
+      "matchNumber": 31,
+      "performanceId": 10229203825101,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SFBA",
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "Santa Clara"
+      },
+      "date": "2026-06-19",
+      "dateTime": "2026-06-19T20:00:00-04:00",
+      "matchDateLabel": "June 19",
+      "kickoffLabel": "Friday, 8pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "TUR",
+        "name": "Türkiye"
+      },
+      "awayTeam": {
+        "code": "PAR",
+        "name": "Paraguay"
+      },
+      "localStartingPrice": 2300,
+      "usdStartingPrice": 2300,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2375,
+          "usdStartingPrice": 2375
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2300,
+          "usdStartingPrice": 2300
+        }
+      ]
+    },
+    {
+      "matchNumber": 9,
+      "performanceId": 10229203825106,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_PHL",
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia"
+      },
+      "date": "2026-06-14",
+      "dateTime": "2026-06-14T19:00:00-04:00",
+      "matchDateLabel": "June 14",
+      "kickoffLabel": "Sunday, 7pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CIV",
+        "name": "Côte d'Ivoire"
+      },
+      "awayTeam": {
+        "code": "ECU",
+        "name": "Ecuador"
+      },
+      "localStartingPrice": 1850,
+      "usdStartingPrice": 1850,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 3300
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2550,
+          "usdStartingPrice": 2550
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1850,
+          "usdStartingPrice": 1850
+        }
+      ]
+    },
+    {
+      "matchNumber": 10,
+      "performanceId": 10229203825107,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston"
+      },
+      "date": "2026-06-14",
+      "dateTime": "2026-06-14T12:00:00-04:00",
+      "matchDateLabel": "June 14",
+      "kickoffLabel": "Sunday, 12pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "GER",
+        "name": "Germany"
+      },
+      "awayTeam": {
+        "code": "CUW",
+        "name": "Curaçao"
+      },
+      "localStartingPrice": 3100,
+      "usdStartingPrice": 3100,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3600,
+          "usdStartingPrice": 3600
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3100,
+          "usdStartingPrice": 3100
+        }
+      ]
+    },
+    {
+      "matchNumber": 35,
+      "performanceId": 10229203825104,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston"
+      },
+      "date": "2026-06-20",
+      "dateTime": "2026-06-20T12:00:00-04:00",
+      "matchDateLabel": "June 20",
+      "kickoffLabel": "Saturday, 12pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "NED",
+        "name": "Netherlands"
+      },
+      "awayTeam": {
+        "code": "SWE",
+        "name": "Sweden"
+      },
+      "localStartingPrice": 2300,
+      "usdStartingPrice": 2300,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3100,
+          "usdStartingPrice": 3100
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2300,
+          "usdStartingPrice": 2300
+        }
+      ]
+    },
+    {
+      "matchNumber": 8,
+      "performanceId": 10229203825105,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SFBA",
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "Santa Clara"
+      },
+      "date": "2026-06-13",
+      "dateTime": "2026-06-13T12:00:00-04:00",
+      "matchDateLabel": "June 13",
+      "kickoffLabel": "Saturday, 12pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "QAT",
+        "name": "Qatar"
+      },
+      "awayTeam": {
+        "code": "SUI",
+        "name": "Switzerland"
+      },
+      "localStartingPrice": 2100,
+      "usdStartingPrice": 2100,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3400,
+          "usdStartingPrice": 3400
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2375,
+          "usdStartingPrice": 2375
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2100,
+          "usdStartingPrice": 2100
+        }
+      ]
+    },
+    {
+      "matchNumber": 14,
+      "performanceId": 10229203825110,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-06-15",
+      "dateTime": "2026-06-15T12:00:00-04:00",
+      "matchDateLabel": "June 15",
+      "kickoffLabel": "Monday, 12pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ESP",
+        "name": "Spain"
+      },
+      "awayTeam": {
+        "code": "CPV",
+        "name": "Cabo Verde"
+      },
+      "localStartingPrice": 650,
+      "usdStartingPrice": 650,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2850,
+          "usdStartingPrice": 2850
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2200,
+          "usdStartingPrice": 2200
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 650,
+          "usdStartingPrice": 650
+        }
+      ]
+    },
+    {
+      "matchNumber": 15,
+      "performanceId": 10229203825111,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-06-15",
+      "dateTime": "2026-06-15T18:00:00-04:00",
+      "matchDateLabel": "June 15",
+      "kickoffLabel": "Monday, 6pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "IRN",
+        "name": "IR Iran"
+      },
+      "awayTeam": {
+        "code": "NZL",
+        "name": "New Zealand"
+      },
+      "localStartingPrice": 2150,
+      "usdStartingPrice": 2150,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2950,
+          "usdStartingPrice": 2950
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2150,
+          "usdStartingPrice": 2150
+        }
+      ]
+    },
+    {
+      "matchNumber": 11,
+      "performanceId": 10229203825108,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-06-14",
+      "dateTime": "2026-06-14T15:00:00-04:00",
+      "matchDateLabel": "June 14",
+      "kickoffLabel": "Sunday, 3pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "NED",
+        "name": "Netherlands"
+      },
+      "awayTeam": {
+        "code": "JPN",
+        "name": "Japan"
+      },
+      "localStartingPrice": 2650,
+      "usdStartingPrice": 2650,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2650,
+          "usdStartingPrice": 2650
+        }
+      ]
+    },
+    {
+      "matchNumber": 13,
+      "performanceId": 10229203825109,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens"
+      },
+      "date": "2026-06-15",
+      "dateTime": "2026-06-15T18:00:00-04:00",
+      "matchDateLabel": "June 15",
+      "kickoffLabel": "Monday, 6pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "KSA",
+        "name": "Saudi Arabia"
+      },
+      "awayTeam": {
+        "code": "URU",
+        "name": "Uruguay"
+      },
+      "localStartingPrice": 1750,
+      "usdStartingPrice": 1750,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3520,
+          "usdStartingPrice": 3520
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2350,
+          "usdStartingPrice": 2350
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2000,
+          "usdStartingPrice": 2000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1750,
+          "usdStartingPrice": 1750
+        }
+      ]
+    },
+    {
+      "matchNumber": 19,
+      "performanceId": 10229203825114,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City"
+      },
+      "date": "2026-06-16",
+      "dateTime": "2026-06-16T20:00:00-04:00",
+      "matchDateLabel": "June 16",
+      "kickoffLabel": "Tuesday, 8pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ARG",
+        "name": "Argentina"
+      },
+      "awayTeam": {
+        "code": "ALG",
+        "name": "Algeria"
+      },
+      "localStartingPrice": 2000,
+      "usdStartingPrice": 2000,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3150,
+          "usdStartingPrice": 3150
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2740,
+          "usdStartingPrice": 2740
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2540,
+          "usdStartingPrice": 2540
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2480,
+          "usdStartingPrice": 2480
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2000,
+          "usdStartingPrice": 2000
+        }
+      ]
+    },
+    {
+      "matchNumber": 16,
+      "performanceId": 10229203825112,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle"
+      },
+      "date": "2026-06-15",
+      "dateTime": "2026-06-15T12:00:00-04:00",
+      "matchDateLabel": "June 15",
+      "kickoffLabel": "Monday, 12pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "BEL",
+        "name": "Belgium"
+      },
+      "awayTeam": {
+        "code": "EGY",
+        "name": "Egypt"
+      },
+      "localStartingPrice": 1575,
+      "usdStartingPrice": 1575,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4250,
+          "usdStartingPrice": 4250
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1575,
+          "usdStartingPrice": 1575
+        }
+      ]
+    },
+    {
+      "matchNumber": 17,
+      "performanceId": 10229203825113,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-06-16",
+      "dateTime": "2026-06-16T15:00:00-04:00",
+      "matchDateLabel": "June 16",
+      "kickoffLabel": "Tuesday, 3pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "FRA",
+        "name": "France"
+      },
+      "awayTeam": {
+        "code": "SEN",
+        "name": "Senegal"
+      },
+      "localStartingPrice": 2300,
+      "usdStartingPrice": 2300,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3400,
+          "usdStartingPrice": 3400
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2300,
+          "usdStartingPrice": 2300
+        }
+      ]
+    },
+    {
+      "matchNumber": 4,
+      "performanceId": 10229203824790,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-06-12",
+      "dateTime": "2026-06-12T18:00:00-04:00",
+      "matchDateLabel": "June 12",
+      "kickoffLabel": "Friday, 6pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "USA",
+        "name": "USA"
+      },
+      "awayTeam": {
+        "code": "PAR",
+        "name": "Paraguay"
+      },
+      "localStartingPrice": 3300,
+      "usdStartingPrice": 3300,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 6050,
+          "usdStartingPrice": 6050
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 5000,
+          "usdStartingPrice": 5000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4000,
+          "usdStartingPrice": 4000
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 3300
+        }
+      ]
+    },
+    {
+      "matchNumber": 5,
+      "performanceId": 10229203824791,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough"
+      },
+      "date": "2026-06-13",
+      "dateTime": "2026-06-13T21:00:00-04:00",
+      "matchDateLabel": "June 13",
+      "kickoffLabel": "Saturday, 9pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "HAI",
+        "name": "Haiti"
+      },
+      "awayTeam": {
+        "code": "SCO",
+        "name": "Scotland"
+      },
+      "localStartingPrice": 2100,
+      "usdStartingPrice": 2100,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3900,
+          "usdStartingPrice": 3900
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2100,
+          "usdStartingPrice": 2100
+        }
+      ]
+    },
+    {
+      "matchNumber": 38,
+      "performanceId": 10229203824794,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-06-21",
+      "dateTime": "2026-06-21T12:00:00-04:00",
+      "matchDateLabel": "June 21",
+      "kickoffLabel": "Sunday, 12pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ESP",
+        "name": "Spain"
+      },
+      "awayTeam": {
+        "code": "KSA",
+        "name": "Saudi Arabia"
+      },
+      "localStartingPrice": 700,
+      "usdStartingPrice": 700,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2950,
+          "usdStartingPrice": 2950
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2640,
+          "usdStartingPrice": 2640
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2150,
+          "usdStartingPrice": 2150
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 700,
+          "usdStartingPrice": 700
+        }
+      ]
+    },
+    {
+      "matchNumber": 39,
+      "performanceId": 10229203824795,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-06-21",
+      "dateTime": "2026-06-21T12:00:00-04:00",
+      "matchDateLabel": "June 21",
+      "kickoffLabel": "Sunday, 12pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "BEL",
+        "name": "Belgium"
+      },
+      "awayTeam": {
+        "code": "IRN",
+        "name": "IR Iran"
+      },
+      "localStartingPrice": 2300,
+      "usdStartingPrice": 2300,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3600,
+          "usdStartingPrice": 3600
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3100,
+          "usdStartingPrice": 3100
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2625,
+          "usdStartingPrice": 2625
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2300,
+          "usdStartingPrice": 2300
+        }
+      ]
+    },
+    {
+      "matchNumber": 7,
+      "performanceId": 10229203824792,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-06-13",
+      "dateTime": "2026-06-13T18:00:00-04:00",
+      "matchDateLabel": "June 13",
+      "kickoffLabel": "Saturday, 6pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "BRA",
+        "name": "Brazil"
+      },
+      "awayTeam": {
+        "code": "MAR",
+        "name": "Morocco"
+      },
+      "localStartingPrice": 3200,
+      "usdStartingPrice": 3200,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4800,
+          "usdStartingPrice": 4800
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        }
+      ]
+    },
+    {
+      "matchNumber": 37,
+      "performanceId": 10229203824793,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens"
+      },
+      "date": "2026-06-21",
+      "dateTime": "2026-06-21T18:00:00-04:00",
+      "matchDateLabel": "June 21",
+      "kickoffLabel": "Sunday, 6pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "URU",
+        "name": "Uruguay"
+      },
+      "awayTeam": {
+        "code": "CPV",
+        "name": "Cabo Verde"
+      },
+      "localStartingPrice": 1825,
+      "usdStartingPrice": 1825,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3940,
+          "usdStartingPrice": 3940
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2475,
+          "usdStartingPrice": 2475
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2100,
+          "usdStartingPrice": 2100
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1825,
+          "usdStartingPrice": 1825
+        }
+      ]
+    },
+    {
+      "matchNumber": 43,
+      "performanceId": 10229203824798,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-06-22",
+      "dateTime": "2026-06-22T12:00:00-04:00",
+      "matchDateLabel": "June 22",
+      "kickoffLabel": "Monday, 12pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ARG",
+        "name": "Argentina"
+      },
+      "awayTeam": {
+        "code": "AUT",
+        "name": "Austria"
+      },
+      "localStartingPrice": 2610,
+      "usdStartingPrice": 2610,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3450,
+          "usdStartingPrice": 3450
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2610,
+          "usdStartingPrice": 2610
+        }
+      ]
+    },
+    {
+      "matchNumber": 44,
+      "performanceId": 10229203824799,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SFBA",
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "Santa Clara"
+      },
+      "date": "2026-06-22",
+      "dateTime": "2026-06-22T20:00:00-04:00",
+      "matchDateLabel": "June 22",
+      "kickoffLabel": "Monday, 8pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "JOR",
+        "name": "Jordan"
+      },
+      "awayTeam": {
+        "code": "ALG",
+        "name": "Algeria"
+      },
+      "localStartingPrice": 2100,
+      "usdStartingPrice": 2100,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2100,
+          "usdStartingPrice": 2100
+        }
+      ]
+    },
+    {
+      "matchNumber": 41,
+      "performanceId": 10229203824796,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-06-22",
+      "dateTime": "2026-06-22T20:00:00-04:00",
+      "matchDateLabel": "June 22",
+      "kickoffLabel": "Monday, 8pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "NOR",
+        "name": "Norway"
+      },
+      "awayTeam": {
+        "code": "SEN",
+        "name": "Senegal"
+      },
+      "localStartingPrice": 1800,
+      "usdStartingPrice": 1800,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1800,
+          "usdStartingPrice": 1800
+        }
+      ]
+    },
+    {
+      "matchNumber": 42,
+      "performanceId": 10229203824797,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_PHL",
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia"
+      },
+      "date": "2026-06-22",
+      "dateTime": "2026-06-22T17:00:00-04:00",
+      "matchDateLabel": "June 22",
+      "kickoffLabel": "Monday, 5pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "FRA",
+        "name": "France"
+      },
+      "awayTeam": {
+        "code": "IRQ",
+        "name": "Iraq"
+      },
+      "localStartingPrice": 825,
+      "usdStartingPrice": 825,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2700,
+          "usdStartingPrice": 2700
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2320,
+          "usdStartingPrice": 2320
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1770,
+          "usdStartingPrice": 1770
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 825,
+          "usdStartingPrice": 825
+        }
+      ]
+    },
+    {
+      "matchNumber": 49,
+      "performanceId": 10229203824802,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens"
+      },
+      "date": "2026-06-24",
+      "dateTime": "2026-06-24T18:00:00-04:00",
+      "matchDateLabel": "June 24",
+      "kickoffLabel": "Wednesday, 6pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "SCO",
+        "name": "Scotland"
+      },
+      "awayTeam": {
+        "code": "BRA",
+        "name": "Brazil"
+      },
+      "localStartingPrice": 3200,
+      "usdStartingPrice": 3200,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 8000,
+          "usdStartingPrice": 8000
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4400,
+          "usdStartingPrice": 4400
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        }
+      ]
+    },
+    {
+      "matchNumber": 50,
+      "performanceId": 10229203824803,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-06-24",
+      "dateTime": "2026-06-24T18:00:00-04:00",
+      "matchDateLabel": "June 24",
+      "kickoffLabel": "Wednesday, 6pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "MAR",
+        "name": "Morocco"
+      },
+      "awayTeam": {
+        "code": "HAI",
+        "name": "Haiti"
+      },
+      "localStartingPrice": 650,
+      "usdStartingPrice": 650,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2850,
+          "usdStartingPrice": 2850
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2275,
+          "usdStartingPrice": 2275
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2050,
+          "usdStartingPrice": 2050
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 650,
+          "usdStartingPrice": 650
+        }
+      ]
+    },
+    {
+      "matchNumber": 45,
+      "performanceId": 10229203824800,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough"
+      },
+      "date": "2026-06-23",
+      "dateTime": "2026-06-23T16:00:00-04:00",
+      "matchDateLabel": "June 23",
+      "kickoffLabel": "Tuesday, 4pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ENG",
+        "name": "England"
+      },
+      "awayTeam": {
+        "code": "GHA",
+        "name": "Ghana"
+      },
+      "localStartingPrice": 2300,
+      "usdStartingPrice": 2300,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2900,
+          "usdStartingPrice": 2900
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2300,
+          "usdStartingPrice": 2300
+        }
+      ]
+    },
+    {
+      "matchNumber": 47,
+      "performanceId": 10229203824801,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston"
+      },
+      "date": "2026-06-23",
+      "dateTime": "2026-06-23T12:00:00-04:00",
+      "matchDateLabel": "June 23",
+      "kickoffLabel": "Tuesday, 12pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "POR",
+        "name": "Portugal"
+      },
+      "awayTeam": {
+        "code": "UZB",
+        "name": "Uzbekistan"
+      },
+      "localStartingPrice": 1770,
+      "usdStartingPrice": 1770,
+      "offerings": [
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2640,
+          "usdStartingPrice": 2640
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1770,
+          "usdStartingPrice": 1770
+        }
+      ]
+    },
+    {
+      "matchNumber": 56,
+      "performanceId": 10229203824806,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-06-25",
+      "dateTime": "2026-06-25T16:00:00-04:00",
+      "matchDateLabel": "June 25",
+      "kickoffLabel": "Thursday, 4pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ECU",
+        "name": "Ecuador"
+      },
+      "awayTeam": {
+        "code": "GER",
+        "name": "Germany"
+      },
+      "localStartingPrice": 2450,
+      "usdStartingPrice": 2450,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3400,
+          "usdStartingPrice": 3400
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2450,
+          "usdStartingPrice": 2450
+        }
+      ]
+    },
+    {
+      "matchNumber": 57,
+      "performanceId": 10229203824807,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-06-25",
+      "dateTime": "2026-06-25T18:00:00-04:00",
+      "matchDateLabel": "June 25",
+      "kickoffLabel": "Thursday, 6pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "JPN",
+        "name": "Japan"
+      },
+      "awayTeam": {
+        "code": "SWE",
+        "name": "Sweden"
+      },
+      "localStartingPrice": 1740,
+      "usdStartingPrice": 1740,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3450,
+          "usdStartingPrice": 3450
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2525,
+          "usdStartingPrice": 2525
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1740,
+          "usdStartingPrice": 1740
+        }
+      ]
+    },
+    {
+      "matchNumber": 52,
+      "performanceId": 10229203824804,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle"
+      },
+      "date": "2026-06-24",
+      "dateTime": "2026-06-24T12:00:00-04:00",
+      "matchDateLabel": "June 24",
+      "kickoffLabel": "Wednesday, 12pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina"
+      },
+      "awayTeam": {
+        "code": "QAT",
+        "name": "Qatar"
+      },
+      "localStartingPrice": 1575,
+      "usdStartingPrice": 1575,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3850,
+          "usdStartingPrice": 3850
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2875,
+          "usdStartingPrice": 2875
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1575,
+          "usdStartingPrice": 1575
+        }
+      ]
+    },
+    {
+      "matchNumber": 55,
+      "performanceId": 10229203824805,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_PHL",
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia"
+      },
+      "date": "2026-06-25",
+      "dateTime": "2026-06-25T16:00:00-04:00",
+      "matchDateLabel": "June 25",
+      "kickoffLabel": "Thursday, 4pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CUW",
+        "name": "Curaçao"
+      },
+      "awayTeam": {
+        "code": "CIV",
+        "name": "Côte d'Ivoire"
+      },
+      "localStartingPrice": 650,
+      "usdStartingPrice": 650,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2700,
+          "usdStartingPrice": 2700
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1650,
+          "usdStartingPrice": 1650
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 650,
+          "usdStartingPrice": 650
+        }
+      ]
+    },
+    {
+      "matchNumber": 60,
+      "performanceId": 10229203824810,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SFBA",
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "Santa Clara"
+      },
+      "date": "2026-06-25",
+      "dateTime": "2026-06-25T19:00:00-04:00",
+      "matchDateLabel": "June 25",
+      "kickoffLabel": "Thursday, 7pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "PAR",
+        "name": "Paraguay"
+      },
+      "awayTeam": {
+        "code": "AUS",
+        "name": "Australia"
+      },
+      "localStartingPrice": 2100,
+      "usdStartingPrice": 2100,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3200,
+          "usdStartingPrice": 3200
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2100,
+          "usdStartingPrice": 2100
+        }
+      ]
+    },
+    {
+      "matchNumber": 61,
+      "performanceId": 10229203824811,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough"
+      },
+      "date": "2026-06-26",
+      "dateTime": "2026-06-26T15:00:00-04:00",
+      "matchDateLabel": "June 26",
+      "kickoffLabel": "Friday, 3pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "NOR",
+        "name": "Norway"
+      },
+      "awayTeam": {
+        "code": "FRA",
+        "name": "France"
+      },
+      "localStartingPrice": 2500,
+      "usdStartingPrice": 2500,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3900,
+          "usdStartingPrice": 3900
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        }
+      ]
+    },
+    {
+      "matchNumber": 58,
+      "performanceId": 10229203824808,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City"
+      },
+      "date": "2026-06-25",
+      "dateTime": "2026-06-25T18:00:00-04:00",
+      "matchDateLabel": "June 25",
+      "kickoffLabel": "Thursday, 6pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "TUN",
+        "name": "Tunisia"
+      },
+      "awayTeam": {
+        "code": "NED",
+        "name": "Netherlands"
+      },
+      "localStartingPrice": 695,
+      "usdStartingPrice": 695,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3150,
+          "usdStartingPrice": 3150
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2700,
+          "usdStartingPrice": 2700
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2450,
+          "usdStartingPrice": 2450
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1400,
+          "usdStartingPrice": 1400
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 695,
+          "usdStartingPrice": 695
+        }
+      ]
+    },
+    {
+      "matchNumber": 59,
+      "performanceId": 10229203824809,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-06-25",
+      "dateTime": "2026-06-25T19:00:00-04:00",
+      "matchDateLabel": "June 25",
+      "kickoffLabel": "Thursday, 7pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "TUR",
+        "name": "Türkiye"
+      },
+      "awayTeam": {
+        "code": "USA",
+        "name": "USA"
+      },
+      "localStartingPrice": 3400,
+      "usdStartingPrice": 3400,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4750,
+          "usdStartingPrice": 4750
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4520,
+          "usdStartingPrice": 4520
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3700,
+          "usdStartingPrice": 3700
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3400,
+          "usdStartingPrice": 3400
+        }
+      ]
+    },
+    {
+      "matchNumber": 67,
+      "performanceId": 10229203824814,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-06-27",
+      "dateTime": "2026-06-27T17:00:00-04:00",
+      "matchDateLabel": "June 27",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "PAN",
+        "name": "Panama"
+      },
+      "awayTeam": {
+        "code": "ENG",
+        "name": "England"
+      },
+      "localStartingPrice": 2400,
+      "usdStartingPrice": 2400,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 3300
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3000,
+          "usdStartingPrice": 3000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2400,
+          "usdStartingPrice": 2400
+        }
+      ]
+    },
+    {
+      "matchNumber": 68,
+      "performanceId": 10229203824815,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_PHL",
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia"
+      },
+      "date": "2026-06-27",
+      "dateTime": "2026-06-27T17:00:00-04:00",
+      "matchDateLabel": "June 27",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CRO",
+        "name": "Croatia"
+      },
+      "awayTeam": {
+        "code": "GHA",
+        "name": "Ghana"
+      },
+      "localStartingPrice": 1725,
+      "usdStartingPrice": 1725,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 3300
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 1725,
+          "usdStartingPrice": 1725
+        }
+      ]
+    },
+    {
+      "matchNumber": 63,
+      "performanceId": 10229203824812,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SEA",
+        "stadium": "Seattle Stadium",
+        "city": "Seattle"
+      },
+      "date": "2026-06-26",
+      "dateTime": "2026-06-26T20:00:00-04:00",
+      "matchDateLabel": "June 26",
+      "kickoffLabel": "Friday, 8pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "EGY",
+        "name": "Egypt"
+      },
+      "awayTeam": {
+        "code": "IRN",
+        "name": "IR Iran"
+      },
+      "localStartingPrice": 1525,
+      "usdStartingPrice": 1525,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3600,
+          "usdStartingPrice": 3600
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1525,
+          "usdStartingPrice": 1525
+        }
+      ]
+    },
+    {
+      "matchNumber": 65,
+      "performanceId": 10229203824813,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston"
+      },
+      "date": "2026-06-26",
+      "dateTime": "2026-06-26T19:00:00-04:00",
+      "matchDateLabel": "June 26",
+      "kickoffLabel": "Friday, 7pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CPV",
+        "name": "Cabo Verde"
+      },
+      "awayTeam": {
+        "code": "KSA",
+        "name": "Saudi Arabia"
+      },
+      "localStartingPrice": 2375,
+      "usdStartingPrice": 2375,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 3300
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2800,
+          "usdStartingPrice": 2800
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2375,
+          "usdStartingPrice": 2375
+        }
+      ]
+    },
+    {
+      "matchNumber": 70,
+      "performanceId": 10229203824818,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-06-27",
+      "dateTime": "2026-06-27T21:00:00-04:00",
+      "matchDateLabel": "June 27",
+      "kickoffLabel": "Saturday, 9pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "JOR",
+        "name": "Jordan"
+      },
+      "awayTeam": {
+        "code": "ARG",
+        "name": "Argentina"
+      },
+      "localStartingPrice": 2300,
+      "usdStartingPrice": 2300,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3795,
+          "usdStartingPrice": 3795
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3595,
+          "usdStartingPrice": 3595
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2650,
+          "usdStartingPrice": 2650
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2300,
+          "usdStartingPrice": 2300
+        }
+      ]
+    },
+    {
+      "matchNumber": 71,
+      "performanceId": 10229203824819,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_MIA",
+        "stadium": "Miami Stadium",
+        "city": "Miami Gardens"
+      },
+      "date": "2026-06-27",
+      "dateTime": "2026-06-27T19:30:00-04:00",
+      "matchDateLabel": "June 27",
+      "kickoffLabel": "Saturday, 7pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "COL",
+        "name": "Colombia"
+      },
+      "awayTeam": {
+        "code": "POR",
+        "name": "Portugal"
+      },
+      "localStartingPrice": 5000,
+      "usdStartingPrice": 5000,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 11000,
+          "usdStartingPrice": 11000
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 6400,
+          "usdStartingPrice": 6400
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 5000,
+          "usdStartingPrice": 5000
+        }
+      ]
+    },
+    {
+      "matchNumber": 69,
+      "performanceId": 10229203824817,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_KC",
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City"
+      },
+      "date": "2026-06-27",
+      "dateTime": "2026-06-27T21:00:00-04:00",
+      "matchDateLabel": "June 27",
+      "kickoffLabel": "Saturday, 9pm CT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "ALG",
+        "name": "Algeria"
+      },
+      "awayTeam": {
+        "code": "AUT",
+        "name": "Austria"
+      },
+      "localStartingPrice": 650,
+      "usdStartingPrice": 650,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2850,
+          "usdStartingPrice": 2850
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2400,
+          "usdStartingPrice": 2400
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2250,
+          "usdStartingPrice": 2250
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 1475,
+          "usdStartingPrice": 1475
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 650,
+          "usdStartingPrice": 650
+        }
+      ]
+    },
+    {
+      "matchNumber": 74,
+      "performanceId": 10229203824822,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_BOS",
+        "stadium": "Boston Stadium",
+        "city": "Foxborough"
+      },
+      "date": "2026-06-29",
+      "dateTime": "2026-06-29T16:30:00-04:00",
+      "matchDateLabel": "June 29",
+      "kickoffLabel": "Monday, 4pm ET",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1E",
+        "name": "1E"
+      },
+      "awayTeam": {
+        "code": "3ABCDF",
+        "name": "3ABCDF"
+      },
+      "localStartingPrice": 2500,
+      "usdStartingPrice": 2500,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3900,
+          "usdStartingPrice": 3900
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2500,
+          "usdStartingPrice": 2500
+        }
+      ]
+    },
+    {
+      "matchNumber": 76,
+      "performanceId": 10229203824823,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston"
+      },
+      "date": "2026-06-29",
+      "dateTime": "2026-06-29T12:00:00-04:00",
+      "matchDateLabel": "June 29",
+      "kickoffLabel": "Monday, 12pm CT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1C",
+        "name": "1C"
+      },
+      "awayTeam": {
+        "code": "2F",
+        "name": "2F"
+      },
+      "localStartingPrice": 2750,
+      "usdStartingPrice": 2750,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4000,
+          "usdStartingPrice": 4000
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3375,
+          "usdStartingPrice": 3375
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2975,
+          "usdStartingPrice": 2975
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2750,
+          "usdStartingPrice": 2750
+        }
+      ]
+    },
+    {
+      "matchNumber": 72,
+      "performanceId": 10229203824820,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-06-27",
+      "dateTime": "2026-06-27T19:30:00-04:00",
+      "matchDateLabel": "June 27",
+      "kickoffLabel": "Saturday, 7pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "COD",
+        "name": "Congo DR"
+      },
+      "awayTeam": {
+        "code": "UZB",
+        "name": "Uzbekistan"
+      },
+      "localStartingPrice": 650,
+      "usdStartingPrice": 650,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 2950,
+          "usdStartingPrice": 2950
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 2400,
+          "usdStartingPrice": 2400
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2150,
+          "usdStartingPrice": 2150
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 650,
+          "usdStartingPrice": 650
+        }
+      ]
+    },
+    {
+      "matchNumber": 73,
+      "performanceId": 10229203824821,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_LA",
+        "stadium": "Los Angeles Stadium",
+        "city": "Inglewood"
+      },
+      "date": "2026-06-28",
+      "dateTime": "2026-06-28T12:00:00-04:00",
+      "matchDateLabel": "June 28",
+      "kickoffLabel": "Sunday, 12pm PT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "2A",
+        "name": "2A"
+      },
+      "awayTeam": {
+        "code": "2B",
+        "name": "2B"
+      },
+      "localStartingPrice": 3550,
+      "usdStartingPrice": 3550,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4300,
+          "usdStartingPrice": 4300
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4300,
+          "usdStartingPrice": 4300
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3550,
+          "usdStartingPrice": 3550
+        }
+      ]
+    },
+    {
+      "matchNumber": 80,
+      "performanceId": 10229203824826,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_ATL",
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "date": "2026-07-01",
+      "dateTime": "2026-07-01T12:00:00-04:00",
+      "matchDateLabel": "July 1",
+      "kickoffLabel": "Wednesday, 12pm ET",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1L",
+        "name": "1L"
+      },
+      "awayTeam": {
+        "code": "3EHIJK",
+        "name": "3EHIJK"
+      },
+      "localStartingPrice": 775,
+      "usdStartingPrice": 775,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4550,
+          "usdStartingPrice": 4550
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 3300
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2850,
+          "usdStartingPrice": 2850
+        },
+        {
+          "id": "MEL",
+          "name": "Suite Essentials",
+          "isAvailable": true,
+          "localStartingPrice": 775,
+          "usdStartingPrice": 775
+        }
+      ]
+    },
+    {
+      "matchNumber": 81,
+      "performanceId": 10229203824827,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_SFBA",
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "Santa Clara"
+      },
+      "date": "2026-07-01",
+      "dateTime": "2026-07-01T17:00:00-04:00",
+      "matchDateLabel": "July 1",
+      "kickoffLabel": "Wednesday, 5pm PT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1D",
+        "name": "1D"
+      },
+      "awayTeam": {
+        "code": "3BEFIJ",
+        "name": "3BEFIJ"
+      },
+      "localStartingPrice": 3025,
+      "usdStartingPrice": 3025,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4050,
+          "usdStartingPrice": 4050
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3350,
+          "usdStartingPrice": 3350
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3025,
+          "usdStartingPrice": 3025
+        }
+      ]
+    },
+    {
+      "matchNumber": 77,
+      "performanceId": 10229203824824,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-06-30",
+      "dateTime": "2026-06-30T17:00:00-04:00",
+      "matchDateLabel": "June 30",
+      "kickoffLabel": "Tuesday, 5pm ET",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1I",
+        "name": "1I"
+      },
+      "awayTeam": {
+        "code": "3CDFGH",
+        "name": "3CDFGH"
+      },
+      "localStartingPrice": 2200,
+      "usdStartingPrice": 2200,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3800,
+          "usdStartingPrice": 3800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3500,
+          "usdStartingPrice": 3500
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 3300
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2200,
+          "usdStartingPrice": 2200
+        }
+      ]
+    },
+    {
+      "matchNumber": 78,
+      "performanceId": 10229203824825,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-06-30",
+      "dateTime": "2026-06-30T12:00:00-04:00",
+      "matchDateLabel": "June 30",
+      "kickoffLabel": "Tuesday, 12pm CT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "2E",
+        "name": "2E"
+      },
+      "awayTeam": {
+        "code": "2I",
+        "name": "2I"
+      },
+      "localStartingPrice": 2180,
+      "usdStartingPrice": 2180,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4250,
+          "usdStartingPrice": 4250
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 3700,
+          "usdStartingPrice": 3700
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3400,
+          "usdStartingPrice": 3400
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2180,
+          "usdStartingPrice": 2180
+        }
+      ]
+    },
+    {
+      "matchNumber": 91,
+      "performanceId": 10229203824830,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_NYNJ",
+        "stadium": "New York/New Jersey Stadium",
+        "city": "East Rutherford"
+      },
+      "date": "2026-07-05",
+      "dateTime": "2026-07-05T16:00:00-04:00",
+      "matchDateLabel": "July 5",
+      "kickoffLabel": "Sunday, 4pm ET",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W76",
+        "name": "W76"
+      },
+      "awayTeam": {
+        "code": "W78",
+        "name": "W78"
+      },
+      "localStartingPrice": 2600,
+      "usdStartingPrice": 2600,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 6000,
+          "usdStartingPrice": 6000
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4800,
+          "usdStartingPrice": 4800
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3850,
+          "usdStartingPrice": 3850
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3600,
+          "usdStartingPrice": 3600
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2600,
+          "usdStartingPrice": 2600
+        }
+      ]
+    },
+    {
+      "matchNumber": 93,
+      "performanceId": 10229203824831,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_DAL",
+        "stadium": "Dallas Stadium",
+        "city": "Arlington"
+      },
+      "date": "2026-07-06",
+      "dateTime": "2026-07-06T14:00:00-04:00",
+      "matchDateLabel": "July 6",
+      "kickoffLabel": "Monday, 2pm CT",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W83",
+        "name": "W83"
+      },
+      "awayTeam": {
+        "code": "W84",
+        "name": "W84"
+      },
+      "localStartingPrice": 2580,
+      "usdStartingPrice": 2580,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 5350,
+          "usdStartingPrice": 5350
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 4825,
+          "usdStartingPrice": 4825
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3825,
+          "usdStartingPrice": 3825
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2580,
+          "usdStartingPrice": 2580
+        }
+      ]
+    },
+    {
+      "matchNumber": 89,
+      "performanceId": 10229203824828,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_PHL",
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia"
+      },
+      "date": "2026-07-04",
+      "dateTime": "2026-07-04T17:00:00-04:00",
+      "matchDateLabel": "July 4",
+      "kickoffLabel": "Saturday, 5pm ET",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W74",
+        "name": "W74"
+      },
+      "awayTeam": {
+        "code": "W77",
+        "name": "W77"
+      },
+      "localStartingPrice": 2600,
+      "usdStartingPrice": 2600,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 5400,
+          "usdStartingPrice": 5400
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 5250,
+          "usdStartingPrice": 5250
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3600,
+          "usdStartingPrice": 3600
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2600,
+          "usdStartingPrice": 2600
+        }
+      ]
+    },
+    {
+      "matchNumber": 90,
+      "performanceId": 10229203824829,
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "code": "NN_HOU",
+        "stadium": "Houston Stadium",
+        "city": "Houston"
+      },
+      "date": "2026-07-04",
+      "dateTime": "2026-07-04T12:00:00-04:00",
+      "matchDateLabel": "July 4",
+      "kickoffLabel": "Saturday, 12pm CT",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W73",
+        "name": "W73"
+      },
+      "awayTeam": {
+        "code": "W75",
+        "name": "W75"
+      },
+      "localStartingPrice": 2525,
+      "usdStartingPrice": 2525,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 5100,
+          "usdStartingPrice": 5100
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 4050,
+          "usdStartingPrice": 4050
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 2525,
+          "usdStartingPrice": 2525
+        }
+      ]
+    },
+    {
+      "matchNumber": 3,
+      "performanceId": 10229203836203,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_TOR",
+        "stadium": "Toronto Stadium",
+        "city": "Toronto"
+      },
+      "date": "2026-06-12",
+      "dateTime": "2026-06-12T15:00:00-04:00",
+      "matchDateLabel": "June 12",
+      "kickoffLabel": "Friday, 3pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CAN",
+        "name": "Canada"
+      },
+      "awayTeam": {
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina"
+      },
+      "localStartingPrice": 6375,
+      "usdStartingPrice": 4686.81,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 7975,
+          "usdStartingPrice": 5863.11
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 6975,
+          "usdStartingPrice": 5127.92
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 6375,
+          "usdStartingPrice": 4686.81
+        }
+      ]
+    },
+    {
+      "matchNumber": 40,
+      "performanceId": 10229203836206,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver"
+      },
+      "date": "2026-06-21",
+      "dateTime": "2026-06-21T18:00:00-04:00",
+      "matchDateLabel": "June 21",
+      "kickoffLabel": "Sunday, 6pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "NZL",
+        "name": "New Zealand"
+      },
+      "awayTeam": {
+        "code": "EGY",
+        "name": "Egypt"
+      },
+      "localStartingPrice": 2575,
+      "usdStartingPrice": 1893.1,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 4850,
+          "usdStartingPrice": 3565.65
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3575,
+          "usdStartingPrice": 2628.29
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2575,
+          "usdStartingPrice": 1893.1
+        }
+      ]
+    },
+    {
+      "matchNumber": 46,
+      "performanceId": 10229203836207,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_TOR",
+        "stadium": "Toronto Stadium",
+        "city": "Toronto"
+      },
+      "date": "2026-06-23",
+      "dateTime": "2026-06-23T19:00:00-04:00",
+      "matchDateLabel": "June 23",
+      "kickoffLabel": "Tuesday, 7pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "PAN",
+        "name": "Panama"
+      },
+      "awayTeam": {
+        "code": "CRO",
+        "name": "Croatia"
+      },
+      "localStartingPrice": 3450,
+      "usdStartingPrice": 2536.39,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 4550,
+          "usdStartingPrice": 3345.1
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3850,
+          "usdStartingPrice": 2830.47
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3450,
+          "usdStartingPrice": 2536.39
+        }
+      ]
+    },
+    {
+      "matchNumber": 21,
+      "performanceId": 10229203836204,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_TOR",
+        "stadium": "Toronto Stadium",
+        "city": "Toronto"
+      },
+      "date": "2026-06-17",
+      "dateTime": "2026-06-17T19:00:00-04:00",
+      "matchDateLabel": "June 17",
+      "kickoffLabel": "Wednesday, 7pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "GHA",
+        "name": "Ghana"
+      },
+      "awayTeam": {
+        "code": "PAN",
+        "name": "Panama"
+      },
+      "localStartingPrice": 3300,
+      "usdStartingPrice": 2426.11,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 5350,
+          "usdStartingPrice": 3933.25
+        },
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 4550,
+          "usdStartingPrice": 3345.1
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3750,
+          "usdStartingPrice": 2756.95
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3300,
+          "usdStartingPrice": 2426.11
+        }
+      ]
+    },
+    {
+      "matchNumber": 33,
+      "performanceId": 10229203836205,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_TOR",
+        "stadium": "Toronto Stadium",
+        "city": "Toronto"
+      },
+      "date": "2026-06-20",
+      "dateTime": "2026-06-20T16:00:00-04:00",
+      "matchDateLabel": "June 20",
+      "kickoffLabel": "Saturday, 4pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "GER",
+        "name": "Germany"
+      },
+      "awayTeam": {
+        "code": "CIV",
+        "name": "Côte d'Ivoire"
+      },
+      "localStartingPrice": 4750,
+      "usdStartingPrice": 3492.13,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 4750,
+          "usdStartingPrice": 3492.13
+        }
+      ]
+    },
+    {
+      "matchNumber": 64,
+      "performanceId": 10229203836210,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver"
+      },
+      "date": "2026-06-26",
+      "dateTime": "2026-06-26T20:00:00-04:00",
+      "matchDateLabel": "June 26",
+      "kickoffLabel": "Friday, 8pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "NZL",
+        "name": "New Zealand"
+      },
+      "awayTeam": {
+        "code": "BEL",
+        "name": "Belgium"
+      },
+      "localStartingPrice": 2575,
+      "usdStartingPrice": 1893.1,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 4850,
+          "usdStartingPrice": 3565.65
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3575,
+          "usdStartingPrice": 2628.29
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2575,
+          "usdStartingPrice": 1893.1
+        }
+      ]
+    },
+    {
+      "matchNumber": 85,
+      "performanceId": 10229203836211,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver"
+      },
+      "date": "2026-07-02",
+      "dateTime": "2026-07-02T20:00:00-04:00",
+      "matchDateLabel": "July 2",
+      "kickoffLabel": "Thursday, 8pm PT",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "1B",
+        "name": "1B"
+      },
+      "awayTeam": {
+        "code": "3EFGIJ",
+        "name": "3EFGIJ"
+      },
+      "localStartingPrice": 3215,
+      "usdStartingPrice": 2363.62,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 5292,
+          "usdStartingPrice": 3890.6
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 4350,
+          "usdStartingPrice": 3198.06
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3215,
+          "usdStartingPrice": 2363.62
+        }
+      ]
+    },
+    {
+      "matchNumber": 51,
+      "performanceId": 10229203836208,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver"
+      },
+      "date": "2026-06-24",
+      "dateTime": "2026-06-24T12:00:00-04:00",
+      "matchDateLabel": "June 24",
+      "kickoffLabel": "Wednesday, 12pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "SUI",
+        "name": "Switzerland"
+      },
+      "awayTeam": {
+        "code": "CAN",
+        "name": "Canada"
+      },
+      "localStartingPrice": 3425,
+      "usdStartingPrice": 2518.01,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 6275,
+          "usdStartingPrice": 4613.29
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3700,
+          "usdStartingPrice": 2720.19
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3425,
+          "usdStartingPrice": 2518.01
+        }
+      ]
+    },
+    {
+      "matchNumber": 62,
+      "performanceId": 10229203836209,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_TOR",
+        "stadium": "Toronto Stadium",
+        "city": "Toronto"
+      },
+      "date": "2026-06-26",
+      "dateTime": "2026-06-26T15:00:00-04:00",
+      "matchDateLabel": "June 26",
+      "kickoffLabel": "Friday, 3pm ET",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "SEN",
+        "name": "Senegal"
+      },
+      "awayTeam": {
+        "code": "IRQ",
+        "name": "Iraq"
+      },
+      "localStartingPrice": 3450,
+      "usdStartingPrice": 2536.39,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 5600,
+          "usdStartingPrice": 4117.04
+        },
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 4800,
+          "usdStartingPrice": 3528.89
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 3950,
+          "usdStartingPrice": 2903.98
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3450,
+          "usdStartingPrice": 2536.39
+        }
+      ]
+    },
+    {
+      "matchNumber": 6,
+      "performanceId": 10229203836214,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver"
+      },
+      "date": "2026-06-13",
+      "dateTime": "2026-06-13T21:00:00-04:00",
+      "matchDateLabel": "June 13",
+      "kickoffLabel": "Saturday, 9pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "AUS",
+        "name": "Australia"
+      },
+      "awayTeam": {
+        "code": "TUR",
+        "name": "Türkiye"
+      },
+      "localStartingPrice": 2950,
+      "usdStartingPrice": 2168.8,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 6350,
+          "usdStartingPrice": 4668.43
+        },
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 4850,
+          "usdStartingPrice": 3565.65
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3575,
+          "usdStartingPrice": 2628.29
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 2950,
+          "usdStartingPrice": 2168.8
+        }
+      ]
+    },
+    {
+      "matchNumber": 27,
+      "performanceId": 10229203836215,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver"
+      },
+      "date": "2026-06-18",
+      "dateTime": "2026-06-18T15:00:00-04:00",
+      "matchDateLabel": "June 18",
+      "kickoffLabel": "Thursday, 3pm PT",
+      "stageCode": "GST",
+      "stage": "group-stage",
+      "stageLabel": "GROUP STAGE MATCHES",
+      "homeTeam": {
+        "code": "CAN",
+        "name": "Canada"
+      },
+      "awayTeam": {
+        "code": "QAT",
+        "name": "Qatar"
+      },
+      "localStartingPrice": 3575,
+      "usdStartingPrice": 2628.29,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 6275,
+          "usdStartingPrice": 4613.29
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 3875,
+          "usdStartingPrice": 2848.85
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3575,
+          "usdStartingPrice": 2628.29
+        }
+      ]
+    },
+    {
+      "matchNumber": 96,
+      "performanceId": 10229203836212,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_VAN",
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver"
+      },
+      "date": "2026-07-07",
+      "dateTime": "2026-07-07T13:00:00-04:00",
+      "matchDateLabel": "July 7",
+      "kickoffLabel": "Tuesday, 1pm PT",
+      "stageCode": "R16",
+      "stage": "round-of-16",
+      "stageLabel": "ROUND OF 16",
+      "homeTeam": {
+        "code": "W85",
+        "name": "W85"
+      },
+      "awayTeam": {
+        "code": "W87",
+        "name": "W87"
+      },
+      "localStartingPrice": 3825,
+      "usdStartingPrice": 2812.09,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 7300,
+          "usdStartingPrice": 5366.86
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 4800,
+          "usdStartingPrice": 3528.89
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 3825,
+          "usdStartingPrice": 2812.09
+        }
+      ]
+    },
+    {
+      "matchNumber": 83,
+      "performanceId": 10229203836216,
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "code": "NN_TOR",
+        "stadium": "Toronto Stadium",
+        "city": "Toronto"
+      },
+      "date": "2026-07-02",
+      "dateTime": "2026-07-02T19:00:00-04:00",
+      "matchDateLabel": "July 2",
+      "kickoffLabel": "Thursday, 7pm ET",
+      "stageCode": "R32",
+      "stage": "round-of-32",
+      "stageLabel": "ROUND OF 32",
+      "homeTeam": {
+        "code": "2K",
+        "name": "2K"
+      },
+      "awayTeam": {
+        "code": "2L",
+        "name": "2L"
+      },
+      "localStartingPrice": 4300,
+      "usdStartingPrice": 3161.3,
+      "offerings": [
+        {
+          "id": "L1930",
+          "name": "Lounge 1930",
+          "isAvailable": true,
+          "localStartingPrice": 5350,
+          "usdStartingPrice": 3933.25
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 4300,
+          "usdStartingPrice": 3161.3
+        }
+      ]
+    }
+  ],
+  "venueSeries": [
+    {
+      "productCode": "BOS_VS",
+      "venueCode": "NN_BOS",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Foxborough",
+        "stadium": "Boston Stadium"
+      },
+      "matchNumbers": [
+        5,
+        18,
+        30,
+        45,
+        61,
+        74,
+        97
+      ],
+      "totalMatches": 7,
+      "localStartingPrice": 13320,
+      "usdStartingPrice": 13320,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 21870,
+          "usdStartingPrice": 21870
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 18990,
+          "usdStartingPrice": 18990
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 13320,
+          "usdStartingPrice": 13320
+        }
+      ]
+    },
+    {
+      "productCode": "LA_VS",
+      "venueCode": "NN_LA",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Inglewood",
+        "stadium": "Los Angeles Stadium"
+      },
+      "matchNumbers": [
+        4,
+        15,
+        26,
+        39,
+        59,
+        73,
+        84,
+        98
+      ],
+      "totalMatches": 8,
+      "localStartingPrice": 18390,
+      "usdStartingPrice": 18390,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 30530,
+          "usdStartingPrice": 30530
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 26640,
+          "usdStartingPrice": 26640
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 21440,
+          "usdStartingPrice": 21440
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 18390,
+          "usdStartingPrice": 18390
+        }
+      ]
+    },
+    {
+      "productCode": "SEA_VS",
+      "venueCode": "NN_SEA",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Seattle",
+        "stadium": "Seattle Stadium"
+      },
+      "matchNumbers": [
+        16,
+        32,
+        52,
+        63,
+        82,
+        94
+      ],
+      "totalMatches": 6,
+      "localStartingPrice": 8570,
+      "usdStartingPrice": 8570,
+      "offerings": [
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 19550,
+          "usdStartingPrice": 19550
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 15070,
+          "usdStartingPrice": 15070
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 12410,
+          "usdStartingPrice": 12410
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 8570,
+          "usdStartingPrice": 8570
+        }
+      ]
+    },
+    {
+      "productCode": "ATL_VS",
+      "venueCode": "NN_ATL",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Atlanta",
+        "stadium": "Atlanta Stadium"
+      },
+      "matchNumbers": [
+        14,
+        25,
+        38,
+        50,
+        72,
+        80,
+        95,
+        102
+      ],
+      "totalMatches": 8,
+      "localStartingPrice": 19050,
+      "usdStartingPrice": 19050,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 32990,
+          "usdStartingPrice": 32990
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 27730,
+          "usdStartingPrice": 27730
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 21800,
+          "usdStartingPrice": 21800
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 19050,
+          "usdStartingPrice": 19050
+        }
+      ]
+    },
+    {
+      "productCode": "DAL_VS",
+      "venueCode": "NN_DAL",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Arlington",
+        "stadium": "Dallas Stadium"
+      },
+      "matchNumbers": [
+        11,
+        22,
+        43,
+        57,
+        70,
+        78,
+        88,
+        93,
+        101
+      ],
+      "totalMatches": 9,
+      "localStartingPrice": 21540,
+      "usdStartingPrice": 21540,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 37650,
+          "usdStartingPrice": 37650
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 32900,
+          "usdStartingPrice": 32900
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 25595,
+          "usdStartingPrice": 25595
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 21540,
+          "usdStartingPrice": 21540
+        }
+      ]
+    },
+    {
+      "productCode": "SFBA_VS",
+      "venueCode": "NN_SFBA",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Santa Clara",
+        "stadium": "San Francisco Bay Area Stadium"
+      },
+      "matchNumbers": [
+        8,
+        20,
+        31,
+        44,
+        60,
+        81
+      ],
+      "totalMatches": 6,
+      "localStartingPrice": 10430,
+      "usdStartingPrice": 10430,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 18010,
+          "usdStartingPrice": 18010
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 15010,
+          "usdStartingPrice": 15010
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 11740,
+          "usdStartingPrice": 11740
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 10430,
+          "usdStartingPrice": 10430
+        }
+      ]
+    },
+    {
+      "productCode": "MIA_VS",
+      "venueCode": "NN_MIA",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Miami Gardens",
+        "stadium": "Miami Stadium"
+      },
+      "matchNumbers": [
+        13,
+        37,
+        49,
+        71,
+        86,
+        99,
+        103
+      ],
+      "totalMatches": 7,
+      "localStartingPrice": 17070,
+      "usdStartingPrice": 17070,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 39990,
+          "usdStartingPrice": 39990
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 27200,
+          "usdStartingPrice": 27200
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 24030,
+          "usdStartingPrice": 24030
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 21150,
+          "usdStartingPrice": 21150
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 17070,
+          "usdStartingPrice": 17070
+        }
+      ]
+    },
+    {
+      "productCode": "KC_VS",
+      "venueCode": "NN_KC",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Kansas City",
+        "stadium": "Kansas City Stadium"
+      },
+      "matchNumbers": [
+        19,
+        34,
+        58,
+        69,
+        87,
+        100
+      ],
+      "totalMatches": 6,
+      "localStartingPrice": 8460,
+      "usdStartingPrice": 8460,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 19090,
+          "usdStartingPrice": 19090
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 16710,
+          "usdStartingPrice": 16710
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 13820,
+          "usdStartingPrice": 13820
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 12750,
+          "usdStartingPrice": 12750
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 8460,
+          "usdStartingPrice": 8460
+        }
+      ]
+    },
+    {
+      "productCode": "PHL_VS",
+      "venueCode": "NN_PHL",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Philadelphia",
+        "stadium": "Philadelphia Stadium"
+      },
+      "matchNumbers": [
+        9,
+        29,
+        42,
+        55,
+        68,
+        89
+      ],
+      "totalMatches": 6,
+      "localStartingPrice": 10850,
+      "usdStartingPrice": 10850,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 18330,
+          "usdStartingPrice": 18330
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 15950,
+          "usdStartingPrice": 15950
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 13100,
+          "usdStartingPrice": 13100
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 10850,
+          "usdStartingPrice": 10850
+        }
+      ]
+    },
+    {
+      "productCode": "HOU_VS",
+      "venueCode": "NN_HOU",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "Houston",
+        "stadium": "Houston Stadium"
+      },
+      "matchNumbers": [
+        10,
+        23,
+        35,
+        47,
+        65,
+        76,
+        90
+      ],
+      "totalMatches": 7,
+      "localStartingPrice": 13720,
+      "usdStartingPrice": 13720,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 21140,
+          "usdStartingPrice": 21140
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 18160,
+          "usdStartingPrice": 18160
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 15555,
+          "usdStartingPrice": 15555
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 13720,
+          "usdStartingPrice": 13720
+        }
+      ]
+    },
+    {
+      "productCode": "NYNJ_VS",
+      "venueCode": "NN_NYNJ",
+      "countryCode": "US",
+      "country": "United States",
+      "localCurrency": "USD",
+      "venue": {
+        "city": "East Rutherford",
+        "stadium": "New York/New Jersey Stadium"
+      },
+      "matchNumbers": [
+        7,
+        17,
+        41,
+        56,
+        67,
+        77,
+        91,
+        104
+      ],
+      "totalMatches": 8,
+      "localStartingPrice": 25220,
+      "usdStartingPrice": 25220,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 69850,
+          "usdStartingPrice": 69850
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 55200,
+          "usdStartingPrice": 55200
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 41570,
+          "usdStartingPrice": 41570
+        },
+        {
+          "id": "CL",
+          "name": "Champions Club",
+          "isAvailable": true,
+          "localStartingPrice": 36510,
+          "usdStartingPrice": 36510
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 25220,
+          "usdStartingPrice": 25220
+        }
+      ]
+    },
+    {
+      "productCode": "CDMX_VS",
+      "venueCode": "NN_CDMX",
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "city": "Mexico City",
+        "stadium": "Mexico City Stadium"
+      },
+      "matchNumbers": [1, 24, 53, 79, 92],
+      "totalMatches": 5,
+      "localStartingPrice": 172600,
+      "usdStartingPrice": 10000,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 310680,
+          "usdStartingPrice": 18000
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 258900,
+          "usdStartingPrice": 15000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 224120,
+          "usdStartingPrice": 12980
+        },
+        {
+          "id": "CCS",
+          "name": "Champions Club Suite",
+          "isAvailable": true,
+          "localStartingPrice": 172600,
+          "usdStartingPrice": 10000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 189860,
+          "usdStartingPrice": 11000
+        }
+      ]
+    },
+    {
+      "productCode": "GDL_VS",
+      "venueCode": "NN_GDL",
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "city": "Guadalajara",
+        "stadium": "Guadalajara Stadium"
+      },
+      "matchNumbers": [2, 28, 48, 66],
+      "totalMatches": 4,
+      "localStartingPrice": 138080,
+      "usdStartingPrice": 8000,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 248544,
+          "usdStartingPrice": 14400
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 207120,
+          "usdStartingPrice": 12000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 179330,
+          "usdStartingPrice": 10390
+        },
+        {
+          "id": "CCS",
+          "name": "Champions Club Suite",
+          "isAvailable": true,
+          "localStartingPrice": 138080,
+          "usdStartingPrice": 8000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 151888,
+          "usdStartingPrice": 8800
+        }
+      ]
+    },
+    {
+      "productCode": "MTY_VS",
+      "venueCode": "NN_MTY",
+      "countryCode": "MX",
+      "country": "Mexico",
+      "localCurrency": "MXN",
+      "venue": {
+        "city": "Monterrey",
+        "stadium": "Monterrey Stadium"
+      },
+      "matchNumbers": [12, 36, 54, 75],
+      "totalMatches": 4,
+      "localStartingPrice": 138080,
+      "usdStartingPrice": 8000,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 248544,
+          "usdStartingPrice": 14400
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 207120,
+          "usdStartingPrice": 12000
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 179330,
+          "usdStartingPrice": 10390
+        },
+        {
+          "id": "CCS",
+          "name": "Champions Club Suite",
+          "isAvailable": true,
+          "localStartingPrice": 138080,
+          "usdStartingPrice": 8000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 151888,
+          "usdStartingPrice": 8800
+        }
+      ]
+    },
+    {
+      "productCode": "TOR_VS",
+      "venueCode": "NN_TOR",
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "city": "Toronto",
+        "stadium": "Toronto Stadium"
+      },
+      "matchNumbers": [3, 21, 33, 46, 62, 83],
+      "totalMatches": 6,
+      "localStartingPrice": 14960,
+      "usdStartingPrice": 11000,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 26928,
+          "usdStartingPrice": 19800
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 22440,
+          "usdStartingPrice": 16500
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 19425,
+          "usdStartingPrice": 14280
+        },
+        {
+          "id": "CCS",
+          "name": "Champions Club Suite",
+          "isAvailable": true,
+          "localStartingPrice": 14960,
+          "usdStartingPrice": 11000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 16456,
+          "usdStartingPrice": 12100
+        }
+      ]
+    },
+    {
+      "productCode": "VAN_VS",
+      "venueCode": "NN_VAN",
+      "countryCode": "CA",
+      "country": "Canada",
+      "localCurrency": "CAD",
+      "venue": {
+        "city": "Vancouver",
+        "stadium": "BC Place Vancouver"
+      },
+      "matchNumbers": [6, 27, 40, 51, 64, 85, 96],
+      "totalMatches": 7,
+      "localStartingPrice": 17680,
+      "usdStartingPrice": 13000,
+      "offerings": [
+        {
+          "id": "PSL",
+          "name": "Pitchside Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 31824,
+          "usdStartingPrice": 23400
+        },
+        {
+          "id": "VIP",
+          "name": "VIP",
+          "isAvailable": true,
+          "localStartingPrice": 26520,
+          "usdStartingPrice": 19500
+        },
+        {
+          "id": "TL",
+          "name": "Trophy Lounge",
+          "isAvailable": true,
+          "localStartingPrice": 22958,
+          "usdStartingPrice": 16880
+        },
+        {
+          "id": "CCS",
+          "name": "Champions Club Suite",
+          "isAvailable": true,
+          "localStartingPrice": 17680,
+          "usdStartingPrice": 13000
+        },
+        {
+          "id": "FP",
+          "name": "FIFA Pavilion",
+          "isAvailable": true,
+          "localStartingPrice": 19448,
+          "usdStartingPrice": 14300
+        }
+      ]
+    }
+  ],
+  "packageNotes": {
+    "followMyTeam": {
+      "flow": "/choose-bundle?id=FMT -> /choose-matches?team=<TEAM_CODE>&quantity=<QTY>",
+      "publicStartingPrice": null,
+      "note": "The public flow does not expose one fixed package price before the buyer picks the team path and resulting matches."
+    },
+    "multiMatchSeries": {
+      "flow": "/choose-matches?productType=MM",
+      "publicStartingPrice": null,
+      "note": "The public flow is configurable and does not expose a single fixed starting package price on the observed entry step."
+    },
+    "privateSuites": {
+      "publicStartingPrice": null,
+      "note": "Private Suites remain inquiry-led or venue-specific and were not exposed as one global public starting price in the observed flow."
+    }
+  }
+}

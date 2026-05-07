@@ -1,0 +1,66 @@
+{
+  "featuredArticles": [
+    {
+      "title": "FIFA World Cup 2026 Full Schedule and Fixtures",
+      "url": "/articles/calendario-fixture-mundial-2026-partidos-fechas",
+      "category": "Key Information",
+      "summary": "Check the full schedule of the 2026 World Cup in Canada, Mexico and the USA: all 104 matches of the 48-team tournament with dates, venues and kick-off times."
+    },
+    {
+      "title": "What Happened to the Favourites at the World Cup?",
+      "url": "/articles/que-paso-con-las-selecciones-favoritas-en-la-copa-mundial-fifa",
+      "category": "FIFA World Cup"
+    },
+    {
+      "title": "26 Superstars: Sadio Mane",
+      "url": "/articles/sadio-mane-senegal-declaraciones-records-estadisticas",
+      "category": "Senegal"
+    },
+    {
+      "title": "Young Talents: Pau Cubarsi",
+      "url": "/articles/jovenes-talentos-pau-cubarsi-espana-fc-barcelona",
+      "category": "Spain"
+    },
+    {
+      "title": "Wonderful Goals: Njanka Goes Solo in Toulouse",
+      "url": "/articles/pierre-njanka-gol-camerun-austria-1998",
+      "category": "1998 FIFA World Cup France"
+    },
+    {
+      "title": "Chasing World Cup Records",
+      "url": "/articles/a-la-caza-de-records",
+      "category": "Discover"
+    },
+    {
+      "title": "38 Days to the World Cup: Unbeaten Teams",
+      "url": "/articles/selecciones-invictas",
+      "category": "FIFA World Cup"
+    },
+    {
+      "title": "Young Talents: Desire Doue",
+      "url": "/articles/jovenes-talentos-desire-doue-francia-paris-saint-germain",
+      "category": "France"
+    }
+  ],
+  "teamProfiles": [
+    {"title": "Colombia at the FIFA World Cup: History and Profile", "slug": "colombia"},
+    {"title": "Czechia at the FIFA World Cup: Profile and History", "slug": "czechia"},
+    {"title": "Mexico at the World Cup: Profile and History", "slug": "mexico"},
+    {"title": "South Africa at the FIFA World Cup: Profile and History", "slug": "south-africa"},
+    {"title": "Uzbekistan at the FIFA World Cup: Profile and History", "slug": "uzbekistan"},
+    {"title": "Brazil at the FIFA World Cup", "slug": "brazil"},
+    {"title": "Portugal at the FIFA World Cup: Profile and History", "slug": "portugal"},
+    {"title": "Uruguay at the FIFA World Cup: History and Profile", "slug": "uruguay"},
+    {"title": "Argentina at the FIFA World Cup: History and Profile", "slug": "argentina"},
+    {"title": "France at the FIFA World Cup: Profile and History", "slug": "france"},
+    {"title": "Spain at the FIFA World Cup: Profile and History", "slug": "spain"},
+    {"title": "England at the FIFA World Cup: Profile and History", "slug": "england"}
+  ],
+  "contentCategories": [
+    {"name": "Team Profiles", "slug": "team-profiles"},
+    {"name": "26 Superstars", "slug": "superstars"},
+    {"name": "Follow the Countdown", "slug": "countdown"},
+    {"name": "Wonderful World Cup Goals", "slug": "goals"},
+    {"name": "Test Your Knowledge", "slug": "quiz"}
+  ]
+}

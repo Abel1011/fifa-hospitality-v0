@@ -1,0 +1,3829 @@
+{
+  "meta": {
+    "source": "Official FIFA Hospitality venue landing pages",
+    "baseUrl": "https://fifaworldcup26.hospitality.fifa.com/venues",
+    "scrapedAt": "2026-05-07T05:19:10.945Z",
+    "totalVenues": 16,
+    "notes": [
+      "This dataset is scraped from the public venue landing pages under /venues/{slug}.",
+      "It captures copy, CTA labels and hrefs, key section images, and venue series match lists.",
+      "Text is normalized to plain strings for direct consumption in the app."
+    ]
+  },
+  "venues": [
+    {
+      "slug": "mexico-city",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/mexico-city",
+      "seo": {
+        "title": "Mexico City | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Mexico City, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Mexico City",
+        "description": "Football plays a very important role in the city’s tradition and is the most practiced sport among its citizens. A true coliseum of world football and the first to host a third FIFA World Cup™, Mexico City Stadium is home to Club América of Liga MX as well as the Mexico national football team. It hosted two FIFA World Cup™ Finals, showcasing the likes of Pelé and Diego Maradona across two thrilling finales in 1970 and ‘86, respectively. It’s the largest stadium in Latin America. It will host five matches at FIFA World Cup 2026™, including the tournament’s opening match (featuring the Mexico national team).",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/MexicoCity.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73f89450a3c77864307cb_Mexico%20City.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-matches?venue=NN_CDMX",
+            "label": "Mexico City Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-bundle?id=VS&venue=NN_CDMX",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Mexico City, Mexico.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "Mexico City",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d922b48376a765fd346_Mexico%20City.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-matches?venue=NN_CDMX",
+            "label": "Mexico City Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Mexico City Venue Series",
+        "intro": "Watch every match in Mexico City.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Three (3) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) match in the Round of 16"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "5 Matches included",
+        "matches": [
+          {
+            "color": "#80be7e",
+            "label": "M1: Mexico vs. South Africa",
+            "date": "June 11, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#db4e76",
+            "label": "M24: Uzbekistan vs. Colombia",
+            "date": "June 17, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#80be7e",
+            "label": "M53: TBD vs. Mexico",
+            "date": "June 24, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M79: 1A vs. 3CEFHI",
+            "date": "June 30, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M92: W79 vs. W80",
+            "date": "July 5, 2026",
+            "day": "Sunday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-bundle?id=VS&venue=NN_CDMX",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/mexico-city-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/MexicoCity.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73f89450a3c77864307cb_Mexico%20City.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d922b48376a765fd346_Mexico%20City.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73f89450a3c77864307cb_Mexico%20City.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d922b48376a765fd346_Mexico%20City.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "guadalajara",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/guadalajara",
+      "seo": {
+        "title": "Guadalajara | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Guadalajara, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Guadalajara",
+        "description": "The City of Guadalajara was a Host City for the 1970 and 1986 FIFA World Cup™ Finals, a football venue during the Mexico 1968 Olympic Games and has hosted the 2011 Pan American Games. Built on raised ground with a spherical design, Guadalajara Stadium is an eye-catching venue that is home to Liga MX club C.D. Guadalajara. It hosted the 2011 Pan-American Games and was one of the main venues for the FIFA U-17 World Cup Mexico 2011™. It will host four matches at FIFA World Cup 2026™, including a Mexico national team match in the Group Stage.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Guadalajara.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73dcc40b757911dd89f72_Guadalajara.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-matches?venue=NN_GDL",
+            "label": "Guadalajara Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-bundle?id=VS&venue=NN_GDL",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Guadalajara, Jalisco.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "Guadalajara",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f79864e2071a8d63cfa457_Guadalajara2.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-matches?venue=NN_GDL",
+            "label": "Guadalajara Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Guadalajara Venue Series",
+        "intro": "Watch every match in Guadalajara.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Four (4) Group Stage matches"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club Suite",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "4 Matches included",
+        "matches": [
+          {
+            "color": "#80be7e",
+            "label": "M2: Korea Republic vs. TBD",
+            "date": "June 11, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#80be7e",
+            "label": "M28: Mexico vs. Korea Republic",
+            "date": "June 18, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#db4e76",
+            "label": "M48: Colombia vs. TBD",
+            "date": "June 23, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#72b9b5",
+            "label": "M66: Uruguay vs. Spain",
+            "date": "June 26, 2026",
+            "day": "Friday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-bundle?id=VS&venue=NN_GDL",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/guadalajara-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Guadalajara.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73dcc40b757911dd89f72_Guadalajara.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f79864e2071a8d63cfa457_Guadalajara2.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73dcc40b757911dd89f72_Guadalajara.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f79864e2071a8d63cfa457_Guadalajara2.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "monterrey",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/monterrey",
+      "seo": {
+        "title": "Monterrey | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Monterrey, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Monterrey",
+        "description": "Football is part of the culture of the people of Monterrey, and home to two of the most relevant teams and fan bases in Mexico. In 1945, Monterrey’s first professional football team was established as C.F. Monterrey. A modern-day marvel equipped with compact energy solutions and low-voltage equipment, it is the home of C.F. Monterrey throughout the Liga MX season. It hosted eight matches at the 2022 Concacaf W Championship. It will host four matches at FIFA World Cup 2026™, including a Round-of-32 match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Monterrey.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74037737284b325809ab1_Monterrey.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-matches?venue=NN_MTY",
+            "label": "Monterrey Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-bundle?id=VS&venue=NN_MTY",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in a city bringing people together through football, Monterrey, Nuevo Leon.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; and Champions Club.",
+        "cityBadge": "Monterrey",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7991829bd822e8c9e3754_Monterrey2.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-matches?venue=NN_MTY",
+            "label": "Monterrey Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Monterrey Venue Series",
+        "intro": "Watch every match in Monterrey.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Three (3) Group Stage matches",
+          "One (1) match in the Round of 32"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club Suite"
+        ],
+        "matchesIncludedLabel": "4 Matches included",
+        "matches": [
+          {
+            "color": "#2c685b",
+            "label": "M12: TBD vs. Tunisia",
+            "date": "June 14, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#2c685b",
+            "label": "M36: Tunisia vs. Japan",
+            "date": "June 20, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#80be7e",
+            "label": "M54: South Africa vs. Korea Republic",
+            "date": "June 24, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M75: 1F vs. 2C",
+            "date": "June 29, 2026",
+            "day": "Monday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-bundle?id=VS&venue=NN_MTY",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/monterrey-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Monterrey.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74037737284b325809ab1_Monterrey.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7991829bd822e8c9e3754_Monterrey2.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74037737284b325809ab1_Monterrey.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7991829bd822e8c9e3754_Monterrey2.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "toronto",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/toronto",
+      "seo": {
+        "title": "Toronto | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Toronto, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Toronto",
+        "description": "As Canada’s largest city, it is a globally renowned destination for its culinary scene, nightlife, extensive green spaces, music, film and cultural festivals, and major sporting events. Known as “Canada’s National Soccer Stadium” and home to MLS club Toronto FC, along with the Canadian Football League's (CFL) Toronto Argonauts, the stadium was purpose-built to host the FIFA U-20 World Cup Canada 2007™. It will host six matches at FIFA World Cup 2026™, including the Canadian national team’s opening match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Toronto.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73ab675dd1a82e2cc658f_Toronto.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-matches?venue=NN_TOR",
+            "label": "Toronto Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-bundle?id=VS&venue=NN_TOR",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Toronto, Ontario.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; Lounge 1930; Trophy Lounge; and Champions Club.",
+        "cityBadge": "Toronto",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93dbeb2268caa615c7387_Toronto.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-matches?venue=NN_TOR",
+            "label": "Toronto Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Toronto Venue Series",
+        "intro": "Watch every match in Toronto",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the Round of 32"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "Lounge 1930",
+          "Trophy Lounge",
+          "Champions Club"
+        ],
+        "matchesIncludedLabel": "6 Matches included",
+        "matches": [
+          {
+            "color": "#da3832",
+            "label": "M3: Canada vs. TBD",
+            "date": "June 12, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#751521",
+            "label": "M21: Ghana vs. Panama",
+            "date": "June 17, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#915428",
+            "label": "M33: Germany vs. Côte d'Ivoire",
+            "date": "June 20, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#751521",
+            "label": "M46: Panama vs. Croatia",
+            "date": "June 23, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#4b3d93",
+            "label": "M62: Senegal vs. TBD",
+            "date": "June 26, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M83: 2K vs. 2L",
+            "date": "July 2, 2026",
+            "day": "Thursday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-bundle?id=VS&venue=NN_TOR",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/toronto-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Toronto.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73ab675dd1a82e2cc658f_Toronto.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93dbeb2268caa615c7387_Toronto.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73ab675dd1a82e2cc658f_Toronto.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93dbeb2268caa615c7387_Toronto.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "vancouver",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/vancouver",
+      "seo": {
+        "title": "Vancouver | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Vancouver, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Vancouver",
+        "description": "Welcome to Vancouver, where the beautiful game meets a city that’s nestled between mountains and ocean. From Richmond to Burnaby, to the North Shore, we are the Pacific coast. Located in the heart of the city’s business and entertainment district, BC Place Vancouver is the region’s premier event destination. It hosted the FIFA Women's World Cup Canada 2015™ and is home to both Vancouver Whitecaps FC (MLS) and the BC Lions (CFL). It will host seven matches at FIFA World Cup 2026™, including two Canadian national team matches in the Group Stage.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Vancouver.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73cf363cb077f13b9f64d_Vancouver.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-matches?venue=NN_VAN",
+            "label": "Vancouver Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-bundle?id=VS&venue=NN_VAN",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Vancouver, British Columbia.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; Lounge 1930; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "Vancouver",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93db5ca9ff756b58da04b_Vancouver.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-matches?venue=NN_VAN",
+            "label": "Vancouver Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Vancouver Venue Series",
+        "intro": "Watch every match in Vancouver",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) match in the Round of 16"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "Lounge 1930",
+          "Trophy Lounge",
+          "Champions Club",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "7 Matches included",
+        "matches": [
+          {
+            "color": "#3066ae",
+            "label": "M6: Australia vs. TBD",
+            "date": "June 13, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#da3832",
+            "label": "M27: Canada vs. Qatar",
+            "date": "June 18, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#afa8d0",
+            "label": "M40: New Zealand vs. Egypt",
+            "date": "June 21, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#da3832",
+            "label": "M51: Switzerland vs. Canada",
+            "date": "June 24, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#afa8d0",
+            "label": "M64: New Zealand vs. Belgium",
+            "date": "June 26, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M85: 1B vs. 3EFGIJ",
+            "date": "July 2, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M96: W85 vs. W87",
+            "date": "July 7, 2026",
+            "day": "Tuesday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/ca/en/choose-bundle?id=VS&venue=NN_VAN",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/bc-place-vancouver/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Vancouver.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73cf363cb077f13b9f64d_Vancouver.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93db5ca9ff756b58da04b_Vancouver.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73cf363cb077f13b9f64d_Vancouver.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93db5ca9ff756b58da04b_Vancouver.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "atlanta",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/atlanta",
+      "seo": {
+        "title": "Atlanta | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Atlanta, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Atlanta",
+        "description": "A blossoming football city, Atlanta is considered by many as the capital of culture, commerce, transportation, education, and sport in the American South. Home to the NFL's Atlanta Falcons and MLS’ Atlanta United FC, the Atlanta Stadium has welcomed major events like the Super Bowl and MLS Cup. It is lauded as the most sustainable stadium in the world. It will host eight matches at FIFA World Cup 2026™, including a Semi-Final match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Atlanta.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74068fb691050ca53d60c_Atlanta.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_ATL",
+            "label": "Atlanta Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_ATL",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Atlanta, Georgia.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; and Champions Club.",
+        "cityBadge": "Atlanta",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c7731c43752cac5c667_Atlanta.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_ATL",
+            "label": "Atlanta Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Atlanta Venue Series",
+        "intro": "Watch every match in Atlanta.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) match in the Round of 16",
+          "One (1) Semi-Finals match"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club"
+        ],
+        "matchesIncludedLabel": "8 Matches included",
+        "matches": [
+          {
+            "color": "#72b9b5",
+            "label": "M14: Spain vs. Cape Verde",
+            "date": "June 15, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#80be7e",
+            "label": "M25: TBD vs. South Africa",
+            "date": "June 18, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#72b9b5",
+            "label": "M38: Spain vs. Saudi Arabia",
+            "date": "June 21, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#e8ea8b",
+            "label": "M50: Morocco vs. Haiti",
+            "date": "June 24, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#db4e76",
+            "label": "M72: TBD vs. Uzbekistan",
+            "date": "June 27, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M80: 1L vs. 3EHIJK",
+            "date": "July 1, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M95: W86 vs. W88",
+            "date": "July 7, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M102: W99 vs. W100",
+            "date": "July 15, 2026",
+            "day": "Wednesday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_ATL",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/atlanta-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Atlanta.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74068fb691050ca53d60c_Atlanta.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c7731c43752cac5c667_Atlanta.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74068fb691050ca53d60c_Atlanta.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c7731c43752cac5c667_Atlanta.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "boston",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/boston",
+      "seo": {
+        "title": "Boston | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Boston, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Boston",
+        "description": "Boston is a showcase city where people from all over the world come together to live, work, and play. It is a city where everyone brings their own values and traditions to continually refine what it means to be a Bostonian. Boston Stadium is home to MLS' New England Revolution and the NFL's New England Patriots. It has hosted numerous major sporting events, including the Super Bowl, MLS Cup, and FIFA Women’s World Cup USA 2003™. It will host seven matches at FIFA World Cup 2026™, including a Quarter-Final match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Boston.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f740b94ccb0538ee470e16_Boston.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_BOS",
+            "label": "Boston Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_BOS",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Boston, Massachusetts.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; and Champions Club Suite.",
+        "cityBadge": "Boston",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d77ceca150235aee431_Boston.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_BOS",
+            "label": "Boston Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Boston Venue Series",
+        "intro": "Watch every match in Boston.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the round of 32",
+          "One (1) Quarter-Finals match"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club Suite"
+        ],
+        "matchesIncludedLabel": "7 Matches included",
+        "matches": [
+          {
+            "color": "#e8ea8b",
+            "label": "M5: Haiti vs. Scotland",
+            "date": "June 13, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#4b3d93",
+            "label": "M18: TBD vs. Norway",
+            "date": "June 16, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#e8ea8b",
+            "label": "M30: Scotland vs. Morocco",
+            "date": "June 19, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#751521",
+            "label": "M45: England vs. Ghana",
+            "date": "June 23, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#4b3d93",
+            "label": "M61: Norway vs. France",
+            "date": "June 26, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M74: 1E vs. 3ABCDF",
+            "date": "June 29, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M97: W89 vs. W90",
+            "date": "July 9, 2026",
+            "day": "Thursday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_BOS",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/boston-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Boston.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f740b94ccb0538ee470e16_Boston.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d77ceca150235aee431_Boston.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f740b94ccb0538ee470e16_Boston.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d77ceca150235aee431_Boston.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "dallas",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/dallas",
+      "seo": {
+        "title": "Dallas | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Dallas, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Dallas",
+        "description": "With an impressively large youth football system, an incredible stadium, and experience hosting Super Bowls and numerous men’s and women’s national team matches over the past few years, Dallas is prepared for the FIFA World Cup™. Dallas Stadium, a jaw-dropping example of architecture, is the home of the NFL’s Dallas Cowboys. It has hosted a variety of major events, such as the NCAA Men's Final Four and the 2024 Concacaf Nations League Finals. It will host nine matches at FIFA World Cup 2026™, including a Semi-Final match.",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7413df57ad7c04b8949b7_Dallas.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_DAL",
+            "label": "Dallas Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_DAL",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Dallas, Texas.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; and Champions Club.",
+        "cityBadge": "Dallas",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d6eb9e2f7f78d3e5e56_Dallas.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_DAL",
+            "label": "Dallas Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Dallas Venue Series",
+        "intro": "Watch every match in Dallas.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "Two (2) matches in the Round of 32",
+          "One (1) match in the Round of 16",
+          "One (1) Semi-Finals match"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club Suite"
+        ],
+        "matchesIncludedLabel": "9 Matches included",
+        "matches": [
+          {
+            "color": "#2c685b",
+            "label": "M11: Netherlands vs. Japan",
+            "date": "June 14, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#751521",
+            "label": "M22: England vs. Croatia",
+            "date": "June 17, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#edad9e",
+            "label": "M43: Argentina vs. Austria",
+            "date": "June 22, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#2c685b",
+            "label": "M57: Japan vs. TBD",
+            "date": "June 25, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#edad9e",
+            "label": "M70: Jordan vs. Argentina",
+            "date": "June 27, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M78: 2E vs. 2I",
+            "date": "June 30, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M88: 2D vs. 2G",
+            "date": "July 3, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M93: W83 vs. W84",
+            "date": "July 6, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M101: W97 vs. W98",
+            "date": "July 14, 2026",
+            "day": "Tuesday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_DAL",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/dallas-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7413df57ad7c04b8949b7_Dallas.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d6eb9e2f7f78d3e5e56_Dallas.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7413df57ad7c04b8949b7_Dallas.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93d6eb9e2f7f78d3e5e56_Dallas.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "houston",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/houston",
+      "seo": {
+        "title": "Houston | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Houston, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Houston",
+        "description": "As one of the most diverse destinations in America, the city will utilize the power of the FIFA World Cup™ to bring communities together to showcase the city to the world. Home of the NFL’s Houston Texans, Houston Stadium was the first NFL venue to feature a retractable roof. It has hosted the MLS All-Star Game, national team fixtures of both the U.S. and Mexico, and three matches at the Copa América Centenario in 2016. It will host seven matches at FIFA World Cup 2026™, including a Round-of-16 match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Houston.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74187aada67e09dcbb519_Houston.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_HOU",
+            "label": "Houston Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_HOU",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Houston, Texas.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "Houston",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93cbb0fe73912038c1260_Houston.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_HOU",
+            "label": "Houston Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Houston Venue Series",
+        "intro": "Watch every match in Houston.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) match in the Round of 16"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club Suite",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "7 Matches included",
+        "matches": [
+          {
+            "color": "#915428",
+            "label": "M10: Germany vs. Curaçao",
+            "date": "June 14, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#db4e76",
+            "label": "M23: Portugal vs. TBD",
+            "date": "June 17, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#2c685b",
+            "label": "M35: The Netherlands vs. TBD",
+            "date": "June 20, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#db4e76",
+            "label": "M47: Portugal vs. Uzbekistan",
+            "date": "June 23, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#72b9b5",
+            "label": "M65: Cape Verde vs. Saudi Arabia",
+            "date": "June 26, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M76: 1C vs. 2F",
+            "date": "June 29, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M90: W73 vs. W75",
+            "date": "July 4, 2026",
+            "day": "Saturday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_HOU",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/houston-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Houston.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74187aada67e09dcbb519_Houston.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93cbb0fe73912038c1260_Houston.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74187aada67e09dcbb519_Houston.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93cbb0fe73912038c1260_Houston.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "kansas-city",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/kansas-city",
+      "seo": {
+        "title": "Kansas City | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Kansas City, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Kansas City",
+        "description": "Kansas City has a diverse cross section of American history, taking its roots from the western frontier as the starting point for the Oregon, California, and Santa Fe trails. Known as one of the soccer capitals of the U.S., Kansas City is home to two-time MLS champions Sporting KC as well as the KC Current of the National Women's Soccer League (NWSL). The venue is also home to the NFL’s Kansas City Chiefs and holds the Guinness World Record for the loudest crowd roar at an outdoor stadium. It will host six matches at FIFA World Cup 2026™, including a Quarter-Final match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/KansasCity.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f741b803ae1e2d9dd06122_Kansas%20City.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_KC",
+            "label": "Kansas City Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_KC",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice at the heart of America in Kansas City, Missouri.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "Kansas City",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93cb1bd5364b3a5964466_KC.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_KC",
+            "label": "Kansas City Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Kansas City Venue Series",
+        "intro": "Watch every match in Kansas City.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Four (4) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) Quarter-Finals match"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club Suite",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "6 Matches included",
+        "matches": [
+          {
+            "color": "#edad9e",
+            "label": "M19: Argentina vs. Algeria",
+            "date": "June 16, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#915428",
+            "label": "M34: Ecuador vs. Curaçao",
+            "date": "June 20, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#2c685b",
+            "label": "M58: Tunisia vs. The Netherlands",
+            "date": "June 25, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#edad9e",
+            "label": "M69: Algeria vs. Austria",
+            "date": "June 27, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M87: 1K vs. 3DEIJL",
+            "date": "July 3, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M100: W95 vs. W96",
+            "date": "July 11, 2026",
+            "day": "Saturday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_KC",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/kansas-city-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/KansasCity.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f741b803ae1e2d9dd06122_Kansas%20City.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93cb1bd5364b3a5964466_KC.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f741b803ae1e2d9dd06122_Kansas%20City.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93cb1bd5364b3a5964466_KC.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "los-angeles",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/los-angeles",
+      "seo": {
+        "title": "Los Angeles | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Los Angeles, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Los Angeles",
+        "description": "The FIFA World Cup 26™ in Los Angeles will deliver one of the most diverse cities in America to support the promotion of human rights, environmental sustainability and the game of football. This state-of-the-art facility opened in 2020 and has already hosted a range of major events, including the Super Bowl. It recently hosted the 2025 Concacaf Nations League Finals. It is home to two NFL teams: the Rams and the Chargers. The city of Los Angeles hosted the 1994 FIFA World Cup™ Final. It will host eight matches at FIFA World Cup 2026™, including the U.S. national team’s opening match as well as a Quarter-Final match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/LosAngeles.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7425afda0ac1ba0e51e74_Los%20Angeles.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_LA",
+            "label": "Los Angeles Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_LA",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in the City of Angels, Los Angeles, California.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; and Champions Club.",
+        "cityBadge": "Los Angeles",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f797799cc409039411ac82_LA2.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_LA",
+            "label": "Los Angeles Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Los Angeles Venue Series",
+        "intro": "Watch every match in Los Angeles.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "Two (2) matches in the Round of 32",
+          "One (1) Quarter-Finals match"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club"
+        ],
+        "matchesIncludedLabel": "8 Matches included",
+        "matches": [
+          {
+            "color": "#3066ae",
+            "label": "M4: United States vs. Paraguay",
+            "date": "June 12, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#afa8d0",
+            "label": "M15: IR Iran vs. New Zealand",
+            "date": "June 15, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#da3832",
+            "label": "M26: Switzerland vs. TBD",
+            "date": "June 18, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#afa8d0",
+            "label": "M39: Belgium vs. IR Iran",
+            "date": "June 21, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#3066ae",
+            "label": "M59: TBD vs. United States",
+            "date": "June 25, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M73: 2A vs. 2B",
+            "date": "June 28, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M84: 1H vs. 2J",
+            "date": "July 2, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M98: W93 vs. W94",
+            "date": "July 10, 2026",
+            "day": "Friday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_LA",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/los-angeles-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/LosAngeles.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7425afda0ac1ba0e51e74_Los%20Angeles.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f797799cc409039411ac82_LA2.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7425afda0ac1ba0e51e74_Los%20Angeles.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f797799cc409039411ac82_LA2.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "miami",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/miami",
+      "seo": {
+        "title": "Miami | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Miami, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Miami",
+        "description": "Whether you speak Spanish, English, Portuguese, or Creole, in Miami, everyone agrees on their love of football and celebrates its premier event: the FIFA World Cup™.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Miami.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7429a753f1c76385d237b_Miami.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_MIA",
+            "label": "Miami Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_MIA",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in a uniquely diverse community united by football, Miami, Florida.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "Miami",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c9f0eec666207cad111_Miami.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_MIA",
+            "label": "Miami Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Miami Venue Series",
+        "intro": "Watch every match in Miami.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Four (4) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) Quarter-Finals match",
+          "The Bronze Final"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "7 Matches included",
+        "matches": [
+          {
+            "color": "#72b9b5",
+            "label": "M13: Saudi Arabia vs. Uruguay",
+            "date": "June 15, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#72b9b5",
+            "label": "M37: Uruguay vs. Cape Verde",
+            "date": "June 21, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#e8ea8b",
+            "label": "M49: Scotland vs. Brazil",
+            "date": "June 24, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#db4e76",
+            "label": "M71: Colombia vs. Portugal",
+            "date": "June 27, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M86: 1J vs. 2H",
+            "date": "July 3, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M99: W91 vs. W92",
+            "date": "July 11, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M103: Bronze Final",
+            "date": "July 18, 2026",
+            "day": "Saturday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_MIA",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/miami-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Miami.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7429a753f1c76385d237b_Miami.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c9f0eec666207cad111_Miami.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7429a753f1c76385d237b_Miami.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c9f0eec666207cad111_Miami.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "new-york-new-jersey",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/new-york-new-jersey",
+      "seo": {
+        "title": "New York New Jersey | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in New York New Jersey, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "New York New Jersey",
+        "description": "With hundreds of thousands of youth players in the region, New York and New Jersey grew the game from a grassroots level tremendously after hosting the 1994 FIFA World Cup USA™ and expects to do the same after 2026. A multipurpose stadium that opened in 2010, it serves as the home of two NFL teams: the Giants and the Jets. The city hosted a Semi-Final match at the 1994 FIFA World Cup™, and, most recently, New York New Jersey Stadium hosted a handful of FIFA Club World Cup 25™ matches, including the Final. It will host eight matches at FIFA World Cup 2026™, including the Final.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/NYNJ.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7433ddc57bc531950f506_New%20York%20New%20Jersey.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_NYNJ",
+            "label": "New York New Jersey Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_NYNJ",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "New York and New Jersey are ready to grow the game once again. See the beautiful game on its grand stage at the match of your choice in New York New Jersey Stadium.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "New York New Jersey",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c970d4df382c7b14314_NYNJ.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_NYNJ",
+            "label": "New York New Jersey Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "New York New Jersey Venue Series",
+        "intro": "Watch every match in New York / New Jersey Stadium.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) match in the Round of 16",
+          "The Final"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "8 Matches included",
+        "matches": [
+          {
+            "color": "#e8ea8b",
+            "label": "M7: Brazil vs. Morocco",
+            "date": "June 13, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#4b3d93",
+            "label": "M17: France vs. Senegal",
+            "date": "June 16, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#4b3d93",
+            "label": "M41: Norway vs. Senegal",
+            "date": "June 22, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#915428",
+            "label": "M56: Ecuador vs. Germany",
+            "date": "June 25, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#751521",
+            "label": "M67: Panama vs. England",
+            "date": "June 27, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M77: 1I vs. 3CDFGH",
+            "date": "June 30, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M91: W76 vs. W78",
+            "date": "July 5, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M104: Final",
+            "date": "July 19, 2026",
+            "day": "Sunday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_NYNJ",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/new-york-new-jersey-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/NYNJ.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7433ddc57bc531950f506_New%20York%20New%20Jersey.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c970d4df382c7b14314_NYNJ.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f7433ddc57bc531950f506_New%20York%20New%20Jersey.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68e93c970d4df382c7b14314_NYNJ.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "philadelphia",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/philadelphia",
+      "seo": {
+        "title": "Philadelphia | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Philadelphia, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Philadelphia",
+        "description": "Philadelphia enjoys a football history that dates to the 19th century, and it was home to one of the earliest professional franchises in the nation; Phillies of the American League of Professional Football. Philadelphia Stadium is the home of the NFL's Philadelphia Eagles. It opened in 2003 with a blockbuster match between Manchester United and Barcelona. In the years since, the stadium has hosted U.S. National Team matches and major events, like the 2015 Gold Cup Final. It will host six matches at FIFA World Cup 2026™, including a Round-of-16 match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Philadelphia.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f742d75d3ef0c7df162ba7_New%20York%20New%20Jersey.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_PHL",
+            "label": "Philadelphia Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_PHL",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in the City of Brotherly Love, Philadelphia, Pennsylvania.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; and Champions Club Suites.",
+        "cityBadge": "Philadelphia",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f796fe17b88ae7c10c44e8_Philadelphia2.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_PHL",
+            "label": "Philadelphia Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Philadelphia Venue Series",
+        "intro": "Watch every match in Philadelphia.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the Round of 16"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club Suite"
+        ],
+        "matchesIncludedLabel": "6 Matches included",
+        "matches": [
+          {
+            "color": "#915428",
+            "label": "M9: Côte d'Ivoire vs. Ecuador",
+            "date": "June 14, 2026",
+            "day": "Sunday"
+          },
+          {
+            "color": "#e8ea8b",
+            "label": "M29: Brazil vs. Haiti",
+            "date": "June 19, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#4b3d93",
+            "label": "M42: France vs. TBD",
+            "date": "June 22, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#915428",
+            "label": "M55: Curaçao vs. Côte d'Ivoire",
+            "date": "June 25, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#751521",
+            "label": "M68: Croatia vs. Ghana",
+            "date": "June 27, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M89: W74 v W77",
+            "date": "July 4, 2026",
+            "day": "Saturday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_PHL",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/philadelphia-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Philadelphia.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f742d75d3ef0c7df162ba7_New%20York%20New%20Jersey.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f796fe17b88ae7c10c44e8_Philadelphia2.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f742d75d3ef0c7df162ba7_New%20York%20New%20Jersey.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f796fe17b88ae7c10c44e8_Philadelphia2.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "san-francisco-bay-area",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/san-francisco-bay-area",
+      "seo": {
+        "title": "San Francisco Bay Area | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in San Francisco Bay Area, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "San Francisco Bay Area",
+        "description": "The San Francisco Bay Area encompasses the metropolitan areas of San Francisco, Oakland and San Jose and is the cultural and financial hub of Northern California. Home to the NFL's San Francisco 49ers, this open-air stadium located in the Silicon Valley was recently renovated. It has hosted a variety of major events, including the Super Bowl, College Football Playoff National Championship, and the 2016 Copa América Centenario. It will host six matches at FIFA World Cup 2026™, including a Round-of-32 match.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/SanFrancisco.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74361f9d37c703d6c9139_San%20Francisco.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_SFBA",
+            "label": "San Francisco Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_SFBA",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in the San Francisco Bay Area in California.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; and Champions Club.",
+        "cityBadge": "San Francisco",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f79650114935682438d6fc_SFBA2.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_SFBA",
+            "label": "San Francisco Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "San Francisco Venue Series",
+        "intro": "Watch every match in San Francisco Bay Area.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Five (5) Group Stage matches",
+          "One (1) match in the Round of 32"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club"
+        ],
+        "matchesIncludedLabel": "6 Matches included",
+        "matches": [
+          {
+            "color": "#da3832",
+            "label": "M8: Qatar vs. Switzerland",
+            "date": "June 13, 2026",
+            "day": "Saturday"
+          },
+          {
+            "color": "#edad9e",
+            "label": "M20: Austria vs. Jordan",
+            "date": "June 16, 2026",
+            "day": "Tuesday"
+          },
+          {
+            "color": "#3066ae",
+            "label": "M31: TBD vs. Paraguay",
+            "date": "June 19, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#edad9e",
+            "label": "M44: Jordan vs. Algeria",
+            "date": "June 22, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#3066ae",
+            "label": "M60: Paraguay vs. Australia",
+            "date": "June 25, 2026",
+            "day": "Thursday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M81: 1D vs. 3BEFIJ",
+            "date": "July 1, 2026",
+            "day": "Wednesday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_SFBA",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/san-francisco-bay-area-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "Seattle",
+            "href": "/venues/seattle",
+            "color": "#827718"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/SanFrancisco.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74361f9d37c703d6c9139_San%20Francisco.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f79650114935682438d6fc_SFBA2.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f74361f9d37c703d6c9139_San%20Francisco.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f79650114935682438d6fc_SFBA2.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    },
+    {
+      "slug": "seattle",
+      "sourceUrl": "https://fifaworldcup26.hospitality.fifa.com/venues/seattle",
+      "seo": {
+        "title": "Seattle | FIFA World Cup 2026 Hospitality from On Location",
+        "description": "On Location is the official Hospitality Provider of FIFA World Cup 2026 matches in Seattle, featuring premium seats, cuisine, and more!"
+      },
+      "hero": {
+        "eyebrow": "YOUR JOURNEY TO FIFA WORLD CUP 2026™ STARTS HERE",
+        "title": "Seattle",
+        "description": "Seattle is one of the healthiest and greenest cities in the nation and it is eager to stage an environmentally friendly event. Seattle Stadium is home to MLS’ Seattle Sounders and the NFL’s Seattle Seahawks. Located just blocks from the Puget Sound waterway, the stadium boasts a unique design with an open north end that provides a stunning view of the downtown skyline. It has twice held the Guinness World Record for the loudest crowd roar at an outdoor stadium. It will host six matches at FIFA World Cup 2026™, including a U.S. national team match in the Group Stage.",
+        "videoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Seattle.mp4",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73eb0566081f3fab852eb_Seattle.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-team-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_SEA",
+            "label": "Seattle Matches",
+            "ariaLabel": ""
+          },
+          "venueSeries": {
+            "id": "browse-venue-series",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_SEA",
+            "label": "Venue Series",
+            "ariaLabel": "View Venue Series details"
+          }
+        }
+      },
+      "singleMatches": {
+        "title": "Select Single Matches",
+        "copy": "See the beautiful game on its grand stage at the match of your choice in Seattle, Washington.",
+        "hospitalityCopy": "Hospitality options include: Pitchside Lounge; VIP; Trophy Lounge; Champions Club; and FIFA Pavilion.",
+        "cityBadge": "Seattle",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f798174679971f32c34405_Seattle2.webp",
+        "ctas": {
+          "matches": {
+            "id": "browse-single-matches",
+            "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches?venue=NN_SEA",
+            "label": "Seattle Matches",
+            "ariaLabel": ""
+          },
+          "schedule": {
+            "id": "",
+            "href": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "label": "View Schedule",
+            "ariaLabel": ""
+          }
+        }
+      },
+      "venueSeries": {
+        "title": "Seattle Venue Series",
+        "intro": "Watch every match in Seattle.",
+        "seriesLabel": "Series includes:",
+        "seriesIncludes": [
+          "Four (4) Group Stage matches",
+          "One (1) match in the Round of 32",
+          "One (1) match in the Round of 16"
+        ],
+        "hospitalityLabel": "Hospitality options include:",
+        "hospitalityIncludes": [
+          "Pitchside Lounge",
+          "VIP",
+          "Trophy Lounge",
+          "Champions Club",
+          "FIFA Pavilion"
+        ],
+        "matchesIncludedLabel": "6 Matches included",
+        "matches": [
+          {
+            "color": "#afa8d0",
+            "label": "M16: Belgium vs. Egypt",
+            "date": "June 15, 2026",
+            "day": "Monday"
+          },
+          {
+            "color": "#3066ae",
+            "label": "M32: United States vs. Australia",
+            "date": "June 19, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#da3832",
+            "label": "M52: TBD vs. Qatar",
+            "date": "June 24, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#afa8d0",
+            "label": "M63: Egypt vs. IR Iran",
+            "date": "June 26, 2026",
+            "day": "Friday"
+          },
+          {
+            "color": "#f48124",
+            "label": "M82: 1G vs. 3AEHIJ",
+            "date": "July 1, 2026",
+            "day": "Wednesday"
+          },
+          {
+            "color": "#57bab6",
+            "label": "M94: W81 vs. W82",
+            "date": "July 6, 2026",
+            "day": "Monday"
+          }
+        ],
+        "cta": {
+          "id": "buy-venue-series",
+          "href": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-bundle?id=VS&venue=NN_SEA",
+          "label": "Buy now",
+          "ariaLabel": ""
+        }
+      },
+      "privateSuites": {
+        "title": "Private Suites",
+        "copy": "Level up with this exclusive offering that includes preferred entry, direct seating access, and dedicated service – all to be enjoyed privately among you and your guests.",
+        "imageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.suites.fifa.com/venues/seattle-stadium/",
+          "label": "Buy Now",
+          "ariaLabel": ""
+        }
+      },
+      "travelPackages": {
+        "eyebrow": "Operated by Overseas Network",
+        "title": "Plan Your FIFA World Cup 2026™ Trip",
+        "features": [
+          "Hotels",
+          "Excursions",
+          "Transportation"
+        ],
+        "backgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "playersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "cta": {
+          "id": "",
+          "href": "https://fifaworldcup26.hospitalityexperiences.fifa.com/en/?utm_source=venues&utm_medium=landing_page&utm_campaign=launch_03162026_",
+          "label": "Browse Packages",
+          "ariaLabel": ""
+        }
+      },
+      "otherVenues": {
+        "title": "Browse Other Venues",
+        "items": [
+          {
+            "name": "Atlanta",
+            "href": "/venues/atlanta",
+            "color": "#01bcd4"
+          },
+          {
+            "name": "Boston",
+            "href": "/venues/boston",
+            "color": "#187f1a"
+          },
+          {
+            "name": "Dallas",
+            "href": "/venues/dallas",
+            "color": "#025f64"
+          },
+          {
+            "name": "Guadalajara",
+            "href": "/venues/guadalajara",
+            "color": "#e91e62"
+          },
+          {
+            "name": "Houston",
+            "href": "/venues/houston",
+            "color": "#2096f3"
+          },
+          {
+            "name": "Kansas City",
+            "href": "/venues/kansas-city",
+            "color": "#fe1743"
+          },
+          {
+            "name": "Los Angeles",
+            "href": "/venues/los-angeles",
+            "color": "#fe5252"
+          },
+          {
+            "name": "Mexico City",
+            "href": "/venues/mexico-city",
+            "color": "#7c4dff"
+          },
+          {
+            "name": "Miami",
+            "href": "/venues/miami",
+            "color": "#f06192"
+          },
+          {
+            "name": "Monterrey",
+            "href": "/venues/monterrey",
+            "color": "#10bfa5"
+          },
+          {
+            "name": "New York / New Jersey",
+            "href": "/venues/new-york-new-jersey",
+            "color": "#0f174f"
+          },
+          {
+            "name": "Philadelphia",
+            "href": "/venues/philadelphia",
+            "color": "#193c9c"
+          },
+          {
+            "name": "San Francisco / Bay Area",
+            "href": "/venues/san-francisco-bay-area",
+            "color": "#dd2c01"
+          },
+          {
+            "name": "Toronto",
+            "href": "/venues/toronto",
+            "color": "#304ffe"
+          },
+          {
+            "name": "Vancouver",
+            "href": "/venues/vancouver",
+            "color": "#02362c"
+          }
+        ]
+      },
+      "assets": {
+        "heroVideoUrl": "https://assets.primesport.com/prod/fwc26-b2c/assets/video/hostcities/Seattle.mp4",
+        "heroImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73eb0566081f3fab852eb_Seattle.webp",
+        "singleMatchesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f798174679971f32c34405_Seattle2.webp",
+        "privateSuitesImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+        "travelBackgroundImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+        "travelPlayersImageUrl": "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp",
+        "allImages": [
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f73eb0566081f3fab852eb_Seattle.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c32/68f798174679971f32c34405_Seattle2.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/68c8434f194725f4b9bd0016_suites.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0dd10ffdaf316de3a190_background.webp",
+          "https://cdn.prod.website-files.com/689fd0a66c26ce8fe1446c25/699f0d62a60c24e67210fdcd_players.webp"
+        ]
+      }
+    }
+  ]
+}
