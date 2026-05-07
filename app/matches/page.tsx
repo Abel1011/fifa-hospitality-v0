@@ -25,6 +25,7 @@ import {
   ChevronRight,
   Loader2,
   CreditCard,
+  ShieldCheck,
   Ticket,
 } from "lucide-react";
 import Header from "@/components/fifa/Header";
@@ -696,92 +697,225 @@ function MatchesPageContent() {
 
       {/* ─── Checkout Overlay ─── */}
       {checkoutStep !== "idle" && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-background/80 backdrop-blur-md p-4">
-          <div className="w-full max-w-lg rounded-2xl border border-foreground/10 bg-card p-8 shadow-2xl">
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/88 backdrop-blur-md p-4 animate-in fade-in duration-200">
+          <div className="relative w-full max-w-4xl rounded-3xl border border-foreground/[0.07] shadow-2xl shadow-black/60 overflow-hidden max-h-[92vh] animate-in zoom-in-95 fade-in duration-300">
+            {/* Background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-[#0a0510] via-[#0d1220] to-[#080612]" />
+            {/* Diamond pattern */}
+            <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute inset-0 w-full h-full text-gold/[0.03] pointer-events-none" preserveAspectRatio="xMidYMid slice">
+              {Array.from({ length: 8 }).map((_, row) =>
+                Array.from({ length: 8 }).map((_, col) => (
+                  <path key={`${row}-${col}`} d={`M ${col * 25 + 12.5} ${row * 25} L ${col * 25 + 25} ${row * 25 + 12.5} L ${col * 25 + 12.5} ${row * 25 + 25} L ${col * 25} ${row * 25 + 12.5} Z`} stroke="currentColor" strokeWidth="0.3" />
+                ))
+              )}
+            </svg>
+            {/* Radial glows */}
+            <div className="absolute -top-20 left-1/3 w-[350px] h-[250px] rounded-full bg-gold/[0.05] blur-[100px] pointer-events-none" />
+            <div className="absolute -bottom-24 -right-20 w-[300px] h-[300px] rounded-full bg-pitch/[0.03] blur-[80px] pointer-events-none" />
+            <div className="absolute top-1/2 -left-16 w-[200px] h-[200px] rounded-full bg-gold/[0.03] blur-[60px] pointer-events-none" />
+
+            {/* Close */}
+            <button
+              onClick={() => setCheckoutStep("idle")}
+              className="absolute top-4 right-4 z-20 p-2.5 rounded-full bg-foreground/5 border border-foreground/10 hover:bg-foreground/10 text-foreground/50 hover:text-foreground transition"
+            >
+              <X className="h-4 w-4" />
+            </button>
+
+            <div className="relative overflow-y-auto max-h-[92vh]">
+
             {checkoutStep === "checkout" && (
-              <>
-                <div className="text-center mb-6">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gold/10 border border-gold/20 mb-4">
-                    <CreditCard className="h-6 w-6 text-gold" />
-                  </div>
-                  <h3 className="font-[family-name:var(--font-display)] text-xl font-bold text-foreground">
-                    Multi-Match Series Checkout
-                  </h3>
-                  <p className="text-sm text-foreground/50 mt-1">
-                    {cart.length} matches · {formatPrice(cartTotal)} total
-                  </p>
-                </div>
-
-                {/* Selected matches summary */}
-                <div className="space-y-2 mb-6 max-h-48 overflow-y-auto">
-                  {cartMatches
-                    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
-                    .map((m) => (
-                    <div key={m.matchNumber} className="flex items-center gap-3 p-3 rounded-lg bg-foreground/[0.03] border border-foreground/5">
-                      <span className="font-[family-name:var(--font-mono)] text-[10px] text-gold px-2 py-0.5 bg-gold/10 rounded">
-                        M{m.matchNumber}
-                      </span>
-                      <span className="text-xs text-foreground/70 flex-1 truncate">
-                        {m.homeTeam.name || "TBD"} vs {m.awayTeam.name || "TBD"}
-                      </span>
-                      <span className="text-xs text-foreground/40">{formatDate(m.date)}</span>
+              <div className="relative">
+                {/* Header */}
+                <div className="relative px-6 sm:px-8 pt-7 pb-6">
+                  <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent" />
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-xl bg-gold/10 border border-gold/20">
+                      <ShoppingCart className="h-4 w-4 text-gold" />
                     </div>
-                  ))}
+                    <span className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.3em] text-gold/80">
+                      Multi-Match Series · Checkout
+                    </span>
+                  </div>
+                  <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl font-bold text-foreground leading-tight">
+                    Complete Your Series
+                  </h2>
+                  <p className="mt-2 font-[family-name:var(--font-serif)] italic text-foreground/50 text-base">
+                    {cart.length} matches selected · Your path to the FIFA World Cup 2026™ Final
+                  </p>
+                  <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-foreground/8 to-transparent" />
                 </div>
 
-                {/* Form */}
-                <div className="space-y-3 mb-6">
-                  <input placeholder="Full name" className="w-full px-4 py-3 bg-surface border border-foreground/10 rounded-xl text-sm text-foreground placeholder:text-foreground/35 focus:outline-none focus:ring-2 focus:ring-gold/40" />
-                  <input placeholder="Email address" type="email" className="w-full px-4 py-3 bg-surface border border-foreground/10 rounded-xl text-sm text-foreground placeholder:text-foreground/35 focus:outline-none focus:ring-2 focus:ring-gold/40" />
-                </div>
+                <div className="relative px-6 sm:px-8 py-6 grid grid-cols-1 md:grid-cols-7 gap-8">
+                  {/* Form */}
+                  <form onSubmit={(e) => { e.preventDefault(); setCheckoutStep("processing"); setTimeout(() => setCheckoutStep("success"), 2500); }} className="md:col-span-4 space-y-4">
+                    <div className="grid grid-cols-2 gap-3">
+                      <div className="col-span-2 sm:col-span-1">
+                        <label className="block font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.2em] text-foreground/45 mb-1.5">Full Name</label>
+                        <input type="text" required placeholder="John Doe" className="w-full bg-foreground/[0.03] border border-foreground/10 rounded-xl px-4 py-3 text-sm text-foreground placeholder:text-foreground/20 focus:outline-none focus:border-gold/40 focus:bg-gold/[0.02] focus:shadow-[0_0_0_3px_rgba(212,168,67,0.06)] transition" />
+                      </div>
+                      <div className="col-span-2 sm:col-span-1">
+                        <label className="block font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.2em] text-foreground/45 mb-1.5">Email</label>
+                        <input type="email" required placeholder="john@example.com" className="w-full bg-foreground/[0.03] border border-foreground/10 rounded-xl px-4 py-3 text-sm text-foreground placeholder:text-foreground/20 focus:outline-none focus:border-gold/40 focus:bg-gold/[0.02] focus:shadow-[0_0_0_3px_rgba(212,168,67,0.06)] transition" />
+                      </div>
+                    </div>
+                    <div>
+                      <label className="block font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.2em] text-foreground/45 mb-1.5">Card Number</label>
+                      <div className="relative">
+                        <input type="text" required placeholder="4242 4242 4242 4242" className="w-full bg-foreground/[0.03] border border-foreground/10 rounded-xl px-4 py-3 text-sm text-foreground placeholder:text-foreground/20 focus:outline-none focus:border-gold/40 focus:bg-gold/[0.02] focus:shadow-[0_0_0_3px_rgba(212,168,67,0.06)] transition font-[family-name:var(--font-mono)]" />
+                        <CreditCard className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-foreground/20" />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="block font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.2em] text-foreground/45 mb-1.5">Expiry</label>
+                        <input type="text" required placeholder="MM/YY" className="w-full bg-foreground/[0.03] border border-foreground/10 rounded-xl px-4 py-3 text-sm text-foreground placeholder:text-foreground/20 focus:outline-none focus:border-gold/40 focus:bg-gold/[0.02] focus:shadow-[0_0_0_3px_rgba(212,168,67,0.06)] transition font-[family-name:var(--font-mono)]" />
+                      </div>
+                      <div>
+                        <label className="block font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.2em] text-foreground/45 mb-1.5">CVV</label>
+                        <input type="text" required placeholder="123" className="w-full bg-foreground/[0.03] border border-foreground/10 rounded-xl px-4 py-3 text-sm text-foreground placeholder:text-foreground/20 focus:outline-none focus:border-gold/40 focus:bg-gold/[0.02] focus:shadow-[0_0_0_3px_rgba(212,168,67,0.06)] transition font-[family-name:var(--font-mono)]" />
+                      </div>
+                    </div>
 
-                <div className="flex gap-3">
-                  <button
-                    onClick={() => setCheckoutStep("idle")}
-                    className="flex-1 px-5 py-3 rounded-full border border-foreground/15 text-foreground/60 text-xs font-[family-name:var(--font-mono)] uppercase tracking-[0.2em] hover:border-foreground/30 transition"
-                  >
-                    Cancel
-                  </button>
-                  <button
-                    onClick={() => {
-                      setCheckoutStep("processing");
-                      setTimeout(() => setCheckoutStep("success"), 2000);
-                    }}
-                    className="flex-1 px-5 py-3 rounded-full bg-gold text-background text-xs font-[family-name:var(--font-mono)] uppercase tracking-[0.2em] font-bold hover:bg-gold/90 transition"
-                  >
-                    Confirm Purchase
-                  </button>
+                    <div className="pt-4">
+                      <button type="submit" className="group w-full py-4 rounded-xl bg-gradient-to-r from-gold to-[#c49a38] text-background font-[family-name:var(--font-display)] font-bold text-sm tracking-wide hover:from-gold/90 hover:to-[#b8903a] transition-all active:scale-[0.98] shadow-[0_4px_20px_rgba(212,168,67,0.15)]">
+                        <span className="flex items-center justify-center gap-2">
+                          <ShieldCheck className="h-4 w-4 opacity-70" />
+                          Confirm {formatPrice(cartTotal)}
+                        </span>
+                      </button>
+                      <p className="flex items-center justify-center gap-1.5 mt-3 text-[10px] text-foreground/30 font-[family-name:var(--font-mono)]">
+                        <span className="w-1 h-1 rounded-full bg-gold/50" />
+                        Simulated transaction · No real charge
+                        <span className="w-1 h-1 rounded-full bg-gold/50" />
+                      </p>
+                    </div>
+                  </form>
+
+                  {/* Order summary */}
+                  <div className="md:col-span-3">
+                    <div className="sticky top-4 p-5 rounded-2xl bg-foreground/[0.03] border border-foreground/8">
+                      <p className="font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.3em] text-foreground/40 mb-4">Your Series</p>
+                      <div className="space-y-2.5 max-h-52 overflow-y-auto">
+                        {cartMatches
+                          .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+                          .map((m) => (
+                          <div key={m.matchNumber} className="flex items-center gap-2.5 p-2.5 rounded-lg bg-foreground/[0.03] border border-foreground/5">
+                            <span className="font-[family-name:var(--font-mono)] text-[9px] text-gold px-1.5 py-0.5 bg-gold/10 border border-gold/20 rounded font-bold shrink-0">
+                              M{m.matchNumber}
+                            </span>
+                            <div className="flex-1 min-w-0">
+                              <span className="block text-[11px] text-foreground/70 truncate">
+                                {m.homeTeam.name || "TBD"} vs {m.awayTeam.name || "TBD"}
+                              </span>
+                              <span className="block text-[10px] text-foreground/35 font-[family-name:var(--font-mono)]">
+                                {formatDate(m.date)} · {m.venue.city}
+                              </span>
+                            </div>
+                            <span className="text-[11px] text-foreground/50 font-[family-name:var(--font-mono)] shrink-0">
+                              {formatPrice(m.usdStartingPrice)}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="flex justify-between pt-4 mt-4 border-t border-foreground/8">
+                        <span className="text-foreground/70 font-semibold text-sm">Total</span>
+                        <span className="font-[family-name:var(--font-display)] font-bold text-lg text-foreground">{formatPrice(cartTotal)}</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </>
+              </div>
             )}
 
             {checkoutStep === "processing" && (
-              <div className="text-center py-10">
-                <Loader2 className="h-10 w-10 text-gold animate-spin mx-auto mb-4" />
-                <p className="text-foreground/60">Processing your Multi-Match Series...</p>
+              <div className="relative px-6 py-24 flex flex-col items-center justify-center text-center">
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="w-72 h-72 rounded-full bg-gold/[0.04] blur-[60px] animate-pulse" />
+                </div>
+                <div className="relative mb-8">
+                  <div className="w-24 h-24 rounded-full border border-gold/15 flex items-center justify-center">
+                    <div className="absolute w-24 h-24 rounded-full border-2 border-transparent border-t-gold/40 animate-spin" />
+                    <div className="w-16 h-16 rounded-full bg-gold/[0.06] border border-gold/20 flex items-center justify-center">
+                      <Loader2 className="h-7 w-7 text-gold animate-spin [animation-duration:1.5s]" />
+                    </div>
+                  </div>
+                </div>
+                <h3 className="relative font-[family-name:var(--font-display)] text-xl font-bold text-foreground mb-2">
+                  Processing Payment
+                </h3>
+                <p className="relative text-sm text-foreground/45 max-w-sm font-[family-name:var(--font-serif)] italic">
+                  Securing your {cart.length}-match series package...
+                </p>
+                <div className="relative mt-8 flex items-center gap-1.5">
+                  {[0, 1, 2, 3, 4].map((i) => (
+                    <span key={i} className="w-1.5 h-1.5 rounded-full bg-gold/70 animate-pulse" style={{ animationDelay: `${i * 200}ms` }} />
+                  ))}
+                </div>
               </div>
             )}
 
             {checkoutStep === "success" && (
-              <div className="text-center py-6">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-pitch/10 border border-pitch/20 mb-4">
-                  <Check className="h-8 w-8 text-pitch" />
+              <div className="relative px-6 sm:px-8 py-16 flex flex-col items-center justify-center text-center">
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="w-56 h-56 rounded-full bg-pitch/[0.05] blur-[50px]" />
                 </div>
-                <h3 className="font-[family-name:var(--font-display)] text-xl font-bold text-foreground mb-2">
+
+                <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-pitch/20 to-pitch/5 border border-pitch/30 flex items-center justify-center mb-8 animate-in zoom-in duration-500 shadow-[0_0_40px_rgba(26,138,62,0.12)]">
+                  <div className="absolute inset-1.5 rounded-full border border-pitch/10" />
+                  <Trophy className="h-10 w-10 text-pitch" />
+                  <Check className="absolute -bottom-1 -right-1 h-7 w-7 text-pitch bg-[#0d1220] rounded-full p-1 border border-pitch/30" />
+                </div>
+
+                <h3 className="relative font-[family-name:var(--font-display)] text-2xl font-bold text-foreground mb-2">
                   Series Confirmed!
                 </h3>
-                <p className="text-sm text-foreground/50 mb-6">
-                  Your {cart.length}-match series package has been reserved.
+                <p className="relative text-sm text-foreground/45 max-w-md mb-8 font-[family-name:var(--font-serif)] italic">
+                  Your <strong className="text-foreground/70 not-italic">{cart.length}-match series</strong> package is confirmed. See you at the World Cup!
                 </p>
+
+                {/* Confirmation card */}
+                <div className="relative w-full max-w-sm">
+                  <div className="absolute top-1/2 -left-2.5 w-5 h-5 rounded-full bg-[#0a0510]" />
+                  <div className="absolute top-1/2 -right-2.5 w-5 h-5 rounded-full bg-[#0a0510]" />
+                  <div className="p-6 rounded-2xl bg-gradient-to-br from-foreground/[0.06] to-foreground/[0.02] border border-foreground/10">
+                    <div className="flex items-center justify-center gap-2 mb-5 pb-3 border-b border-dashed border-foreground/10">
+                      <span className="font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.4em] text-gold/70">
+                        FIFA World Cup 2026™ · Multi-Match Series
+                      </span>
+                    </div>
+                    <div className="space-y-3 text-xs">
+                      <div className="flex items-center justify-between">
+                        <span className="text-foreground/40 font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-wider">Conf #</span>
+                        <span className="font-[family-name:var(--font-mono)] text-foreground/70 font-medium">
+                          MMS-{Math.random().toString(36).slice(2, 8).toUpperCase()}
+                        </span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-foreground/40 font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-wider">Matches</span>
+                        <span className="font-[family-name:var(--font-mono)] text-foreground/70 font-medium">{cart.length}</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-foreground/40 font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-wider">Venues</span>
+                        <span className="font-[family-name:var(--font-mono)] text-foreground/70 font-medium">{new Set(cartMatches.map(m => m.venue.city)).size} cities</span>
+                      </div>
+                      <div className="flex items-center justify-between pt-3 mt-3 border-t border-foreground/8">
+                        <span className="text-foreground/50 font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-wider font-semibold">Total</span>
+                        <span className="font-[family-name:var(--font-display)] font-bold text-lg text-foreground">{formatPrice(cartTotal)}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <button
                   onClick={() => { setCheckoutStep("idle"); setCart([]); setMode("single"); }}
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-pitch text-background text-xs font-[family-name:var(--font-mono)] uppercase tracking-[0.2em] font-bold hover:bg-pitch/90 transition"
+                  className="relative mt-8 px-8 py-3 rounded-xl bg-foreground/[0.05] border border-foreground/15 text-sm text-foreground/80 hover:border-pitch/40 hover:text-pitch hover:bg-pitch/[0.04] transition font-[family-name:var(--font-display)] font-semibold"
                 >
-                  <Check className="h-3.5 w-3.5" />
                   Done
                 </button>
               </div>
             )}
+            </div>
           </div>
         </div>
       )}
@@ -840,26 +974,24 @@ function MatchCard({
         </div>
       )}
 
-      {/* Multi-mode: selected indicator */}
-      {multiMode && inCart && (
-        <div className="absolute top-3 right-3 z-[4]">
-          <span className="inline-flex items-center gap-1 rounded-full bg-gold/20 border border-gold/40 backdrop-blur-sm px-2.5 py-1 font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.2em] text-gold">
-            <Check className="h-3 w-3" />
-            Added
-          </span>
-        </div>
-      )}
-
-      {/* Top section: match number + stage pill */}
+      {/* Top section: match number + stage pill + added badge */}
       <div className="flex items-center justify-between px-5 pt-5 pb-3">
         <span className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.25em] text-foreground/40">
           Match {match.matchNumber}
         </span>
-        <span
-          className={`font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.2em] ${colors.text}`}
-        >
-          {stageLabel}
-        </span>
+        <div className="flex items-center gap-2">
+          <span
+            className={`font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.2em] ${colors.text}`}
+          >
+            {stageLabel}
+          </span>
+          {multiMode && inCart && (
+            <span className="inline-flex items-center gap-1 rounded-full bg-gold/20 border border-gold/40 backdrop-blur-sm px-2 py-0.5 font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.15em] text-gold">
+              <Check className="h-2.5 w-2.5" />
+              Added
+            </span>
+          )}
+        </div>
       </div>
 
       {/* Teams confrontation */}

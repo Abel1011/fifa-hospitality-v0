@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useState, useId } from "react";
+import { use, useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -219,6 +219,31 @@ export default function MatchDetailPage({
   const [purchaseStep, setPurchaseStep] = useState<PurchaseStep>("idle");
   const [form, setForm] = useState({ name: "", email: "", card: "", expiry: "", cvv: "" });
   const uid = useId();
+  const checkoutSectionRef = useRef<HTMLElement | null>(null);
+  const checkoutNameInputRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    if (purchaseStep !== "checkout" || !selectedTier) return;
+
+    let focusTimer: number | undefined;
+    const frameId = window.requestAnimationFrame(() => {
+      checkoutSectionRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+
+      focusTimer = window.setTimeout(() => {
+        checkoutNameInputRef.current?.focus({ preventScroll: true });
+      }, 420);
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frameId);
+      if (focusTimer) {
+        window.clearTimeout(focusTimer);
+      }
+    };
+  }, [purchaseStep, selectedTier]);
 
   if (!match) {
     return (
@@ -256,6 +281,12 @@ export default function MatchDetailPage({
   const currentOffering = match.offerings.find((o) => o.id === selectedTier);
   const currentTier = TIER_META[selectedTier] || TIER_META.PSL;
   const totalPrice = (currentOffering?.usdStartingPrice || 0) * quantity;
+
+  const openCheckout = (tierId: string) => {
+    setSelectedTier(tierId);
+    setPurchaseStep("checkout");
+    setQuantity(1);
+  };
 
   const handlePurchase = (e: React.FormEvent) => {
     e.preventDefault();
@@ -657,11 +688,7 @@ export default function MatchDetailPage({
                       {/* CTA */}
                       {offering.isAvailable && (
                         <button
-                          onClick={() => {
-                            setSelectedTier(offering.id);
-                            setPurchaseStep("checkout");
-                            setQuantity(1);
-                          }}
+                          onClick={() => openCheckout(offering.id)}
                           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold font-[family-name:var(--font-display)] transition-all active:scale-[0.98]"
                           style={{
                             background: isSelected ? tier.color : `${tier.color}12`,
@@ -686,7 +713,11 @@ export default function MatchDetailPage({
 
       {/* ═══════════════════ CHECKOUT SECTION ═══════════════════ */}
       {purchaseStep !== "idle" && currentOffering && (
-        <section id="checkout" className="px-4 sm:px-6 md:px-10 max-w-[700px] mx-auto pb-16">
+        <section
+          ref={checkoutSectionRef}
+          id="checkout"
+          className="scroll-mt-28 px-4 sm:px-6 md:px-10 max-w-[700px] mx-auto pb-16"
+        >
           <Reveal>
             <div className="relative rounded-3xl overflow-hidden border border-foreground/[0.07]">
               {/* Background */}
@@ -707,6 +738,9 @@ export default function MatchDetailPage({
                         <h3 className="font-[family-name:var(--font-display)] text-lg font-bold text-foreground mt-1">
                           Complete Your Purchase
                         </h3>
+                        <p className="mt-1 text-xs text-foreground/45">
+                          Your package is ready here. Review the details and complete the form below.
+                        </p>
                       </div>
                       <button
                         type="button"
@@ -779,6 +813,7 @@ export default function MatchDetailPage({
                           <input
                             id={`${uid}-name`}
                             type="text"
+                            ref={checkoutNameInputRef}
                             required
                             value={form.name}
                             onChange={(e) => setForm({ ...form, name: e.target.value })}

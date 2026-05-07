@@ -30,9 +30,26 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'World Cup 26 | Hospitality Landing',
+  title: 'World Cup 26 | Premium Hospitality & Tickets',
   description:
-    'Landing concept for FIFA World Cup 2026 hospitality, migrated into the v0 hackathon workspace.',
+    'Secure premium FIFA World Cup 2026 hospitality packages. Pitchside seats, private suites, and luxury experiences across USA, Mexico & Canada.',
+  icons: {
+    icon: '/favicon.svg',
+  },
+  openGraph: {
+    title: 'FIFA World Cup 2026 | Premium Hospitality',
+    description:
+      'Exclusive hospitality packages for FIFA World Cup 2026. Pitchside seats, private suites, platinum lounges & luxury travel packages.',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'World Cup 26 Hospitality',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'FIFA World Cup 2026 | Premium Hospitality',
+    description:
+      'Exclusive hospitality packages for FIFA World Cup 2026. Pitchside seats, private suites & luxury experiences.',
+  },
 }
 
 export default function RootLayout({

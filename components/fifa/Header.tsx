@@ -2,37 +2,19 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { FIFA_COUNTDOWN_LOGO } from "@/lib/assets";
 import AuthModal from "./AuthModal";
 
-type NavItem =
-  | { label: string; href: string }
-  | { label: string; children: { label: string; href: string }[] };
+type NavItem = { label: string; href: string };
 
-// Mirrors the official FIFA Hospitality top nav.
-// Items without a real section use "#" as placeholder.
+// Keep the header limited to destinations that actually exist in this project.
 const NAV: NavItem[] = [
   { label: "Single Matches", href: "/matches" },
   { label: "Bracket", href: "/bracket" },
-  {
-    label: "Match Offerings",
-    children: [
-      { label: "Venue Series", href: "/bundles?view=venue-series" },
-      { label: "Follow My Team", href: "/bundles?view=follow-team" },
-      { label: "Private Suites", href: "#" },
-      { label: "Multi-Match Series", href: "/matches?mode=multi" },
-    ],
-  },
-  { label: "FAQ", href: "#faq" },
-  {
-    label: "More",
-    children: [
-      { label: "About", href: "#" },
-      { label: "Venues", href: "#cities" },
-      { label: "Blog", href: "#stories" },
-    ],
-  },
+  { label: "Venue Series", href: "/bundles?view=venue-series" },
+  { label: "Follow My Team", href: "/bundles?view=follow-team" },
+  { label: "Multi-Match Series", href: "/matches?mode=multi" },
 ];
 
 export default function Header() {
@@ -92,43 +74,15 @@ export default function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-1">
-            {NAV.map((item) =>
-              "children" in item ? (
-                <div key={item.label} className="relative group">
-                  <button
-                    type="button"
-                    className="flex items-center gap-1 font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.25em] text-foreground/60 hover:text-accent px-3 py-2 rounded transition-colors"
-                  >
-                    {item.label}
-                    <ChevronDown
-                      size={12}
-                      className="transition-transform group-hover:rotate-180"
-                    />
-                  </button>
-                  <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
-                    <div className="min-w-[180px] rounded-md border border-foreground/10 bg-[#020608]/95 backdrop-blur-md py-2 shadow-xl">
-                      {item.children.map((c) => (
-                        <a
-                          key={c.label}
-                          href={c.href}
-                          className="block px-4 py-2 font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.25em] text-foreground/70 hover:text-accent hover:bg-foreground/5 transition-colors"
-                        >
-                          {c.label}
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              ) : (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.25em] text-foreground/60 hover:text-accent px-3 py-2 rounded transition-colors"
-                >
-                  {item.label}
-                </a>
-              )
-            )}
+            {NAV.map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.25em] text-foreground/60 hover:text-accent px-3 py-2 rounded transition-colors"
+              >
+                {item.label}
+              </a>
+            ))}
           </nav>
 
           {/* Right side */}
@@ -175,44 +129,16 @@ export default function Header() {
                 key={item.label}
                 className="border-b border-foreground/5 last:border-0"
               >
-                {"children" in item ? (
-                  <details className="group">
-                    <summary className="flex items-baseline gap-3 py-3.5 font-[family-name:var(--font-display)] text-xl font-bold uppercase tracking-tight text-foreground hover:text-accent transition cursor-pointer list-none">
-                      <span className="font-[family-name:var(--font-mono)] text-[10px] tracking-widest text-foreground/40 tabular-nums w-6">
-                        {String(i + 1).padStart(2, "0")}
-                      </span>
-                      <span className="flex-1">{item.label}</span>
-                      <ChevronDown
-                        size={16}
-                        className="text-foreground/40 transition-transform group-open:rotate-180"
-                      />
-                    </summary>
-                    <ul className="pl-9 pb-3 flex flex-col gap-1">
-                      {item.children.map((c) => (
-                        <li key={c.label}>
-                          <a
-                            href={c.href}
-                            onClick={() => setOpen(false)}
-                            className="block py-1.5 font-[family-name:var(--font-mono)] text-[11px] uppercase tracking-[0.25em] text-foreground/65 hover:text-accent transition"
-                          >
-                            {c.label}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </details>
-                ) : (
-                  <a
-                    href={item.href}
-                    onClick={() => setOpen(false)}
-                    className="flex items-baseline gap-3 py-3.5 font-[family-name:var(--font-display)] text-xl font-bold uppercase tracking-tight text-foreground hover:text-accent transition"
-                  >
-                    <span className="font-[family-name:var(--font-mono)] text-[10px] tracking-widest text-foreground/40 tabular-nums w-6">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    {item.label}
-                  </a>
-                )}
+                <a
+                  href={item.href}
+                  onClick={() => setOpen(false)}
+                  className="flex items-baseline gap-3 py-3.5 font-[family-name:var(--font-display)] text-xl font-bold uppercase tracking-tight text-foreground hover:text-accent transition"
+                >
+                  <span className="font-[family-name:var(--font-mono)] text-[10px] tracking-widest text-foreground/40 tabular-nums w-6">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>

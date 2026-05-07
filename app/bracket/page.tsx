@@ -97,6 +97,44 @@ function buildBracketHalves(matches: BracketMatch[]) {
   };
 }
 
+/**
+ * Format a bracket slot code for human-readable display.
+ * "3CDFGH" → "3rd · C/D/F/G/H"
+ * "1A" → "1st Group A"
+ * "W73" → "Winner M73"
+ * "L101" → "Loser M101"
+ * "FNL"/"BRZ"/"FIX" → "TBD"
+ */
+function formatSlotDisplay(slot: string): { badge: string; label: string } {
+  if (slot === "FNL" || slot === "BRZ" || slot === "FIX") {
+    return { badge: "TBD", label: "To Be Determined" };
+  }
+  if (slot.startsWith("W")) {
+    const num = slot.substring(1);
+    return { badge: `W${num}`, label: `Winner M${num}` };
+  }
+  if (slot.startsWith("L")) {
+    const num = slot.substring(1);
+    return { badge: `L${num}`, label: `Loser M${num}` };
+  }
+  // Group position: "1A", "2B", "3CDFGH"
+  const pos = slot[0]; // 1, 2, or 3
+  const groups = slot.substring(1); // "A", "B", "CDFGH"
+  if (groups.length === 1) {
+    return { badge: slot, label: `${ordinal(pos)} Group ${groups}` };
+  }
+  // 3rd-place from multiple groups
+  const groupList = groups.split("").join("/");
+  return { badge: `${pos}rd`, label: `Best 3rd · ${groupList}` };
+}
+
+function ordinal(n: string): string {
+  if (n === "1") return "1st";
+  if (n === "2") return "2nd";
+  if (n === "3") return "3rd";
+  return `${n}th`;
+}
+
 export default function BracketPage() {
   const [hoveredMatch, setHoveredMatch] = useState<number | null>(null);
 
@@ -197,17 +235,38 @@ export default function BracketPage() {
 
       {/* ─── Bracket Visualization ─── */}
       <section className="relative px-4 sm:px-6 md:px-10 max-w-[1800px] mx-auto pb-16 overflow-x-auto">
+        {/* Mobile hint */}
+        <div className="md:hidden flex items-center gap-2 mb-4 px-2 py-2 rounded-lg border border-foreground/10 bg-surface/30">
+          <ChevronRight className="h-3.5 w-3.5 text-accent animate-pulse" />
+          <span className="font-[family-name:var(--font-mono)] text-[10px] text-foreground/50">
+            Scroll horizontally to explore the full bracket
+          </span>
+        </div>
+
+        {/* Background effects */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[70%] rounded-full opacity-[0.04]"
+          style={{
+            background: "radial-gradient(ellipse, #d4a843 0%, transparent 70%)",
+          }}
+        />
+
         {/* Section header */}
         <div className="flex items-center gap-6 mb-10 px-2">
           <span className="block h-px flex-1 bg-foreground/10" />
-          <span className="font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.4em] text-foreground/30">
-            Tournament Bracket
-          </span>
+          <div className="flex items-center gap-3">
+            <Trophy className="h-4 w-4 text-gold/60" />
+            <span className="font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.4em] text-foreground/30">
+              Tournament Bracket
+            </span>
+            <Trophy className="h-4 w-4 text-gold/60" />
+          </div>
           <span className="block h-px flex-1 bg-foreground/10" />
         </div>
 
         {/* The actual bracket - horizontal layout */}
-        <div className="min-w-[1100px]">
+        <div className="min-w-[1100px] rounded-2xl border border-foreground/[0.06] bg-surface/10 backdrop-blur-sm p-6">
           {/* Stage headers */}
           <div className="grid grid-cols-9 gap-1 mb-4 px-1">
             <div className="text-center">
@@ -259,9 +318,9 @@ export default function BracketPage() {
           </div>
 
           {/* Bracket grid */}
-          <div className="grid grid-cols-9 gap-1 items-center">
+          <div className="grid grid-cols-9 gap-1">
             {/* LEFT SIDE: R32 */}
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 border-r border-foreground/[0.04] pr-1">
               {bracket.left.R32.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -273,7 +332,7 @@ export default function BracketPage() {
             </div>
 
             {/* LEFT SIDE: R16 */}
-            <div className="flex flex-col gap-3 justify-around h-full">
+            <div className="flex flex-col gap-4 justify-around py-4 border-r border-foreground/[0.04] pr-1">
               {bracket.left.R16.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -285,7 +344,7 @@ export default function BracketPage() {
             </div>
 
             {/* LEFT SIDE: QF */}
-            <div className="flex flex-col gap-8 justify-around h-full">
+            <div className="flex flex-col gap-12 justify-around py-8 border-r border-foreground/[0.04] pr-1">
               {bracket.left.QTR.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -297,7 +356,7 @@ export default function BracketPage() {
             </div>
 
             {/* LEFT SIDE: SF */}
-            <div className="flex flex-col justify-center h-full">
+            <div className="flex flex-col justify-center py-12 border-r border-gold/[0.08] pr-1">
               {bracket.left.SMF.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -309,8 +368,8 @@ export default function BracketPage() {
               ))}
             </div>
 
-            {/* CENTER: FINAL */}
-            <div className="flex flex-col items-center justify-center h-full gap-4">
+            {/* CENTER: FINAL + BRONZE */}
+            <div className="flex flex-col items-center justify-center py-8">
               {bracket.final && (
                 <FinalMatchCell
                   match={bracket.final}
@@ -319,9 +378,9 @@ export default function BracketPage() {
                 />
               )}
               {bracket.bronze && (
-                <div className="mt-4">
-                  <span className="block text-center font-[family-name:var(--font-mono)] text-[8px] uppercase tracking-[0.2em] text-foreground/30 mb-1">
-                    Bronze
+                <div className="mt-8">
+                  <span className="block text-center font-[family-name:var(--font-mono)] text-[8px] uppercase tracking-[0.3em] text-foreground/30 mb-2">
+                    3rd Place
                   </span>
                   <MiniMatchCell
                     match={bracket.bronze}
@@ -333,7 +392,7 @@ export default function BracketPage() {
             </div>
 
             {/* RIGHT SIDE: SF */}
-            <div className="flex flex-col justify-center h-full">
+            <div className="flex flex-col justify-center py-12 border-l border-gold/[0.08] pl-1">
               {bracket.right.SMF.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -346,7 +405,7 @@ export default function BracketPage() {
             </div>
 
             {/* RIGHT SIDE: QF */}
-            <div className="flex flex-col gap-8 justify-around h-full">
+            <div className="flex flex-col gap-12 justify-around py-8 border-l border-foreground/[0.04] pl-1">
               {bracket.right.QTR.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -358,7 +417,7 @@ export default function BracketPage() {
             </div>
 
             {/* RIGHT SIDE: R16 */}
-            <div className="flex flex-col gap-3 justify-around h-full">
+            <div className="flex flex-col gap-4 justify-around py-4 border-l border-foreground/[0.04] pl-1">
               {bracket.right.R16.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -370,7 +429,7 @@ export default function BracketPage() {
             </div>
 
             {/* RIGHT SIDE: R32 */}
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 border-l border-foreground/[0.04] pl-1">
               {bracket.right.R32.map((m) => (
                 <MiniMatchCell
                   key={m.matchNumber}
@@ -380,6 +439,20 @@ export default function BracketPage() {
                 />
               ))}
             </div>
+          </div>
+
+          {/* Legend */}
+          <div className="mt-6 pt-4 border-t border-foreground/[0.06] flex flex-wrap items-center gap-x-6 gap-y-2 justify-center">
+            <span className="font-[family-name:var(--font-mono)] text-[8px] uppercase tracking-[0.2em] text-foreground/25">Key:</span>
+            <span className="font-[family-name:var(--font-mono)] text-[9px] text-foreground/40">
+              <span className="text-accent">1A</span> = 1st Group A
+            </span>
+            <span className="font-[family-name:var(--font-mono)] text-[9px] text-foreground/40">
+              <span className="text-accent">3rd</span> = Best 3rd-place from listed groups
+            </span>
+            <span className="font-[family-name:var(--font-mono)] text-[9px] text-foreground/40">
+              <span className="text-purple-400">W73</span> = Winner of Match 73
+            </span>
           </div>
         </div>
       </section>
@@ -548,10 +621,10 @@ function MiniMatchCell({
               border: `1px solid ${color}20`,
             }}
           >
-            {match.homeSlot.substring(0, 2)}
+            {formatSlotDisplay(match.homeSlot).badge.substring(0, large ? 3 : 3)}
           </div>
           <span className={`${large ? "text-[10px]" : "text-[9px]"} text-foreground/70 truncate`}>
-            {match.homeSlot}
+            {formatSlotDisplay(match.homeSlot).label}
           </span>
         </div>
         <div className="flex items-center gap-1.5">
@@ -564,10 +637,10 @@ function MiniMatchCell({
               border: `1px solid ${color}20`,
             }}
           >
-            {match.awaySlot.substring(0, 2)}
+            {formatSlotDisplay(match.awaySlot).badge.substring(0, large ? 3 : 3)}
           </div>
           <span className={`${large ? "text-[10px]" : "text-[9px]"} text-foreground/70 truncate`}>
-            {match.awaySlot}
+            {formatSlotDisplay(match.awaySlot).label}
           </span>
         </div>
       </div>
@@ -602,85 +675,114 @@ function FinalMatchCell({
       href={`/matches/${match.matchNumber}`}
       onMouseEnter={() => onHover(match.matchNumber)}
       onMouseLeave={() => onHover(null)}
-      className={`group relative block rounded-2xl border px-5 py-5 transition-all duration-500 ${
+      className={`group relative block w-full max-w-[220px] rounded-2xl border-2 px-5 py-6 transition-all duration-500 ${
         isHovered
-          ? "border-gold/50 bg-surface/80 scale-105 shadow-[0_0_40px_-8px_rgba(212,168,67,0.3)]"
-          : "border-gold/20 bg-surface/30 hover:border-gold/40"
+          ? "border-gold/60 bg-gradient-to-b from-gold/[0.08] to-surface/80 scale-105 shadow-[0_0_60px_-8px_rgba(212,168,67,0.4)]"
+          : "border-gold/25 bg-gradient-to-b from-gold/[0.03] to-surface/30 hover:border-gold/40 hover:shadow-[0_0_30px_-10px_rgba(212,168,67,0.2)]"
       }`}
     >
-      {/* Crown */}
-      <div className="flex justify-center mb-3">
-        <Crown className="h-6 w-6 text-gold" />
+      {/* Trophy with animated glow */}
+      <div className="relative flex justify-center mb-4">
+        <div
+          aria-hidden
+          className={`absolute inset-0 rounded-full transition-opacity duration-700 ${isHovered ? "opacity-100" : "opacity-0"}`}
+          style={{
+            background: "radial-gradient(circle, rgba(212,168,67,0.2) 0%, transparent 60%)",
+          }}
+        />
+        <Trophy className={`h-8 w-8 transition-all duration-500 ${isHovered ? "text-gold scale-110" : "text-gold/70"}`} />
       </div>
 
       {/* Top accent gradient */}
       <div
-        className="absolute top-0 left-3 right-3 h-[2px] rounded-full"
+        className="absolute top-0 left-4 right-4 h-[2px] rounded-full"
+        style={{
+          background: "linear-gradient(90deg, transparent, #d4a843, transparent)",
+        }}
+      />
+      {/* Bottom accent */}
+      <div
+        className="absolute bottom-0 left-4 right-4 h-[2px] rounded-full opacity-50"
         style={{
           background: "linear-gradient(90deg, transparent, #d4a843, transparent)",
         }}
       />
 
-      <div className="text-center mb-3">
-        <span className="font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.3em] text-gold/80">
-          Match {match.matchNumber} · Final
+      <div className="text-center mb-4">
+        <span className="font-[family-name:var(--font-mono)] text-[9px] uppercase tracking-[0.35em] text-gold/90 font-bold">
+          ★ The Final ★
+        </span>
+        <span className="block font-[family-name:var(--font-mono)] text-[8px] text-foreground/30 mt-1">
+          Match {match.matchNumber}
         </span>
       </div>
 
-      {/* Slots */}
-      <div className="flex items-center justify-center gap-3">
-        <div className="flex items-center gap-2">
+      {/* Slots - vertical layout for better fit */}
+      <div className="space-y-2">
+        <div className="flex items-center gap-2 justify-center">
           <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center font-[family-name:var(--font-mono)] text-[9px] font-bold"
+            className="w-9 h-9 rounded-lg flex items-center justify-center font-[family-name:var(--font-mono)] text-[9px] font-bold"
             style={{
-              backgroundColor: "#d4a84315",
+              backgroundColor: "#d4a84318",
               color: "#d4a843",
-              border: "1px solid #d4a84330",
+              border: "1px solid #d4a84335",
             }}
           >
-            {match.homeSlot.substring(0, 3)}
+            {formatSlotDisplay(match.homeSlot).badge.substring(0, 3)}
           </div>
           <span className="text-[11px] text-foreground/80 font-medium">
-            {match.homeSlot}
+            {formatSlotDisplay(match.homeSlot).label}
           </span>
         </div>
 
-        <span className="font-[family-name:var(--font-display)] text-[9px] uppercase tracking-[0.2em] text-foreground/25 px-2">
-          VS
-        </span>
-
-        <div className="flex items-center gap-2">
-          <span className="text-[11px] text-foreground/80 font-medium">
-            {match.awaySlot}
+        <div className="flex items-center justify-center gap-2">
+          <div className="flex-1 h-px bg-gold/15" />
+          <span className="font-[family-name:var(--font-display)] text-[8px] uppercase tracking-[0.3em] text-gold/40">
+            VS
           </span>
+          <div className="flex-1 h-px bg-gold/15" />
+        </div>
+
+        <div className="flex items-center gap-2 justify-center">
           <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center font-[family-name:var(--font-mono)] text-[9px] font-bold"
+            className="w-9 h-9 rounded-lg flex items-center justify-center font-[family-name:var(--font-mono)] text-[9px] font-bold"
             style={{
-              backgroundColor: "#d4a84315",
+              backgroundColor: "#d4a84318",
               color: "#d4a843",
-              border: "1px solid #d4a84330",
+              border: "1px solid #d4a84335",
             }}
           >
-            {match.awaySlot.substring(0, 3)}
+            {formatSlotDisplay(match.awaySlot).badge.substring(0, 3)}
           </div>
+          <span className="text-[11px] text-foreground/80 font-medium">
+            {formatSlotDisplay(match.awaySlot).label}
+          </span>
         </div>
       </div>
 
-      {/* Venue */}
-      <div className="flex items-center justify-center gap-1.5 mt-3">
-        <MapPin className="h-3 w-3 text-gold/50" />
-        <span className="text-[10px] text-foreground/45">
-          {match.venue.stadium}, {match.venue.city}
-        </span>
+      {/* Venue & Date */}
+      <div className="mt-4 pt-3 border-t border-gold/10 space-y-1">
+        <div className="flex items-center justify-center gap-1.5">
+          <Clock className="h-2.5 w-2.5 text-gold/50" />
+          <span className="text-[9px] text-gold/60 font-[family-name:var(--font-mono)]">
+            {match.matchDateLabel}
+          </span>
+        </div>
+        <div className="flex items-center justify-center gap-1.5">
+          <MapPin className="h-2.5 w-2.5 text-gold/50" />
+          <span className="text-[9px] text-foreground/40 truncate">
+            {match.venue.stadium}
+          </span>
+        </div>
       </div>
 
-      {/* Glow */}
+      {/* Glow effect */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"
         style={{
           background:
-            "radial-gradient(ellipse at 50% 0%, rgba(212,168,67,0.08) 0%, transparent 70%)",
+            "radial-gradient(ellipse at 50% 0%, rgba(212,168,67,0.12) 0%, transparent 70%)",
         }}
       />
     </Link>
@@ -691,12 +793,6 @@ function FinalMatchCell({
 function DetailedMatchCard({ match }: { match: BracketMatch }) {
   const color = STAGE_COLORS[match.stageCode] || "#d4a843";
   const isFinalOrSemi = ["SMF", "BRZ", "FNL"].includes(match.stageCode);
-
-  function formatSlotLabel(slot: string): string {
-    if (slot.startsWith("W")) return `Winner M${slot.substring(1)}`;
-    if (slot.startsWith("L")) return `Loser M${slot.substring(1)}`;
-    return slot;
-  }
 
   return (
     <Link
@@ -755,13 +851,11 @@ function DetailedMatchCard({ match }: { match: BracketMatch }) {
                 border: `1px solid ${color}25`,
               }}
             >
-              {match.homeSlot.length > 3
-                ? match.homeSlot.substring(0, 3)
-                : match.homeSlot}
+              {formatSlotDisplay(match.homeSlot).badge.substring(0, 3)}
             </div>
             <div className="flex flex-col">
               <span className="text-sm text-foreground/80 font-medium leading-tight">
-                {formatSlotLabel(match.homeSlot)}
+                {formatSlotDisplay(match.homeSlot).label}
               </span>
             </div>
           </div>
@@ -794,13 +888,11 @@ function DetailedMatchCard({ match }: { match: BracketMatch }) {
                 border: `1px solid ${color}25`,
               }}
             >
-              {match.awaySlot.length > 3
-                ? match.awaySlot.substring(0, 3)
-                : match.awaySlot}
+              {formatSlotDisplay(match.awaySlot).badge.substring(0, 3)}
             </div>
             <div className="flex flex-col">
               <span className="text-sm text-foreground/80 font-medium leading-tight">
-                {formatSlotLabel(match.awaySlot)}
+                {formatSlotDisplay(match.awaySlot).label}
               </span>
             </div>
           </div>
