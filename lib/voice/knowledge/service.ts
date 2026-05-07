@@ -11,7 +11,7 @@ import {
 } from "./contracts";
 import { hospitalityCatalog } from "./hospitality-catalog";
 
-const CONTENT_DIR = path.join(process.cwd(), "..", "content");
+const CONTENT_DIR = path.join(process.cwd(), "content");
 
 const teamSchema = z.object({
   name: z.string(),
