@@ -252,9 +252,9 @@ function AdditionalOfferings({ onOpenPlatinum, onOpenAccommodations }: { onOpenP
       {/* Two cards with image header */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {ADDITIONAL.offerings.map((o, i) => (
-          <Reveal key={o.title} y={20} duration={700} delay={i * 130}>
+          <Reveal key={o.title} y={20} duration={700} delay={i * 130} className="h-full">
           <article
-            className="group relative flex flex-col overflow-hidden rounded-3xl border border-foreground/10 bg-surface/30"
+            className="group relative flex flex-col overflow-hidden rounded-3xl border border-foreground/10 bg-surface/30 h-full"
           >
             {/* Image */}
             <div className="relative aspect-[16/10] overflow-hidden bg-background/40 lg:aspect-[16/9]">

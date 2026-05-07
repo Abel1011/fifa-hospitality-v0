@@ -626,7 +626,7 @@ function MatchesPageContent() {
 
       {/* ─── Multi-Match Sticky Cart ─── */}
       {mode === "multi" && cart.length > 0 && checkoutStep === "idle" && (
-        <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-gold/20 bg-[#020608]/95 backdrop-blur-xl shadow-[0_-12px_60px_rgba(0,0,0,0.5)]">
+        <div className="fixed bottom-0 left-0 right-0 z-[80] border-t border-gold/20 bg-[#020608]/95 backdrop-blur-xl shadow-[0_-12px_60px_rgba(0,0,0,0.5)]">
           <div className="max-w-[1600px] mx-auto px-6 sm:px-10 md:px-20 py-4">
             <div className="flex items-center gap-4 flex-wrap">
               {/* Slot indicators */}
